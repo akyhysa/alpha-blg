@@ -9694,3 +9694,520 @@ Processing by ArticlesController#index as HTML
 Completed 200 OK in 25ms (Views: 23.4ms | ActiveRecord: 0.9ms | Allocations: 12942)
 
 
+Started GET "/users/1" for ::1 at 2020-11-15 22:44:16 +0900
+  [1m[35m (0.6ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/users_controller.rb:4:in `show'
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (Duration: 3.6ms | Allocations: 2935)
+Completed 500 Internal Server Error in 23ms (ActiveRecord: 4.3ms | Allocations: 11948)
+
+
+  
+ActionView::Template::Error (undefined method `name' for #<User:0x00007ff7174ef140>):
+    1: <h1 class="text-center mt-4"><%= @user.name %>'s profile</h1>
+    2: <%= render 'form' %>
+  
+app/views/users/show.html.erb:1
+Started GET "/users/1" for ::1 at 2020-11-15 22:44:42 +0900
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/users_controller.rb:4:in `show'
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (Duration: 3.9ms | Allocations: 2466)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.5ms | Allocations: 4306)
+
+
+  
+ActionView::Template::Error (undefined method `name' for #<User:0x00007ff717564468>):
+    1: <h1 class="text-center mt-4"><%= @user.name %>'s profile</h1>
+  
+app/views/users/show.html.erb:1
+Started GET "/users/1" for ::1 at 2020-11-15 22:45:07 +0900
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/users_controller.rb:4:in `show'
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (Duration: 4.2ms | Allocations: 2460)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.3ms | Allocations: 4261)
+
+
+  
+ActionView::Template::Error (undefined method `name' for #<User:0x00007ff718392030>):
+    1: <h1 class="text-center mt-4"><%= @user.name %> 's profile</h1>
+  
+app/views/users/show.html.erb:1
+Started GET "/users/1" for ::1 at 2020-11-15 22:45:28 +0900
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/users_controller.rb:4:in `show'
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (Duration: 0.4ms | Allocations: 105)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 1.0ms | Allocations: 318)
+  Rendered layouts/_messages.html.erb (Duration: 0.6ms | Allocations: 172)
+  Rendered layouts/_footer.html.erb (Duration: 0.5ms | Allocations: 141)
+Completed 200 OK in 45ms (Views: 41.9ms | ActiveRecord: 0.4ms | Allocations: 12032)
+
+
+Started GET "/" for ::1 at 2020-11-15 23:21:18 +0900
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  
+SyntaxError (/Users/akihisa.m/projects/alpha-blg/app/helpers/application_helper.rb:7: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+...67cccc186f766304a225c9ba0b9448e}?s=#{200}"
+...  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~):
+  
+app/helpers/application_helper.rb:7: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+app/helpers/application_helper.rb:7: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+app/helpers/application_helper.rb:7: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+app/controllers/application_controller.rb:1:in `<main>'
+app/controllers/pages_controller.rb:1:in `<main>'
+Started GET "/" for ::1 at 2020-11-15 23:22:38 +0900
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.5ms | Allocations: 184)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 1.3ms | Allocations: 292)
+  Rendered layouts/_messages.html.erb (Duration: 1.1ms | Allocations: 172)
+  Rendered layouts/_footer.html.erb (Duration: 2.0ms | Allocations: 141)
+Completed 200 OK in 48ms (Views: 47.3ms | ActiveRecord: 0.0ms | Allocations: 11522)
+
+
+Started GET "/users/1" for ::1 at 2020-11-15 23:22:44 +0900
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/users_controller.rb:4:in `show'
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (Duration: 120.9ms | Allocations: 75116)
+Completed 500 Internal Server Error in 144ms (ActiveRecord: 4.2ms | Allocations: 83285)
+
+
+  
+ActionView::Template::Error (undefined method `garavatar_for' for #<#<Class:0x00007fecfe7bcb20>:0x00007fecfe7d2560>
+Did you mean?  gavatar_for):
+    1: <h1 class="text-center mt-4"><%= @user.username %> 's profile</h1>
+    2: 
+    3: <%= garavatar_for @user, size: 200 %>
+  
+app/views/users/show.html.erb:3
+Started GET "/users/1" for ::1 at 2020-11-15 23:41:35 +0900
+  [1m[35m (0.2ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/users_controller.rb:4:in `show'
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (Duration: 136.0ms | Allocations: 74930)
+Completed 500 Internal Server Error in 147ms (ActiveRecord: 0.3ms | Allocations: 81615)
+
+
+  
+ActionView::Template::Error (undefined method `garavatar_for' for #<#<Class:0x00007fecfbe25de8>:0x00007fecfbe24538>
+Did you mean?  gavatar_for):
+    1: <h1 class="text-center mt-4"><%= @user.username %> 's profile</h1>
+    2: 
+    3: <%= garavatar_for @user, size: 200 %>
+  
+app/views/users/show.html.erb:3
+Started GET "/users/1" for ::1 at 2020-11-15 23:41:48 +0900
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/users_controller.rb:4:in `show'
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (Duration: 131.6ms | Allocations: 75066)
+Completed 500 Internal Server Error in 137ms (ActiveRecord: 0.3ms | Allocations: 76846)
+
+
+  
+ActionView::Template::Error (undefined method `gravatar_for' for #<#<Class:0x00007fed00345ab8>:0x00007fed00344208>
+Did you mean?  gavatar_for):
+    1: <h1 class="text-center mt-4"><%= @user.username %> 's profile</h1>
+    2: 
+    3: <%= gravatar_for @user, size: 200 %>
+  
+app/views/users/show.html.erb:3
+Started GET "/users/1" for ::1 at 2020-11-15 23:41:52 +0900
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/users_controller.rb:4:in `show'
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (Duration: 126.0ms | Allocations: 74956)
+Completed 500 Internal Server Error in 129ms (ActiveRecord: 0.4ms | Allocations: 76001)
+
+
+  
+ActionView::Template::Error (undefined method `gravatar_for' for #<#<Class:0x00007fed00345ab8>:0x00007fed002de5c0>
+Did you mean?  gavatar_for):
+    1: <h1 class="text-center mt-4"><%= @user.username %> 's profile</h1>
+    2: 
+    3: <%= gravatar_for @user, size: 200 %>
+  
+app/views/users/show.html.erb:3
+Started GET "/users/1" for ::1 at 2020-11-15 23:42:24 +0900
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/users_controller.rb:4:in `show'
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (Duration: 125.7ms | Allocations: 75023)
+Completed 500 Internal Server Error in 151ms (ActiveRecord: 4.6ms | Allocations: 82282)
+
+
+  
+ActionView::Template::Error (undefined method `gravatar_for' for #<#<Class:0x00007fed008c6c30>:0x00007fecfe37e450>
+Did you mean?  gavatar_for):
+    1: <h1 class="text-center mt-4"><%= @user.username %> 's profile</h1>
+    2: 
+    3: <%= gravatar_for @user, size: 200 %>
+  
+app/views/users/show.html.erb:3
+Started GET "/users/1" for ::1 at 2020-11-15 23:43:26 +0900
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/users_controller.rb:4:in `show'
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (Duration: 129.3ms | Allocations: 75065)
+Completed 500 Internal Server Error in 134ms (ActiveRecord: 0.3ms | Allocations: 76860)
+
+
+  
+ActionView::Template::Error (undefined method `gravatar_for' for #<#<Class:0x00007fecfe6204b0>:0x00007fecfbc1ee50>
+Did you mean?  gavatar_for):
+    1: <h1 class="text-center mt-4"><%= @user.username %> 's profile</h1>
+    2: 
+    3: <%= gravatar_for @user %>
+  
+app/views/users/show.html.erb:3
+Started GET "/users/1" for ::1 at 2020-11-15 23:44:12 +0900
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/users_controller.rb:4:in `show'
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (Duration: 0.3ms | Allocations: 52)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 1.1ms | Allocations: 286)
+  Rendered layouts/_messages.html.erb (Duration: 1.2ms | Allocations: 163)
+  Rendered layouts/_footer.html.erb (Duration: 1.3ms | Allocations: 136)
+Completed 200 OK in 42ms (Views: 22.7ms | ActiveRecord: 5.5ms | Allocations: 12469)
+
+
+Started GET "/users/1" for ::1 at 2020-11-15 23:44:21 +0900
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/users_controller.rb:4:in `show'
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (Duration: 0.4ms | Allocations: 149)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.8ms | Allocations: 284)
+  Rendered layouts/_messages.html.erb (Duration: 0.6ms | Allocations: 163)
+  Rendered layouts/_footer.html.erb (Duration: 0.4ms | Allocations: 136)
+Completed 200 OK in 14ms (Views: 12.1ms | ActiveRecord: 0.3ms | Allocations: 7761)
+
+
+Started GET "/users/1" for ::1 at 2020-11-15 23:44:59 +0900
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/users_controller.rb:4:in `show'
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 47)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 119)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 33)
+Completed 200 OK in 18ms (Views: 6.9ms | ActiveRecord: 3.1ms | Allocations: 11406)
+
+
+Started GET "/users/1" for ::1 at 2020-11-15 23:45:17 +0900
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/users_controller.rb:4:in `show'
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 47)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 119)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 33)
+Completed 200 OK in 17ms (Views: 6.1ms | ActiveRecord: 2.1ms | Allocations: 11416)
+
+
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `users` WHERE `users`.`username` = 'akioaaaaa' AND `users`.`id` != 3 LIMIT 1[0m
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM `users` WHERE `users`.`email` = 'aki.ika.mmm@gmail.com' AND `users`.`id` != 3 LIMIT 1[0m
+  [1m[36mUser Update (1.5ms)[0m  [1m[33mUPDATE `users` SET `users`.`email` = 'aki.ika.mmm@gmail.com', `users`.`updated_at` = '2020-11-15 14:47:09.683168' WHERE `users`.`id` = 3[0m
+  [1m[35m (2.0ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/users/1" for ::1 at 2020-11-15 23:47:44 +0900
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/users_controller.rb:4:in `show'
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (Duration: 1.0ms | Allocations: 287)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 1.0ms | Allocations: 313)
+  Rendered layouts/_messages.html.erb (Duration: 0.4ms | Allocations: 172)
+  Rendered layouts/_footer.html.erb (Duration: 0.4ms | Allocations: 141)
+Completed 200 OK in 49ms (Views: 29.1ms | ActiveRecord: 2.3ms | Allocations: 19405)
+
+
+Started GET "/users/1" for ::1 at 2020-11-15 23:47:46 +0900
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/users_controller.rb:4:in `show'
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 46)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 112)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 33)
+Completed 200 OK in 11ms (Views: 9.1ms | ActiveRecord: 0.4ms | Allocations: 5879)
+
+
+Started GET "/users/3" for ::1 at 2020-11-15 23:48:02 +0900
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1[0m
+  ↳ app/controllers/users_controller.rb:4:in `show'
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 45)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 110)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 33)
+Completed 200 OK in 12ms (Views: 10.3ms | ActiveRecord: 0.3ms | Allocations: 5863)
+
+
+Started GET "/users/3" for ::1 at 2020-11-15 23:51:41 +0900
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1[0m
+  ↳ app/controllers/users_controller.rb:4:in `show'
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (Duration: 0.5ms | Allocations: 159)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.5ms | Allocations: 284)
+  Rendered layouts/_messages.html.erb (Duration: 0.3ms | Allocations: 163)
+  Rendered layouts/_footer.html.erb (Duration: 0.4ms | Allocations: 136)
+Completed 200 OK in 15ms (Views: 12.1ms | ActiveRecord: 0.3ms | Allocations: 7760)
+
+
+Started GET "/users/3" for ::1 at 2020-11-15 23:54:02 +0900
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1[0m
+  ↳ app/controllers/users_controller.rb:4:in `show'
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (Duration: 0.4ms | Allocations: 164)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.5ms | Allocations: 284)
+  Rendered layouts/_messages.html.erb (Duration: 0.4ms | Allocations: 163)
+  Rendered layouts/_footer.html.erb (Duration: 0.5ms | Allocations: 136)
+Completed 200 OK in 15ms (Views: 12.5ms | ActiveRecord: 0.3ms | Allocations: 7801)
+
+
+Started GET "/articles" for ::1 at 2020-11-15 23:54:03 +0900
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  ↳ app/views/articles/_article.html.erb:2
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  Rendered articles/_article.html.erb (Duration: 33.7ms | Allocations: 15286)
+  Rendered articles/index.html.erb within layouts/application (Duration: 34.6ms | Allocations: 15601)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 103)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 33)
+Completed 200 OK in 54ms (Views: 43.7ms | ActiveRecord: 4.7ms | Allocations: 22260)
+
+
+Started GET "/articles/new" for ::1 at 2020-11-15 23:54:20 +0900
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (Duration: 1.6ms | Allocations: 185)
+  Rendered articles/_form.html.erb (Duration: 15.4ms | Allocations: 2161)
+  Rendered articles/new.html.erb within layouts/application (Duration: 18.7ms | Allocations: 2468)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 102)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 33)
+Completed 200 OK in 37ms (Views: 35.0ms | ActiveRecord: 0.0ms | Allocations: 7813)
+
+
+Started POST "/articles" for ::1 at 2020-11-15 23:54:21 +0900
+Processing by ArticlesController#create as HTML
+  Parameters: {"authenticity_token"=>"RPPgxA5wiyWL0v4IjP4l22I1Mcl0Kar5a8RcI8u8QXGF3D/3uxvR+c57+N+dcxqVV09hojp7ydTcGO2JlbZwnA==", "article"=>{"title"=>"", "description"=>""}, "commit"=>"Create Article"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:20:in `create'
+  Rendering articles/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (Duration: 1.4ms | Allocations: 532)
+  Rendered articles/_form.html.erb (Duration: 3.8ms | Allocations: 1422)
+  Rendered articles/new.html.erb within layouts/application (Duration: 4.2ms | Allocations: 1492)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 100)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 33)
+Completed 200 OK in 26ms (Views: 19.0ms | ActiveRecord: 0.3ms | Allocations: 9620)
+
+
+Started POST "/articles" for ::1 at 2020-11-15 23:54:45 +0900
+Processing by ArticlesController#create as HTML
+  Parameters: {"authenticity_token"=>"wLea71FKNa9M+6MHrJPviZwu0p44NE2dYF4ynaArbi9WqwpXEnZIOMmT6mFbnNL7fNVlYTb0qhn11Ls2jFaJKw==", "article"=>{"title"=>"この内の「2. 同じバージョンとして記録したいデータを抜きだして登録する」場所のことをインデックスといいます。", "description"=>"インデックス\r\nバージョンを記録するためにファイルを一時的に登録する場所です。インデックスに登録されているファイル群の変更が記録されます。つまり、同じバージョンとして記録したい編集についてはまとめてインデックスに追加し、このタイミングでは記録したくない編集についてはインデックスに追加しません。"}, "commit"=>"Create Article"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:20:in `create'
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/articles_controller.rb:21:in `create'
+  [1m[36mArticle Create (2.5ms)[0m  [1m[32mINSERT INTO `articles` (`title`, `description`, `created_at`, `updated_at`, `user_id`) VALUES ('この内の「2. 同じバージョンとして記録したいデータを抜きだして登録する」場所のことをインデックスといいます。', 'インデックス\r\nバージョンを記録するためにファイルを一時的に登録する場所です。インデックスに登録されているファイル群の変更が記録されます。つまり、同じバージョンとして記録したい編集についてはまとめてインデックスに追加し、このタイミングでは記録したくない編集についてはインデックスに追加しません。', '2020-11-15 14:54:45', '2020-11-15 14:54:45', 1)[0m
+  ↳ app/controllers/articles_controller.rb:21:in `create'
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/articles_controller.rb:21:in `create'
+Redirected to http://localhost:3000/articles/13
+Completed 302 Found in 17ms (ActiveRecord: 4.1ms | Allocations: 3717)
+
+
+Started GET "/articles/13" for ::1 at 2020-11-15 23:54:45 +0900
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"13"}
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`id` = 13 LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:46:in `set_article'
+  Rendering articles/show.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/views/articles/show.html.erb:8
+  Rendered articles/show.html.erb within layouts/application (Duration: 19.6ms | Allocations: 1391)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.3ms | Allocations: 104)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 19)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 33)
+Completed 200 OK in 61ms (Views: 56.2ms | ActiveRecord: 0.7ms | Allocations: 7475)
+
+
+Started GET "/articles" for ::1 at 2020-11-15 23:54:49 +0900
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.7ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  ↳ app/views/articles/_article.html.erb:2
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  Rendered articles/_article.html.erb (Duration: 23.2ms | Allocations: 8848)
+  Rendered articles/index.html.erb within layouts/application (Duration: 23.4ms | Allocations: 8918)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 100)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 33)
+Completed 200 OK in 32ms (Views: 29.9ms | ActiveRecord: 1.5ms | Allocations: 14137)
+
+
+Started GET "/articles/13" for ::1 at 2020-11-15 23:55:48 +0900
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"13"}
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`id` = 13 LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:46:in `set_article'
+  Rendering articles/show.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/views/articles/show.html.erb:8
+  Rendered articles/show.html.erb within layouts/application (Duration: 3.4ms | Allocations: 1133)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.4ms | Allocations: 101)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.4ms | Allocations: 33)
+Completed 200 OK in 22ms (Views: 20.2ms | ActiveRecord: 0.6ms | Allocations: 6938)
+
+
+Started GET "/" for ::1 at 2020-11-15 23:55:56 +0900
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.3ms | Allocations: 168)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 104)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 33)
+Completed 200 OK in 13ms (Views: 11.7ms | ActiveRecord: 0.0ms | Allocations: 5895)
+
+
+Started GET "/" for ::1 at 2020-11-16 02:08:15 +0900
+  [1m[35m (0.2ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.2ms | Allocations: 162)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 1.3ms | Allocations: 276)
+  Rendered layouts/_messages.html.erb (Duration: 1.0ms | Allocations: 163)
+  Rendered layouts/_footer.html.erb (Duration: 1.0ms | Allocations: 136)
+Completed 200 OK in 27ms (Views: 25.6ms | ActiveRecord: 0.0ms | Allocations: 7129)
+
+
+Started GET "/articles" for ::1 at 2020-11-16 02:08:19 +0900
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  ↳ app/views/articles/_article.html.erb:2
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  Rendered articles/_article.html.erb (Duration: 37.7ms | Allocations: 18968)
+  Rendered articles/index.html.erb within layouts/application (Duration: 39.2ms | Allocations: 19278)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 103)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 33)
+Completed 200 OK in 52ms (Views: 47.4ms | ActiveRecord: 0.9ms | Allocations: 25772)
+
+
