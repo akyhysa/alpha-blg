@@ -18263,3 +18263,388 @@ Processing by SessionsController#new as HTML
 Completed 200 OK in 16ms (Views: 13.8ms | ActiveRecord: 0.0ms | Allocations: 6616)
 
 
+Started GET "/" for ::1 at 2020-11-22 15:55:32 +0900
+  [1m[35m (0.5ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.9ms | Allocations: 304)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 2.7ms | Allocations: 645)
+  Rendered layouts/_messages.html.erb (Duration: 1.1ms | Allocations: 194)
+  Rendered layouts/_footer.html.erb (Duration: 1.3ms | Allocations: 141)
+Completed 200 OK in 75ms (Views: 68.0ms | ActiveRecord: 0.0ms | Allocations: 12725)
+
+
+Started GET "/articles" for ::1 at 2020-11-22 15:55:37 +0900
+Processing by ArticlesController#index as HTML
+Redirected to http://localhost:3000/login
+Filter chain halted as :require_user rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms | Allocations: 448)
+
+
+Started GET "/login" for ::1 at 2020-11-22 15:55:37 +0900
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 14.1ms | Allocations: 2420)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 173)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 22)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 33)
+Completed 200 OK in 24ms (Views: 22.7ms | ActiveRecord: 0.0ms | Allocations: 8262)
+
+
+Started GET "/" for ::1 at 2020-11-22 16:45:10 +0900
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 50)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 174)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 33)
+Completed 200 OK in 25ms (Views: 24.6ms | ActiveRecord: 0.0ms | Allocations: 5325)
+
+
+Started GET "/" for ::1 at 2020-11-22 17:03:35 +0900
+  [1m[35m (0.5ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 45)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 1.4ms | Allocations: 169)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 33)
+Completed 200 OK in 34ms (Views: 32.3ms | ActiveRecord: 0.0ms | Allocations: 5317)
+
+
+Started GET "/" for ::1 at 2020-11-22 17:37:01 +0900
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 44)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.3ms | Allocations: 169)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 33)
+Completed 200 OK in 34ms (Views: 31.4ms | ActiveRecord: 0.0ms | Allocations: 5300)
+
+
+Started GET "/" for ::1 at 2020-11-22 17:47:46 +0900
+  [1m[35m (1.8ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 44)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 1.9ms | Allocations: 169)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 33)
+Completed 200 OK in 35ms (Views: 32.9ms | ActiveRecord: 0.0ms | Allocations: 5306)
+
+
+Started GET "/users" for ::1 at 2020-11-22 17:47:47 +0900
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (Duration: 6.0ms | Allocations: 1560)
+Completed 500 Internal Server Error in 50ms (ActiveRecord: 0.0ms | Allocations: 4491)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h1 class="text-center mt-4">AKI Bloggers</h1>
+
+<div class="apple_pagination">
+  <%= will_paginate @users, :container => false %>
+</div>
+
+<div class="container">
+  <% @users.each do |user| %>
+    <div class="row justify-content-md-center">
+      <div class="col-8 mt-4">
+        <div class="card text-center shadow mb-5 bg-white rounded">
+          <div class="card-header font-italic">
+            <%= link_to user.username, user %>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">
+              <%= link_to gravatar_for(user, size: 150), user %>
+            </h5>
+            <p class="card-text"><%= pluralize(user.articles.count, "article") %></p>
+            <%= link_to "View profile", user, class:"btn btn-outline-success" %>
+            <% if logged_in? %>
+              <%= if user == current_user %>
+                <%= link_to "Edit profile", edit_user_path(user), class:"btn btn-outline-info" %>
+              <% end %>
+              <% if current_user.admin? %>
+                <%= link_to "Delete user", user_path(user), class: "btn btn-outline-danger", method: :delete,
+                data: {confirm: "Are you sure you want to delete the user account and all associated articles?"} %>
+              <% end %>
+            <% end %>
+          </div>
+          <div class="card-footer text-muted">
+            <small>Joined<%= time_ago_in_words(user.created_at) %> ago</small>
+          </div>
+        </div>
+      </div>　
+    </div>
+  <% end %>
+</div>
+
+<div class="apple_pagination">
+  <%= will_paginate @users, :container => false %>
+</div>
+
+
+
+
+):
+1:    <h1 class="text-center mt-4">AKI Bloggers</h1>
+2:    
+3:    <div class="apple_pagination">
+4:      <%= will_paginate @users, :container => false %>
+5:    </div>
+6:    
+7:    <div class="container">
+8:      <% @users.each do |user| %>
+9:        <div class="row justify-content-md-center">
+10:          <div class="col-8 mt-4">
+11:            <div class="card text-center shadow mb-5 bg-white rounded">
+12:              <div class="card-header font-italic">
+13:                <%= link_to user.username, user %>
+14:              </div>
+15:              <div class="card-body">
+16:                <h5 class="card-title">
+17:                  <%= link_to gravatar_for(user, size: 150), user %>
+18:                </h5>
+19:                <p class="card-text"><%= pluralize(user.articles.count, "article") %></p>
+20:                <%= link_to "View profile", user, class:"btn btn-outline-success" %>
+21:                <% if logged_in? %>
+22:                  <%= if user == current_user %>
+23:                    <%= link_to "Edit profile", edit_user_path(user), class:"btn btn-outline-info" %>
+24:                  <% end %>
+25:                  <% if current_user.admin? %>
+26:                    <%= link_to "Delete user", user_path(user), class: "btn btn-outline-danger", method: :delete,
+27:                    data: {confirm: "Are you sure you want to delete the user account and all associated articles?"} %>
+28:                  <% end %>
+29:                <% end %>
+30:              </div>
+31:              <div class="card-footer text-muted">
+32:                <small>Joined<%= time_ago_in_words(user.created_at) %> ago</small>
+33:              </div>
+34:            </div>
+35:          </div>　
+36:        </div>
+37:      <% end %>
+38:    </div>
+39:    
+40:    <div class="apple_pagination">
+41:      <%= will_paginate @users, :container => false %>
+42:    </div>
+  
+app/views/users/index.html.erb:22: syntax error, unexpected ')', expecting then or ';' or '\n'
+app/views/users/index.html.erb:24: syntax error, unexpected end, expecting ')'
+app/views/users/index.html.erb:29: syntax error, unexpected end, expecting ')'
+app/views/users/index.html.erb:37: syntax error, unexpected end, expecting ')'
+app/views/users/index.html.erb:48: syntax error, unexpected end, expecting ')'
+app/views/users/index.html.erb:22: syntax error, unexpected ')', expecting then or ';' or '\n'
+app/views/users/index.html.erb:24: syntax error, unexpected end, expecting ')'
+app/views/users/index.html.erb:29: syntax error, unexpected end, expecting ')'
+app/views/users/index.html.erb:37: syntax error, unexpected end, expecting ')'
+app/views/users/index.html.erb:48: syntax error, unexpected end, expecting ')'
+app/views/users/index.html.erb:22: syntax error, unexpected ')', expecting then or ';' or '\n'
+app/views/users/index.html.erb:24: syntax error, unexpected end, expecting ')'
+app/views/users/index.html.erb:29: syntax error, unexpected end, expecting ')'
+app/views/users/index.html.erb:37: syntax error, unexpected end, expecting ')'
+app/views/users/index.html.erb:48: syntax error, unexpected end, expecting ')'
+app/views/users/index.html.erb:22: syntax error, unexpected ')', expecting then or ';' or '\n'
+app/views/users/index.html.erb:24: syntax error, unexpected end, expecting ')'
+app/views/users/index.html.erb:29: syntax error, unexpected end, expecting ')'
+app/views/users/index.html.erb:37: syntax error, unexpected end, expecting ')'
+app/views/users/index.html.erb:48: syntax error, unexpected end, expecting ')'
+app/views/users/index.html.erb:22: syntax error, unexpected ')', expecting then or ';' or '\n'
+app/views/users/index.html.erb:24: syntax error, unexpected end, expecting ')'
+app/views/users/index.html.erb:29: syntax error, unexpected end, expecting ')'
+app/views/users/index.html.erb:37: syntax error, unexpected end, expecting ')'
+app/views/users/index.html.erb:48: syntax error, unexpected end, expecting ')'
+app/views/users/index.html.erb:22: syntax error, unexpected ')', expecting then or ';' or '\n'
+app/views/users/index.html.erb:24: syntax error, unexpected end, expecting ')'
+app/views/users/index.html.erb:29: syntax error, unexpected end, expecting ')'
+app/views/users/index.html.erb:37: syntax error, unexpected end, expecting ')'
+app/views/users/index.html.erb:48: syntax error, unexpected end, expecting ')'
+Started GET "/users" for ::1 at 2020-11-22 17:48:36 +0900
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `users`[0m
+  ↳ app/views/users/index.html.erb:4
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` LIMIT 5 OFFSET 0[0m
+  ↳ app/views/users/index.html.erb:8
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles` WHERE `articles`.`user_id` = 1[0m
+  ↳ app/views/users/index.html.erb:19
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles` WHERE `articles`.`user_id` = 2[0m
+  ↳ app/views/users/index.html.erb:19
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles` WHERE `articles`.`user_id` = 3[0m
+  ↳ app/views/users/index.html.erb:19
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles` WHERE `articles`.`user_id` = 5[0m
+  ↳ app/views/users/index.html.erb:19
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles` WHERE `articles`.`user_id` = 6[0m
+  ↳ app/views/users/index.html.erb:19
+  Rendered users/index.html.erb within layouts/application (Duration: 50.5ms | Allocations: 16303)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 1.6ms | Allocations: 607)
+  Rendered layouts/_messages.html.erb (Duration: 0.7ms | Allocations: 182)
+  Rendered layouts/_footer.html.erb (Duration: 1.4ms | Allocations: 136)
+Completed 200 OK in 68ms (Views: 51.5ms | ActiveRecord: 12.9ms | Allocations: 25136)
+
+
+Started GET "/articles" for ::1 at 2020-11-22 17:48:39 +0900
+Processing by ArticlesController#index as HTML
+Redirected to http://localhost:3000/login
+Filter chain halted as :require_user rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms | Allocations: 425)
+
+
+Started GET "/login" for ::1 at 2020-11-22 17:48:39 +0900
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 2.6ms | Allocations: 754)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.3ms | Allocations: 173)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 22)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 33)
+Completed 200 OK in 16ms (Views: 14.7ms | ActiveRecord: 0.0ms | Allocations: 6584)
+
+
+Started GET "/users" for ::1 at 2020-11-22 17:48:41 +0900
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `users`[0m
+  ↳ app/views/users/index.html.erb:4
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT `users`.* FROM `users` LIMIT 5 OFFSET 0[0m
+  ↳ app/views/users/index.html.erb:8
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles` WHERE `articles`.`user_id` = 1[0m
+  ↳ app/views/users/index.html.erb:19
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles` WHERE `articles`.`user_id` = 2[0m
+  ↳ app/views/users/index.html.erb:19
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles` WHERE `articles`.`user_id` = 3[0m
+  ↳ app/views/users/index.html.erb:19
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles` WHERE `articles`.`user_id` = 5[0m
+  ↳ app/views/users/index.html.erb:19
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles` WHERE `articles`.`user_id` = 6[0m
+  ↳ app/views/users/index.html.erb:19
+  Rendered users/index.html.erb within layouts/application (Duration: 21.1ms | Allocations: 6723)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 174)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 33)
+Completed 200 OK in 44ms (Views: 39.2ms | ActiveRecord: 3.6ms | Allocations: 12070)
+
+
+Started GET "/users/1" for ::1 at 2020-11-22 17:48:44 +0900
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/users_controller.rb:54:in `set_user'
+  Rendering users/show.html.erb within layouts/application
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles` WHERE `articles`.`user_id` = 1[0m
+  ↳ app/views/users/show.html.erb:14
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`user_id` = 1 LIMIT 5 OFFSET 0[0m
+  ↳ app/views/articles/_article.html.erb:2
+  Rendered articles/_article.html.erb (Duration: 16.2ms | Allocations: 6834)
+  Rendered users/show.html.erb within layouts/application (Duration: 22.1ms | Allocations: 9235)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 173)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 33)
+Completed 200 OK in 35ms (Views: 28.0ms | ActiveRecord: 1.7ms | Allocations: 15514)
+
+
+Started GET "/articles/1" for ::1 at 2020-11-22 17:48:46 +0900
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.7ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:48:in `set_article'
+Redirected to http://localhost:3000/login
+Filter chain halted as :require_user rendered or redirected
+Completed 302 Found in 4ms (ActiveRecord: 0.7ms | Allocations: 1082)
+
+
+Started GET "/login" for ::1 at 2020-11-22 17:48:46 +0900
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.4ms | Allocations: 494)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.3ms | Allocations: 173)
+  Rendered layouts/_messages.html.erb (Duration: 0.2ms | Allocations: 22)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 33)
+Completed 200 OK in 17ms (Views: 16.0ms | ActiveRecord: 0.0ms | Allocations: 5798)
+
+
+Started GET "/" for ::1 at 2020-11-22 17:48:48 +0900
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.6ms | Allocations: 157)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.3ms | Allocations: 174)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 33)
+Completed 200 OK in 15ms (Views: 13.9ms | ActiveRecord: 0.0ms | Allocations: 5998)
+
+
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT GET_LOCK('5574592145902102680', 0)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Migrating to CreateCategories (20201122085627)
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT @@innodb_file_per_table = 1 AND @@innodb_file_format = 'Barracuda'[0m
+  [1m[35m (12.4ms)[0m  [1m[35mCREATE TABLE `categories` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` varchar(255), `created_at` datetime(6) NOT NULL, `updated_at` datetime(6) NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mprimary::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20201122085627')[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT RELEASE_LOCK('5574592145902102680')[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.5ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT `categories`.* FROM `categories`[0m
+Started GET "/" for ::1 at 2020-11-22 21:23:39 +0900
+  [1m[35m (0.2ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 50)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 174)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 33)
+Completed 200 OK in 20ms (Views: 19.0ms | ActiveRecord: 0.0ms | Allocations: 5426)
+
+
+Started GET "/articles" for ::1 at 2020-11-22 21:23:41 +0900
+Processing by ArticlesController#index as HTML
+Redirected to http://localhost:3000/login
+Filter chain halted as :require_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 419)
+
+
+Started GET "/login" for ::1 at 2020-11-22 21:23:41 +0900
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.1ms | Allocations: 495)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 173)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 22)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 33)
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.0ms | Allocations: 5915)
+
+
+Started GET "/login" for ::1 at 2020-11-22 23:22:22 +0900
+  [1m[35m (0.6ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 2.9ms | Allocations: 486)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.3ms | Allocations: 169)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 33)
+Completed 200 OK in 24ms (Views: 22.1ms | ActiveRecord: 0.0ms | Allocations: 5744)
+
+
