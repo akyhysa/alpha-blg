@@ -19795,3 +19795,2387 @@ Processing by CategoriesController#show as HTML
 Completed 200 OK in 15ms (Views: 11.8ms | ActiveRecord: 0.8ms | Allocations: 6771)
 
 
+Started GET "/categories/1" for ::1 at 2020-11-27 23:09:04 +0900
+  [1m[35m (0.2ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+Processing by CategoriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/categories_controller.rb:23:in `show'
+  Rendering categories/show.html.erb within layouts/application
+  Rendered categories/show.html.erb within layouts/application (Duration: 0.7ms | Allocations: 103)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  Rendered layouts/_navigation.html.erb (Duration: 3.8ms | Allocations: 1579)
+  Rendered layouts/_messages.html.erb (Duration: 1.0ms | Allocations: 182)
+  Rendered layouts/_footer.html.erb (Duration: 0.8ms | Allocations: 136)
+Completed 200 OK in 29ms (Views: 25.1ms | ActiveRecord: 0.9ms | Allocations: 9054)
+
+
+Started GET "/categories" for ::1 at 2020-11-27 23:09:13 +0900
+Processing by CategoriesController#index as HTML
+  Rendering categories/index.html.erb within layouts/application
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT COUNT(*) FROM `categories`[0m
+  ↳ app/views/categories/index.html.erb:4
+  [1m[36mCategory Load (0.5ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` LIMIT 5 OFFSET 0[0m
+  ↳ app/views/categories/index.html.erb:8
+  Rendered categories/index.html.erb within layouts/application (Duration: 9.1ms | Allocations: 1944)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  Rendered layouts/_navigation.html.erb (Duration: 2.0ms | Allocations: 1060)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 33)
+Completed 200 OK in 22ms (Views: 17.2ms | ActiveRecord: 2.5ms | Allocations: 8320)
+
+
+Started GET "/categories/1" for ::1 at 2020-11-27 23:09:16 +0900
+Processing by CategoriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/categories_controller.rb:23:in `show'
+  Rendering categories/show.html.erb within layouts/application
+  Rendered categories/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  Rendered layouts/_navigation.html.erb (Duration: 2.7ms | Allocations: 1060)
+  Rendered layouts/_messages.html.erb (Duration: 0.3ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 33)
+Completed 200 OK in 31ms (Views: 27.3ms | ActiveRecord: 0.8ms | Allocations: 6774)
+
+
+Started GET "/categories" for ::1 at 2020-11-27 23:09:22 +0900
+Processing by CategoriesController#index as HTML
+  Rendering categories/index.html.erb within layouts/application
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `categories`[0m
+  ↳ app/views/categories/index.html.erb:4
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` LIMIT 5 OFFSET 0[0m
+  ↳ app/views/categories/index.html.erb:8
+  Rendered categories/index.html.erb within layouts/application (Duration: 4.5ms | Allocations: 1722)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  Rendered layouts/_navigation.html.erb (Duration: 3.0ms | Allocations: 1049)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 33)
+Completed 200 OK in 19ms (Views: 16.3ms | ActiveRecord: 1.1ms | Allocations: 7943)
+
+
+Started GET "/categories/1" for ::1 at 2020-11-27 23:09:23 +0900
+Processing by CategoriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCategory Load (0.5ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/categories_controller.rb:23:in `show'
+  Rendering categories/show.html.erb within layouts/application
+  Rendered categories/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  Rendered layouts/_navigation.html.erb (Duration: 1.9ms | Allocations: 1058)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 33)
+Completed 200 OK in 17ms (Views: 13.1ms | ActiveRecord: 0.8ms | Allocations: 6767)
+
+
+Started GET "/articles/new" for ::1 at 2020-11-27 23:09:28 +0900
+Processing by ArticlesController#new as HTML
+  [1m[36mUser Load (2.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  Rendering articles/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (Duration: 1.2ms | Allocations: 177)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT `categories`.* FROM `categories`[0m
+  ↳ app/views/articles/_form.html.erb:22
+  Rendered articles/_form.html.erb (Duration: 7.9ms | Allocations: 2871)
+  Rendered articles/new.html.erb within layouts/application (Duration: 9.9ms | Allocations: 3180)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.5ms | Allocations: 411)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 33)
+Completed 200 OK in 27ms (Views: 21.2ms | ActiveRecord: 2.3ms | Allocations: 9882)
+
+
+Started POST "/articles" for ::1 at 2020-11-27 23:09:35 +0900
+Processing by ArticlesController#create as HTML
+  Parameters: {"authenticity_token"=>"Hhs8ztP7am6y+ejs/BGJ+QnaNma8aMLWD046UGWrSRCrXHyBe+bkWOTvqFI3unhOB9Fvt2Y4CCTN9PX9w4XqsA==", "article"=>{"title"=>"", "description"=>"", "category_ids"=>["", "1", "2"]}, "commit"=>"Create Article"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` IN (1, 2)[0m
+  ↳ app/controllers/articles_controller.rb:21:in `create'
+DEPRECATION WARNING: Uniqueness validator will no longer enforce case sensitive comparison in Rails 6.1. To continue case sensitive comparison on the :name attribute in Category model, pass `case_sensitive: true` option explicitly to the uniqueness validator. (called from create at /Users/akihisa.m/projects/alpha-blg/app/controllers/articles_controller.rb:23)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/articles_controller.rb:23:in `create'
+  [1m[36mCategory Exists? (1.5ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = BINARY 'travel' AND `categories`.`id` != 1 LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:23:in `create'
+DEPRECATION WARNING: Uniqueness validator will no longer enforce case sensitive comparison in Rails 6.1. To continue case sensitive comparison on the :name attribute in Category model, pass `case_sensitive: true` option explicitly to the uniqueness validator. (called from create at /Users/akihisa.m/projects/alpha-blg/app/controllers/articles_controller.rb:23)
+  [1m[36mCategory Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = BINARY 'hellow' AND `categories`.`id` != 2 LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:23:in `create'
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/articles_controller.rb:23:in `create'
+  Rendering articles/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (Duration: 0.9ms | Allocations: 526)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT `categories`.* FROM `categories`[0m
+  ↳ app/views/articles/_form.html.erb:22
+  Rendered articles/_form.html.erb (Duration: 4.7ms | Allocations: 2483)
+  Rendered articles/new.html.erb within layouts/application (Duration: 5.0ms | Allocations: 2553)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.4ms | Allocations: 400)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 33)
+Completed 200 OK in 33ms (Views: 14.3ms | ActiveRecord: 3.2ms | Allocations: 17044)
+
+
+Started POST "/articles" for ::1 at 2020-11-27 23:09:41 +0900
+Processing by ArticlesController#create as HTML
+  Parameters: {"authenticity_token"=>"JwxFkLH8d8za2i9o4DVmgzg9m3VSQ4Norz96D3cXmBVoGFWigldE3cECM+p4vSz9mEVQavSTaZADNOGxvNZWVw==", "article"=>{"title"=>"ffffffffff", "description"=>"ffffffffffffffffff", "category_ids"=>["", "1", "2"]}, "commit"=>"Create Article"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` IN (1, 2)[0m
+  ↳ app/controllers/articles_controller.rb:21:in `create'
+DEPRECATION WARNING: Uniqueness validator will no longer enforce case sensitive comparison in Rails 6.1. To continue case sensitive comparison on the :name attribute in Category model, pass `case_sensitive: true` option explicitly to the uniqueness validator. (called from create at /Users/akihisa.m/projects/alpha-blg/app/controllers/articles_controller.rb:23)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/articles_controller.rb:23:in `create'
+  [1m[36mCategory Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = BINARY 'travel' AND `categories`.`id` != 1 LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:23:in `create'
+DEPRECATION WARNING: Uniqueness validator will no longer enforce case sensitive comparison in Rails 6.1. To continue case sensitive comparison on the :name attribute in Category model, pass `case_sensitive: true` option explicitly to the uniqueness validator. (called from create at /Users/akihisa.m/projects/alpha-blg/app/controllers/articles_controller.rb:23)
+  [1m[36mCategory Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = BINARY 'hellow' AND `categories`.`id` != 2 LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:23:in `create'
+  [1m[36mArticle Create (0.3ms)[0m  [1m[32mINSERT INTO `articles` (`title`, `description`, `created_at`, `updated_at`, `user_id`) VALUES ('ffffffffff', 'ffffffffffffffffff', '2020-11-27 14:09:41', '2020-11-27 14:09:41', 1)[0m
+  ↳ app/controllers/articles_controller.rb:23:in `create'
+  [1m[36mArticleCategory Create (0.3ms)[0m  [1m[32mINSERT INTO `article_categories` (`article_id`, `category_id`) VALUES (18, 1)[0m
+  ↳ app/controllers/articles_controller.rb:23:in `create'
+  [1m[36mArticleCategory Create (0.5ms)[0m  [1m[32mINSERT INTO `article_categories` (`article_id`, `category_id`) VALUES (18, 2)[0m
+  ↳ app/controllers/articles_controller.rb:23:in `create'
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/articles_controller.rb:23:in `create'
+Redirected to http://localhost:3000/articles/18
+Completed 302 Found in 35ms (ActiveRecord: 3.0ms | Allocations: 10993)
+
+
+Started GET "/articles/18" for ::1 at 2020-11-27 23:09:42 +0900
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"18"}
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`id` = 18 LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:48:in `set_article'
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  Rendering articles/show.html.erb within layouts/application
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/show.html.erb:8
+  [1m[36mCategory Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 18 LIMIT 1[0m
+  ↳ app/views/articles/show.html.erb:10
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 18[0m
+  ↳ app/views/articles/show.html.erb:11
+  Rendered collection of categories/_category.html.erb [2 times] (Duration: 0.3ms | Allocations: 112)
+  Rendered articles/show.html.erb within layouts/application (Duration: 7.8ms | Allocations: 4002)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.5ms | Allocations: 410)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 22)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 33)
+Completed 200 OK in 24ms (Views: 17.7ms | ActiveRecord: 1.5ms | Allocations: 10897)
+
+
+Started GET "/articles/18" for ::1 at 2020-11-27 23:11:13 +0900
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"18"}
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`id` = 18 LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:48:in `set_article'
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  Rendering articles/show.html.erb within layouts/application
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/show.html.erb:8
+  [1m[36mCategory Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 18 LIMIT 1[0m
+  ↳ app/views/articles/show.html.erb:10
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 18[0m
+  ↳ app/views/articles/show.html.erb:11
+  Rendered collection of categories/_category.html.erb [2 times] (Duration: 0.5ms | Allocations: 186)
+  Rendered articles/show.html.erb within layouts/application (Duration: 7.8ms | Allocations: 3725)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 1.6ms | Allocations: 922)
+  Rendered layouts/_messages.html.erb (Duration: 0.4ms | Allocations: 182)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 136)
+Completed 200 OK in 24ms (Views: 20.3ms | ActiveRecord: 1.2ms | Allocations: 12624)
+
+
+Started GET "/categories/1" for ::1 at 2020-11-27 23:11:15 +0900
+Processing by CategoriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/categories_controller.rb:23:in `show'
+  Rendering categories/show.html.erb within layouts/application
+  Rendered categories/show.html.erb within layouts/application (Duration: 0.7ms | Allocations: 98)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  Rendered layouts/_navigation.html.erb (Duration: 3.1ms | Allocations: 1073)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 33)
+Completed 200 OK in 19ms (Views: 14.8ms | ActiveRecord: 0.8ms | Allocations: 7430)
+
+
+Started GET "/users" for ::1 at 2020-11-27 23:11:21 +0900
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM `users`[0m
+  ↳ app/views/users/index.html.erb:4
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` LIMIT 5 OFFSET 0[0m
+  ↳ app/views/users/index.html.erb:8
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles` WHERE `articles`.`user_id` = 1[0m
+  ↳ app/views/users/index.html.erb:19
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles` WHERE `articles`.`user_id` = 2[0m
+  ↳ app/views/users/index.html.erb:19
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles` WHERE `articles`.`user_id` = 3[0m
+  ↳ app/views/users/index.html.erb:19
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles` WHERE `articles`.`user_id` = 5[0m
+  ↳ app/views/users/index.html.erb:19
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles` WHERE `articles`.`user_id` = 6[0m
+  ↳ app/views/users/index.html.erb:19
+  Rendered users/index.html.erb within layouts/application (Duration: 32.3ms | Allocations: 8111)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.4ms | Allocations: 407)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 33)
+Completed 200 OK in 45ms (Views: 39.2ms | ActiveRecord: 3.3ms | Allocations: 14281)
+
+
+Started GET "/articles" for ::1 at 2020-11-27 23:11:25 +0900
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  Rendering articles/index.html.erb within layouts/application
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:4
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 5 OFFSET 0[0m
+  ↳ app/views/articles/_article.html.erb:2
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  Rendered articles/_article.html.erb (Duration: 13.3ms | Allocations: 6258)
+  Rendered articles/index.html.erb within layouts/application (Duration: 19.1ms | Allocations: 8160)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.4ms | Allocations: 408)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 33)
+Completed 200 OK in 33ms (Views: 28.5ms | ActiveRecord: 1.1ms | Allocations: 14497)
+
+
+Started GET "/" for ::1 at 2020-11-27 23:11:37 +0900
+Processing by PagesController#home as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+Redirected to http://localhost:3000/articles
+Completed 302 Found in 5ms (ActiveRecord: 0.7ms | Allocations: 909)
+
+
+Started GET "/articles" for ::1 at 2020-11-27 23:11:37 +0900
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  Rendering articles/index.html.erb within layouts/application
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:4
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 5 OFFSET 0[0m
+  ↳ app/views/articles/_article.html.erb:2
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCACHE User Load (0.1ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  Rendered articles/_article.html.erb (Duration: 9.5ms | Allocations: 5917)
+  Rendered articles/index.html.erb within layouts/application (Duration: 12.2ms | Allocations: 7533)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.4ms | Allocations: 400)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 33)
+Completed 200 OK in 24ms (Views: 19.7ms | ActiveRecord: 1.0ms | Allocations: 13747)
+
+
+Started GET "/articles" for ::1 at 2020-11-27 23:12:06 +0900
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  Rendering articles/index.html.erb within layouts/application
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:4
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 5 OFFSET 0[0m
+  ↳ app/views/articles/_article.html.erb:2
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  Rendered articles/_article.html.erb (Duration: 10.7ms | Allocations: 6258)
+  Rendered articles/index.html.erb within layouts/application (Duration: 13.6ms | Allocations: 8154)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 9.9ms | Allocations: 921)
+  Rendered layouts/_messages.html.erb (Duration: 0.4ms | Allocations: 187)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 136)
+Completed 200 OK in 36ms (Views: 32.7ms | ActiveRecord: 1.0ms | Allocations: 16519)
+
+
+Started GET "/users/1" for ::1 at 2020-11-27 23:12:08 +0900
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/users_controller.rb:54:in `set_user'
+  Rendering users/show.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles` WHERE `articles`.`user_id` = 1[0m
+  ↳ app/views/users/show.html.erb:14
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`user_id` = 1 LIMIT 5 OFFSET 0[0m
+  ↳ app/views/articles/_article.html.erb:2
+  Rendered articles/_article.html.erb (Duration: 4.2ms | Allocations: 2285)
+  Rendered users/show.html.erb within layouts/application (Duration: 10.1ms | Allocations: 4913)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.6ms | Allocations: 407)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 33)
+Completed 200 OK in 27ms (Views: 21.6ms | ActiveRecord: 1.2ms | Allocations: 11806)
+
+
+Started GET "/users/1?page=3" for ::1 at 2020-11-27 23:12:13 +0900
+Processing by UsersController#show as HTML
+  Parameters: {"page"=>"3", "id"=>"1"}
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/users_controller.rb:54:in `set_user'
+  Rendering users/show.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles` WHERE `articles`.`user_id` = 1[0m
+  ↳ app/views/users/show.html.erb:14
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`user_id` = 1 LIMIT 5 OFFSET 10[0m
+  ↳ app/views/articles/_article.html.erb:2
+  Rendered articles/_article.html.erb (Duration: 2.2ms | Allocations: 1023)
+  Rendered users/show.html.erb within layouts/application (Duration: 8.5ms | Allocations: 3415)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.6ms | Allocations: 400)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 33)
+Completed 200 OK in 24ms (Views: 18.4ms | ActiveRecord: 2.0ms | Allocations: 9731)
+
+
+Started GET "/articles/18" for ::1 at 2020-11-27 23:12:15 +0900
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"18"}
+  [1m[36mArticle Load (2.5ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`id` = 18 LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:48:in `set_article'
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  Rendering articles/show.html.erb within layouts/application
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/show.html.erb:8
+  [1m[36mCategory Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 18 LIMIT 1[0m
+  ↳ app/views/articles/show.html.erb:10
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 18[0m
+  ↳ app/views/articles/show.html.erb:11
+  Rendered collection of categories/_category.html.erb [2 times] (Duration: 0.5ms | Allocations: 186)
+  Rendered articles/show.html.erb within layouts/application (Duration: 8.1ms | Allocations: 3727)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.4ms | Allocations: 410)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 33)
+Completed 200 OK in 27ms (Views: 17.7ms | ActiveRecord: 3.8ms | Allocations: 10595)
+
+
+Started GET "/users/1" for ::1 at 2020-11-27 23:14:11 +0900
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/users_controller.rb:54:in `set_user'
+  Rendering users/show.html.erb within layouts/application
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles` WHERE `articles`.`user_id` = 1[0m
+  ↳ app/views/users/show.html.erb:14
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`user_id` = 1 LIMIT 5 OFFSET 0[0m
+  ↳ app/views/articles/_article.html.erb:2
+  [1m[36mCategory Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 1 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCategory Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCategory Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 3 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCategory Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 4 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCategory Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 10 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  Rendered articles/_article.html.erb (Duration: 27.8ms | Allocations: 7713)
+  Rendered users/show.html.erb within layouts/application (Duration: 35.4ms | Allocations: 10482)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 1.3ms | Allocations: 921)
+  Rendered layouts/_messages.html.erb (Duration: 0.4ms | Allocations: 182)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 136)
+Completed 200 OK in 55ms (Views: 47.5ms | ActiveRecord: 4.3ms | Allocations: 18988)
+
+
+Started GET "/users/1" for ::1 at 2020-11-27 23:14:14 +0900
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/users_controller.rb:54:in `set_user'
+  Rendering users/show.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles` WHERE `articles`.`user_id` = 1[0m
+  ↳ app/views/users/show.html.erb:14
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`user_id` = 1 LIMIT 5 OFFSET 0[0m
+  ↳ app/views/articles/_article.html.erb:2
+  [1m[36mCategory Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 1 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCategory Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCategory Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 3 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCategory Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 4 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCategory Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 10 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  Rendered articles/_article.html.erb (Duration: 13.6ms | Allocations: 7330)
+  Rendered users/show.html.erb within layouts/application (Duration: 17.5ms | Allocations: 9734)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.4ms | Allocations: 406)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 33)
+Completed 200 OK in 27ms (Views: 22.0ms | ActiveRecord: 2.4ms | Allocations: 16058)
+
+
+Started GET "/users/1?page=3" for ::1 at 2020-11-27 23:14:16 +0900
+Processing by UsersController#show as HTML
+  Parameters: {"page"=>"3", "id"=>"1"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/users_controller.rb:54:in `set_user'
+  Rendering users/show.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles` WHERE `articles`.`user_id` = 1[0m
+  ↳ app/views/users/show.html.erb:14
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`user_id` = 1 LIMIT 5 OFFSET 10[0m
+  ↳ app/views/articles/_article.html.erb:2
+  [1m[36mCategory Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 18 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 18[0m
+  ↳ app/views/articles/_article.html.erb:11
+  Rendered collection of categories/_category.html.erb [2 times] (Duration: 0.8ms | Allocations: 185)
+  Rendered articles/_article.html.erb (Duration: 8.5ms | Allocations: 3374)
+  Rendered users/show.html.erb within layouts/application (Duration: 14.3ms | Allocations: 5769)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.4ms | Allocations: 409)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 33)
+Completed 200 OK in 25ms (Views: 20.4ms | ActiveRecord: 2.0ms | Allocations: 12082)
+
+
+Started GET "/" for ::1 at 2020-11-27 23:14:23 +0900
+Processing by PagesController#home as HTML
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+Redirected to http://localhost:3000/articles
+Completed 302 Found in 5ms (ActiveRecord: 1.1ms | Allocations: 903)
+
+
+Started GET "/articles" for ::1 at 2020-11-27 23:14:23 +0900
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  Rendering articles/index.html.erb within layouts/application
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:4
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 5 OFFSET 0[0m
+  ↳ app/views/articles/_article.html.erb:2
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 1 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 3 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 4 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 10 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  Rendered articles/_article.html.erb (Duration: 27.1ms | Allocations: 10968)
+  Rendered articles/index.html.erb within layouts/application (Duration: 31.3ms | Allocations: 12722)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.4ms | Allocations: 408)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 33)
+Completed 200 OK in 45ms (Views: 39.5ms | ActiveRecord: 2.5ms | Allocations: 19506)
+
+
+Started GET "/" for ::1 at 2020-11-27 23:14:51 +0900
+Processing by PagesController#home as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+Redirected to http://localhost:3000/articles
+Completed 302 Found in 3ms (ActiveRecord: 0.4ms | Allocations: 894)
+
+
+Started GET "/articles" for ::1 at 2020-11-27 23:14:51 +0900
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  Rendering articles/index.html.erb within layouts/application
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:4
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 5 OFFSET 0[0m
+  ↳ app/views/articles/_article.html.erb:2
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 1 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 3 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 4 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (1.2ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 10 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  Rendered articles/_article.html.erb (Duration: 25.4ms | Allocations: 11346)
+  Rendered articles/index.html.erb within layouts/application (Duration: 29.5ms | Allocations: 13248)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 2.7ms | Allocations: 921)
+  Rendered layouts/_messages.html.erb (Duration: 1.2ms | Allocations: 182)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 136)
+Completed 200 OK in 54ms (Views: 48.1ms | ActiveRecord: 3.9ms | Allocations: 21614)
+
+
+Started GET "/articles" for ::1 at 2020-11-27 23:15:05 +0900
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  Rendering articles/index.html.erb within layouts/application
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:4
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 5 OFFSET 0[0m
+  ↳ app/views/articles/_article.html.erb:2
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  Rendered articles/_article.html.erb (Duration: 22.6ms | Allocations: 6258)
+  Rendered articles/index.html.erb within layouts/application (Duration: 28.1ms | Allocations: 8153)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 2.0ms | Allocations: 921)
+  Rendered layouts/_messages.html.erb (Duration: 0.5ms | Allocations: 187)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 137)
+Completed 200 OK in 67ms (Views: 61.9ms | ActiveRecord: 1.2ms | Allocations: 16510)
+
+
+Started GET "/articles" for ::1 at 2020-11-27 23:17:22 +0900
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  Rendering articles/index.html.erb within layouts/application
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:4
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 5 OFFSET 0[0m
+  ↳ app/views/articles/_article.html.erb:2
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  Rendered articles/_article.html.erb (Duration: 29.5ms | Allocations: 5896)
+  Rendered articles/index.html.erb within layouts/application (Duration: 32.7ms | Allocations: 7404)
+Completed 500 Internal Server Error in 39ms (ActiveRecord: 0.9ms | Allocations: 9277)
+
+
+  
+ActionView::Template::Error (undefined method `categories' for nil:NilClass):
+     7:             <% if article.user %>
+     8:               by <%= link_to article.user.username, user_path(article.user) %>
+     9:             <% end %>
+    10:             <div class="mt-2"><% if @article.categories.any? %></div>
+    11:             <%= render @article.categories %>
+    12:           <% end %>
+    13:           <% if article.categories.any? %>
+  
+app/views/articles/_article.html.erb:10
+app/views/articles/_article.html.erb:2
+app/views/articles/index.html.erb:6
+Started GET "/articles" for ::1 at 2020-11-27 23:17:51 +0900
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  Rendering articles/index.html.erb within layouts/application
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:4
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 5 OFFSET 0[0m
+  ↳ app/views/articles/_article.html.erb:2
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 1 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 3 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 4 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 10 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  Rendered articles/_article.html.erb (Duration: 19.6ms | Allocations: 11345)
+  Rendered articles/index.html.erb within layouts/application (Duration: 22.9ms | Allocations: 13242)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 1.5ms | Allocations: 926)
+  Rendered layouts/_messages.html.erb (Duration: 0.4ms | Allocations: 182)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 136)
+Completed 200 OK in 49ms (Views: 44.2ms | ActiveRecord: 2.5ms | Allocations: 21609)
+
+
+Started GET "/articles?page=3" for ::1 at 2020-11-27 23:17:55 +0900
+Processing by ArticlesController#index as HTML
+  Parameters: {"page"=>"3"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  Rendering articles/index.html.erb within layouts/application
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:4
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 5 OFFSET 10[0m
+  ↳ app/views/articles/_article.html.erb:2
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 6 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 16 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 17 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 17[0m
+  ↳ app/views/articles/_article.html.erb:11
+  Rendered collection of categories/_category.html.erb [1 times] (Duration: 0.6ms | Allocations: 145)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 18 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 18[0m
+  ↳ app/views/articles/_article.html.erb:11
+  Rendered collection of categories/_category.html.erb [2 times] (Duration: 0.2ms | Allocations: 84)
+  Rendered articles/_article.html.erb (Duration: 19.3ms | Allocations: 9293)
+  Rendered articles/index.html.erb within layouts/application (Duration: 24.1ms | Allocations: 10912)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.6ms | Allocations: 407)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 33)
+Completed 200 OK in 36ms (Views: 28.8ms | ActiveRecord: 4.2ms | Allocations: 17115)
+
+
+Started GET "/articles?page=3" for ::1 at 2020-11-27 23:33:42 +0900
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+Processing by ArticlesController#index as HTML
+  Parameters: {"page"=>"3"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  Rendering articles/index.html.erb within layouts/application
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:4
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 5 OFFSET 10[0m
+  ↳ app/views/articles/_article.html.erb:2
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 6 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 16 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 17 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 17[0m
+  ↳ app/views/articles/_article.html.erb:11
+  Rendered collection of categories/_category.html.erb [1 times] (Duration: 0.5ms | Allocations: 145)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 18 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 18[0m
+  ↳ app/views/articles/_article.html.erb:11
+  Rendered collection of categories/_category.html.erb [2 times] (Duration: 0.3ms | Allocations: 84)
+  Rendered articles/_article.html.erb (Duration: 18.3ms | Allocations: 9669)
+  Rendered articles/index.html.erb within layouts/application (Duration: 21.9ms | Allocations: 11561)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 1.2ms | Allocations: 920)
+  Rendered layouts/_messages.html.erb (Duration: 0.4ms | Allocations: 182)
+  Rendered layouts/_footer.html.erb (Duration: 0.4ms | Allocations: 136)
+Completed 200 OK in 38ms (Views: 32.9ms | ActiveRecord: 2.5ms | Allocations: 19917)
+
+
+Started GET "/categories" for ::1 at 2020-11-27 23:33:45 +0900
+Processing by CategoriesController#index as HTML
+  Rendering categories/index.html.erb within layouts/application
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `categories`[0m
+  ↳ app/views/categories/index.html.erb:4
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` LIMIT 5 OFFSET 0[0m
+  ↳ app/views/categories/index.html.erb:8
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles` INNER JOIN `article_categories` ON `articles`.`id` = `article_categories`.`article_id` WHERE `article_categories`.`category_id` = 1[0m
+  ↳ app/views/categories/index.html.erb:14
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles` INNER JOIN `article_categories` ON `articles`.`id` = `article_categories`.`article_id` WHERE `article_categories`.`category_id` = 2[0m
+  ↳ app/views/categories/index.html.erb:14
+  Rendered categories/index.html.erb within layouts/application (Duration: 8.8ms | Allocations: 4569)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  Rendered layouts/_navigation.html.erb (Duration: 1.9ms | Allocations: 1060)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 33)
+Completed 200 OK in 21ms (Views: 17.9ms | ActiveRecord: 1.6ms | Allocations: 11263)
+
+
+Started GET "/" for ::1 at 2020-11-27 23:34:21 +0900
+Processing by PagesController#home as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+Redirected to http://localhost:3000/articles
+Completed 302 Found in 3ms (ActiveRecord: 0.4ms | Allocations: 911)
+
+
+Started GET "/articles" for ::1 at 2020-11-27 23:34:21 +0900
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  Rendering articles/index.html.erb within layouts/application
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:4
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 5 OFFSET 0[0m
+  ↳ app/views/articles/_article.html.erb:2
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 1 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 3 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 4 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 10 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  Rendered articles/_article.html.erb (Duration: 20.9ms | Allocations: 10968)
+  Rendered articles/index.html.erb within layouts/application (Duration: 25.0ms | Allocations: 12590)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.6ms | Allocations: 408)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 33)
+Completed 200 OK in 37ms (Views: 30.5ms | ActiveRecord: 3.5ms | Allocations: 18819)
+
+
+Started GET "/categories" for ::1 at 2020-11-27 23:39:12 +0900
+Processing by CategoriesController#index as HTML
+  Rendering categories/index.html.erb within layouts/application
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT COUNT(*) FROM `categories`[0m
+  ↳ app/views/categories/index.html.erb:4
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` LIMIT 5 OFFSET 0[0m
+  ↳ app/views/categories/index.html.erb:8
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles` INNER JOIN `article_categories` ON `articles`.`id` = `article_categories`.`article_id` WHERE `article_categories`.`category_id` = 1[0m
+  ↳ app/views/categories/index.html.erb:14
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles` INNER JOIN `article_categories` ON `articles`.`id` = `article_categories`.`article_id` WHERE `article_categories`.`category_id` = 2[0m
+  ↳ app/views/categories/index.html.erb:14
+  Rendered categories/index.html.erb within layouts/application (Duration: 12.9ms | Allocations: 3744)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  Rendered layouts/_navigation.html.erb (Duration: 1.9ms | Allocations: 1049)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 33)
+Completed 200 OK in 26ms (Views: 21.7ms | ActiveRecord: 3.5ms | Allocations: 9960)
+
+
+Started GET "/categories/1" for ::1 at 2020-11-27 23:39:13 +0900
+Processing by CategoriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/categories_controller.rb:23:in `show'
+  Rendering categories/show.html.erb within layouts/application
+  Rendered categories/show.html.erb within layouts/application (Duration: 0.5ms | Allocations: 98)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  Rendered layouts/_navigation.html.erb (Duration: 3.0ms | Allocations: 1073)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 33)
+Completed 200 OK in 16ms (Views: 13.4ms | ActiveRecord: 0.7ms | Allocations: 7002)
+
+
+Started GET "/categories/1" for ::1 at 2020-11-27 23:43:29 +0900
+Processing by CategoriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/categories_controller.rb:23:in `show'
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 5.0ms | Allocations: 6136)
+
+
+  
+NoMethodError (undefined method `articles' for nil:NilClass):
+  
+app/controllers/categories_controller.rb:24:in `show'
+Started GET "/categories/1" for ::1 at 2020-11-27 23:44:31 +0900
+Processing by CategoriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/categories_controller.rb:23:in `show'
+  Rendering categories/show.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles` INNER JOIN `article_categories` ON `articles`.`id` = `article_categories`.`article_id` WHERE `article_categories`.`category_id` = 1[0m
+  ↳ app/views/categories/show.html.erb:12
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` INNER JOIN `article_categories` ON `articles`.`id` = `article_categories`.`article_id` WHERE `article_categories`.`category_id` = 1 LIMIT 5 OFFSET 0[0m
+  ↳ app/views/articles/_article.html.erb:2
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 6 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 15 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 15[0m
+  ↳ app/views/articles/_article.html.erb:11
+  Rendered collection of categories/_category.html.erb [1 times] (Duration: 0.4ms | Allocations: 146)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 17 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 17[0m
+  ↳ app/views/articles/_article.html.erb:11
+  Rendered collection of categories/_category.html.erb [1 times] (Duration: 0.2ms | Allocations: 44)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 18 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 18[0m
+  ↳ app/views/articles/_article.html.erb:11
+  Rendered collection of categories/_category.html.erb [2 times] (Duration: 0.2ms | Allocations: 84)
+  Rendered articles/_article.html.erb (Duration: 24.7ms | Allocations: 16414)
+  Rendered categories/show.html.erb within layouts/application (Duration: 40.3ms | Allocations: 24266)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 1.1ms | Allocations: 922)
+  Rendered layouts/_messages.html.erb (Duration: 0.3ms | Allocations: 182)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 136)
+Completed 200 OK in 73ms (Views: 44.9ms | ActiveRecord: 11.9ms | Allocations: 41544)
+
+
+Started GET "/users/1/edit" for ::1 at 2020-11-27 23:44:34 +0900
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/users_controller.rb:54:in `set_user'
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  Rendering users/edit.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (Duration: 1.1ms | Allocations: 183)
+  Rendered users/_form.html.erb (Duration: 5.5ms | Allocations: 1822)
+  Rendered users/edit.html.erb within layouts/application (Duration: 7.3ms | Allocations: 2122)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.4ms | Allocations: 409)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 33)
+Completed 200 OK in 34ms (Views: 28.5ms | ActiveRecord: 0.7ms | Allocations: 9523)
+
+
+Started GET "/categories" for ::1 at 2020-11-27 23:44:43 +0900
+Processing by CategoriesController#index as HTML
+  Rendering categories/index.html.erb within layouts/application
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `categories`[0m
+  ↳ app/views/categories/index.html.erb:4
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` LIMIT 5 OFFSET 0[0m
+  ↳ app/views/categories/index.html.erb:8
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles` INNER JOIN `article_categories` ON `articles`.`id` = `article_categories`.`article_id` WHERE `article_categories`.`category_id` = 1[0m
+  ↳ app/views/categories/index.html.erb:14
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles` INNER JOIN `article_categories` ON `articles`.`id` = `article_categories`.`article_id` WHERE `article_categories`.`category_id` = 2[0m
+  ↳ app/views/categories/index.html.erb:14
+  Rendered categories/index.html.erb within layouts/application (Duration: 13.8ms | Allocations: 3990)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  Rendered layouts/_navigation.html.erb (Duration: 2.0ms | Allocations: 1060)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 33)
+Completed 200 OK in 25ms (Views: 20.9ms | ActiveRecord: 2.8ms | Allocations: 10351)
+
+
+Started GET "/categories/1" for ::1 at 2020-11-27 23:44:44 +0900
+Processing by CategoriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCategory Load (0.5ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/categories_controller.rb:23:in `show'
+  Rendering categories/show.html.erb within layouts/application
+  [1m[36mUser Load (2.2ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  [1m[35m (2.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles` INNER JOIN `article_categories` ON `articles`.`id` = `article_categories`.`article_id` WHERE `article_categories`.`category_id` = 1[0m
+  ↳ app/views/categories/show.html.erb:12
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` INNER JOIN `article_categories` ON `articles`.`id` = `article_categories`.`article_id` WHERE `article_categories`.`category_id` = 1 LIMIT 5 OFFSET 0[0m
+  ↳ app/views/articles/_article.html.erb:2
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 6 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 15 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 15[0m
+  ↳ app/views/articles/_article.html.erb:11
+  Rendered collection of categories/_category.html.erb [1 times] (Duration: 0.2ms | Allocations: 44)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 17 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 17[0m
+  ↳ app/views/articles/_article.html.erb:11
+  Rendered collection of categories/_category.html.erb [1 times] (Duration: 0.3ms | Allocations: 44)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 18 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 18[0m
+  ↳ app/views/articles/_article.html.erb:11
+  Rendered collection of categories/_category.html.erb [2 times] (Duration: 0.2ms | Allocations: 84)
+  Rendered articles/_article.html.erb (Duration: 24.4ms | Allocations: 10108)
+  Rendered categories/show.html.erb within layouts/application (Duration: 33.1ms | Allocations: 11658)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.4ms | Allocations: 399)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 33)
+Completed 200 OK in 54ms (Views: 42.7ms | ActiveRecord: 7.4ms | Allocations: 18114)
+
+
+Started GET "/users/1/edit" for ::1 at 2020-11-27 23:45:53 +0900
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/users_controller.rb:54:in `set_user'
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  Rendering users/edit.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (Duration: 0.0ms | Allocations: 15)
+  Rendered users/_form.html.erb (Duration: 4.5ms | Allocations: 1026)
+  Rendered users/edit.html.erb within layouts/application (Duration: 4.9ms | Allocations: 1096)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.6ms | Allocations: 409)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 33)
+Completed 200 OK in 31ms (Views: 21.6ms | ActiveRecord: 1.2ms | Allocations: 7853)
+
+
+Started GET "/categories/1" for ::1 at 2020-11-27 23:49:28 +0900
+Processing by CategoriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/categories_controller.rb:37:in `show'
+  Rendering categories/show.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles` INNER JOIN `article_categories` ON `articles`.`id` = `article_categories`.`article_id` WHERE `article_categories`.`category_id` = 1[0m
+  ↳ app/views/categories/show.html.erb:12
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` INNER JOIN `article_categories` ON `articles`.`id` = `article_categories`.`article_id` WHERE `article_categories`.`category_id` = 1 LIMIT 5 OFFSET 0[0m
+  ↳ app/views/articles/_article.html.erb:2
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 6 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 15 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 15[0m
+  ↳ app/views/articles/_article.html.erb:11
+  Rendered collection of categories/_category.html.erb [1 times] (Duration: 0.1ms | Allocations: 46)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 17 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 17[0m
+  ↳ app/views/articles/_article.html.erb:11
+  Rendered collection of categories/_category.html.erb [1 times] (Duration: 0.1ms | Allocations: 44)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 18 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 18[0m
+  ↳ app/views/articles/_article.html.erb:11
+  Rendered collection of categories/_category.html.erb [2 times] (Duration: 0.2ms | Allocations: 84)
+  Rendered articles/_article.html.erb (Duration: 33.2ms | Allocations: 15790)
+  Rendered categories/show.html.erb within layouts/application (Duration: 47.6ms | Allocations: 23241)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.7ms | Allocations: 408)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 33)
+Completed 200 OK in 78ms (Views: 54.1ms | ActiveRecord: 11.0ms | Allocations: 38339)
+
+
+Started GET "/users/1/edit" for ::1 at 2020-11-27 23:49:30 +0900
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/users_controller.rb:54:in `set_user'
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  Rendering users/edit.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (Duration: 0.1ms | Allocations: 15)
+  Rendered users/_form.html.erb (Duration: 2.4ms | Allocations: 1079)
+  Rendered users/edit.html.erb within layouts/application (Duration: 2.7ms | Allocations: 1149)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.5ms | Allocations: 409)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 33)
+Completed 200 OK in 18ms (Views: 13.1ms | ActiveRecord: 0.8ms | Allocations: 8156)
+
+
+Started GET "/users/1/edit" for ::1 at 2020-11-27 23:49:31 +0900
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/users_controller.rb:54:in `set_user'
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  Rendering users/edit.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (Duration: 0.0ms | Allocations: 15)
+  Rendered users/_form.html.erb (Duration: 2.4ms | Allocations: 1016)
+  Rendered users/edit.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1086)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.4ms | Allocations: 400)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 33)
+Completed 200 OK in 15ms (Views: 11.4ms | ActiveRecord: 0.7ms | Allocations: 7826)
+
+
+Started GET "/users/1/edit" for ::1 at 2020-11-28 00:04:45 +0900
+  [1m[35m (0.2ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/users_controller.rb:54:in `set_user'
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  Rendering users/edit.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (Duration: 0.5ms | Allocations: 177)
+  Rendered users/_form.html.erb (Duration: 3.6ms | Allocations: 1647)
+  Rendered users/edit.html.erb within layouts/application (Duration: 4.4ms | Allocations: 1949)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 1.3ms | Allocations: 921)
+  Rendered layouts/_messages.html.erb (Duration: 0.5ms | Allocations: 182)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 136)
+Completed 200 OK in 21ms (Views: 17.5ms | ActiveRecord: 0.6ms | Allocations: 10859)
+
+
+Started GET "/categories" for ::1 at 2020-11-28 00:04:57 +0900
+Processing by CategoriesController#index as HTML
+  Rendering categories/index.html.erb within layouts/application
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT COUNT(*) FROM `categories`[0m
+  ↳ app/views/categories/index.html.erb:4
+  [1m[36mCategory Load (0.5ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` LIMIT 5 OFFSET 0[0m
+  ↳ app/views/categories/index.html.erb:8
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles` INNER JOIN `article_categories` ON `articles`.`id` = `article_categories`.`article_id` WHERE `article_categories`.`category_id` = 1[0m
+  ↳ app/views/categories/index.html.erb:14
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles` INNER JOIN `article_categories` ON `articles`.`id` = `article_categories`.`article_id` WHERE `article_categories`.`category_id` = 2[0m
+  ↳ app/views/categories/index.html.erb:14
+  Rendered categories/index.html.erb within layouts/application (Duration: 12.4ms | Allocations: 3985)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  Rendered layouts/_navigation.html.erb (Duration: 1.9ms | Allocations: 1060)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 33)
+Completed 200 OK in 28ms (Views: 22.7ms | ActiveRecord: 2.7ms | Allocations: 10796)
+
+
+Started GET "/categories/1" for ::1 at 2020-11-28 00:04:58 +0900
+Processing by CategoriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/categories_controller.rb:37:in `show'
+  Rendering categories/show.html.erb within layouts/application
+  [1m[36mUser Load (1.6ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles` INNER JOIN `article_categories` ON `articles`.`id` = `article_categories`.`article_id` WHERE `article_categories`.`category_id` = 1[0m
+  ↳ app/views/categories/show.html.erb:12
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` INNER JOIN `article_categories` ON `articles`.`id` = `article_categories`.`article_id` WHERE `article_categories`.`category_id` = 1 LIMIT 5 OFFSET 0[0m
+  ↳ app/views/articles/_article.html.erb:2
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 6 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 15 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCategory Load (0.8ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 15[0m
+  ↳ app/views/articles/_article.html.erb:11
+  Rendered collection of categories/_category.html.erb [1 times] (Duration: 0.5ms | Allocations: 145)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 17 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 17[0m
+  ↳ app/views/articles/_article.html.erb:11
+  Rendered collection of categories/_category.html.erb [1 times] (Duration: 0.2ms | Allocations: 44)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 18 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 18[0m
+  ↳ app/views/articles/_article.html.erb:11
+  Rendered collection of categories/_category.html.erb [2 times] (Duration: 0.2ms | Allocations: 84)
+  Rendered articles/_article.html.erb (Duration: 25.0ms | Allocations: 10718)
+  Rendered categories/show.html.erb within layouts/application (Duration: 31.7ms | Allocations: 12613)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.4ms | Allocations: 407)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 33)
+Completed 200 OK in 43ms (Views: 33.8ms | ActiveRecord: 5.5ms | Allocations: 19196)
+
+
+Started GET "/categories/1" for ::1 at 2020-11-28 00:05:00 +0900
+Processing by CategoriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCategory Load (0.5ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/categories_controller.rb:37:in `show'
+  Rendering categories/show.html.erb within layouts/application
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles` INNER JOIN `article_categories` ON `articles`.`id` = `article_categories`.`article_id` WHERE `article_categories`.`category_id` = 1[0m
+  ↳ app/views/categories/show.html.erb:12
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` INNER JOIN `article_categories` ON `articles`.`id` = `article_categories`.`article_id` WHERE `article_categories`.`category_id` = 1 LIMIT 5 OFFSET 0[0m
+  ↳ app/views/articles/_article.html.erb:2
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 6 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 15 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 15[0m
+  ↳ app/views/articles/_article.html.erb:11
+  Rendered collection of categories/_category.html.erb [1 times] (Duration: 0.3ms | Allocations: 44)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 17 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCategory Load (0.7ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 17[0m
+  ↳ app/views/articles/_article.html.erb:11
+  Rendered collection of categories/_category.html.erb [1 times] (Duration: 0.3ms | Allocations: 44)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 18 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 18[0m
+  ↳ app/views/articles/_article.html.erb:11
+  Rendered collection of categories/_category.html.erb [2 times] (Duration: 0.2ms | Allocations: 84)
+  Rendered articles/_article.html.erb (Duration: 21.7ms | Allocations: 10087)
+  Rendered categories/show.html.erb within layouts/application (Duration: 26.7ms | Allocations: 11637)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.7ms | Allocations: 399)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 33)
+Completed 200 OK in 40ms (Views: 31.9ms | ActiveRecord: 4.7ms | Allocations: 18085)
+
+
+Started GET "/users/1/edit" for ::1 at 2020-11-28 00:05:02 +0900
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/users_controller.rb:54:in `set_user'
+  [1m[36mUser Load (2.7ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  Rendering users/edit.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (Duration: 0.1ms | Allocations: 15)
+  Rendered users/_form.html.erb (Duration: 2.9ms | Allocations: 1026)
+  Rendered users/edit.html.erb within layouts/application (Duration: 3.2ms | Allocations: 1096)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 1.4ms | Allocations: 409)
+  Rendered layouts/_messages.html.erb (Duration: 0.2ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 33)
+Completed 200 OK in 28ms (Views: 18.8ms | ActiveRecord: 4.2ms | Allocations: 7843)
+
+
+Started GET "/users/1/edit" for ::1 at 2020-11-28 00:05:38 +0900
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/users_controller.rb:54:in `set_user'
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  Rendering users/edit.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (Duration: 0.8ms | Allocations: 177)
+  Rendered users/_form.html.erb (Duration: 4.1ms | Allocations: 1646)
+  Rendered users/edit.html.erb within layouts/application (Duration: 5.2ms | Allocations: 1942)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 1.2ms | Allocations: 921)
+  Rendered layouts/_messages.html.erb (Duration: 0.3ms | Allocations: 182)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 136)
+Completed 200 OK in 22ms (Views: 18.0ms | ActiveRecord: 0.6ms | Allocations: 10855)
+
+
+Started GET "/users/1/edit" for ::1 at 2020-11-28 00:05:42 +0900
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/users_controller.rb:54:in `set_user'
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  Rendering users/edit.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (Duration: 0.0ms | Allocations: 15)
+  Rendered users/_form.html.erb (Duration: 1.6ms | Allocations: 1022)
+  Rendered users/edit.html.erb within layouts/application (Duration: 1.8ms | Allocations: 1092)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.4ms | Allocations: 408)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 33)
+Completed 200 OK in 30ms (Views: 8.9ms | ActiveRecord: 0.7ms | Allocations: 7852)
+
+
+Started GET "/users/1/edit" for ::1 at 2020-11-28 00:05:43 +0900
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/users_controller.rb:54:in `set_user'
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  Rendering users/edit.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (Duration: 0.0ms | Allocations: 15)
+  Rendered users/_form.html.erb (Duration: 1.9ms | Allocations: 1016)
+  Rendered users/edit.html.erb within layouts/application (Duration: 2.2ms | Allocations: 1086)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.4ms | Allocations: 400)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 33)
+Completed 200 OK in 13ms (Views: 9.1ms | ActiveRecord: 0.7ms | Allocations: 7836)
+
+
+Started GET "/categories" for ::1 at 2020-11-28 00:05:51 +0900
+Processing by CategoriesController#index as HTML
+  Rendering categories/index.html.erb within layouts/application
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `categories`[0m
+  ↳ app/views/categories/index.html.erb:4
+  [1m[36mCategory Load (2.2ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` LIMIT 5 OFFSET 0[0m
+  ↳ app/views/categories/index.html.erb:8
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles` INNER JOIN `article_categories` ON `articles`.`id` = `article_categories`.`article_id` WHERE `article_categories`.`category_id` = 1[0m
+  ↳ app/views/categories/index.html.erb:14
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles` INNER JOIN `article_categories` ON `articles`.`id` = `article_categories`.`article_id` WHERE `article_categories`.`category_id` = 2[0m
+  ↳ app/views/categories/index.html.erb:14
+  Rendered categories/index.html.erb within layouts/application (Duration: 16.8ms | Allocations: 3988)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  Rendered layouts/_navigation.html.erb (Duration: 1.7ms | Allocations: 1060)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 33)
+Completed 200 OK in 30ms (Views: 23.8ms | ActiveRecord: 5.0ms | Allocations: 10791)
+
+
+Started GET "/categories/1" for ::1 at 2020-11-28 00:05:52 +0900
+Processing by CategoriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCategory Load (1.0ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/categories_controller.rb:37:in `show'
+  Rendering categories/show.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles` INNER JOIN `article_categories` ON `articles`.`id` = `article_categories`.`article_id` WHERE `article_categories`.`category_id` = 1[0m
+  ↳ app/views/categories/show.html.erb:12
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` INNER JOIN `article_categories` ON `articles`.`id` = `article_categories`.`article_id` WHERE `article_categories`.`category_id` = 1 LIMIT 5 OFFSET 0[0m
+  ↳ app/views/articles/_article.html.erb:2
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 6 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.8ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 15 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 15[0m
+  ↳ app/views/articles/_article.html.erb:11
+  Rendered collection of categories/_category.html.erb [1 times] (Duration: 1.2ms | Allocations: 145)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 17 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 17[0m
+  ↳ app/views/articles/_article.html.erb:11
+  Rendered collection of categories/_category.html.erb [1 times] (Duration: 0.1ms | Allocations: 44)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 18 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 18[0m
+  ↳ app/views/articles/_article.html.erb:11
+  Rendered collection of categories/_category.html.erb [2 times] (Duration: 0.4ms | Allocations: 84)
+  Rendered articles/_article.html.erb (Duration: 25.6ms | Allocations: 10714)
+  Rendered categories/show.html.erb within layouts/application (Duration: 32.1ms | Allocations: 12610)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.4ms | Allocations: 407)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 33)
+Completed 200 OK in 46ms (Views: 35.1ms | ActiveRecord: 5.3ms | Allocations: 19205)
+
+
+Started GET "/categories/1/edit" for ::1 at 2020-11-28 00:05:53 +0900
+Processing by CategoriesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  [1m[36mCategory Load (4.4ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/categories_controller.rb:19:in `edit'
+  Rendering categories/edit.html.erb within layouts/application
+  Rendered categories/edit.html.erb within layouts/application (Duration: 2.3ms | Allocations: 1662)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 4.8ms | Allocations: 3469)
+
+
+  
+ActionView::Template::Error (Missing partial categories/_ form, application/_ form with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "/Users/akihisa.m/projects/alpha-blg/app/views"
+  * "/Users/akihisa.m/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/actiontext-6.0.3.4/app/views"
+  * "/Users/akihisa.m/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/actionmailbox-6.0.3.4/app/views"
+):
+    2: <div class="container">
+    3:   <div class="row justify-content-center">
+    4:     <div class="col-10">
+    5:       <%= render ' form' %>
+    6:     </div>
+    7:     <div class="mb-3">
+    8:       <%= link_to ' [ Cancel and return to articles listing ] ', articles_path, class:"text-info" %>
+  
+app/views/categories/edit.html.erb:5
+Started GET "/categories/1/edit" for ::1 at 2020-11-28 00:09:04 +0900
+Processing by CategoriesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  [1m[36mCategory Load (0.6ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/categories_controller.rb:19:in `edit'
+  Rendering categories/edit.html.erb within layouts/application
+  Rendered categories/edit.html.erb within layouts/application (Duration: 2.4ms | Allocations: 1656)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.9ms | Allocations: 4067)
+
+
+  
+ActionView::Template::Error (Missing partial categories/_ form, application/_ form with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "/Users/akihisa.m/projects/alpha-blg/app/views"
+  * "/Users/akihisa.m/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/actiontext-6.0.3.4/app/views"
+  * "/Users/akihisa.m/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/actionmailbox-6.0.3.4/app/views"
+):
+    2: <div class="container">
+    3:   <div class="row justify-content-center">
+    4:     <div class="col-10">
+    5:       <%= render ' form' %>
+    6:     </div>
+    7:     <div class="mb-3">
+    8:       <%= link_to ' [ Cancel and return to category ] ', category_path(@category), class:"text-info" %>
+  
+app/views/categories/edit.html.erb:5
+Started GET "/categories/1/edit" for ::1 at 2020-11-28 00:09:23 +0900
+Processing by CategoriesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/categories_controller.rb:19:in `edit'
+  Rendering categories/edit.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (Duration: 0.4ms | Allocations: 177)
+  Rendered categories/_form.html.erb (Duration: 2.6ms | Allocations: 1141)
+  Rendered categories/edit.html.erb within layouts/application (Duration: 3.9ms | Allocations: 1509)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 1.2ms | Allocations: 921)
+  Rendered layouts/_messages.html.erb (Duration: 0.4ms | Allocations: 182)
+  Rendered layouts/_footer.html.erb (Duration: 0.5ms | Allocations: 136)
+Completed 200 OK in 20ms (Views: 16.5ms | ActiveRecord: 0.6ms | Allocations: 10410)
+
+
+Started GET "/categories" for ::1 at 2020-11-28 00:09:28 +0900
+Processing by CategoriesController#index as HTML
+  Rendering categories/index.html.erb within layouts/application
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM `categories`[0m
+  ↳ app/views/categories/index.html.erb:4
+  [1m[36mCategory Load (0.5ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` LIMIT 5 OFFSET 0[0m
+  ↳ app/views/categories/index.html.erb:8
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles` INNER JOIN `article_categories` ON `articles`.`id` = `article_categories`.`article_id` WHERE `article_categories`.`category_id` = 1[0m
+  ↳ app/views/categories/index.html.erb:14
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles` INNER JOIN `article_categories` ON `articles`.`id` = `article_categories`.`article_id` WHERE `article_categories`.`category_id` = 2[0m
+  ↳ app/views/categories/index.html.erb:14
+  Rendered categories/index.html.erb within layouts/application (Duration: 14.0ms | Allocations: 3983)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  Rendered layouts/_navigation.html.erb (Duration: 1.9ms | Allocations: 1060)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 33)
+Completed 200 OK in 27ms (Views: 22.1ms | ActiveRecord: 2.6ms | Allocations: 10365)
+
+
+Started GET "/categories/1" for ::1 at 2020-11-28 00:09:29 +0900
+Processing by CategoriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/categories_controller.rb:37:in `show'
+  Rendering categories/show.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles` INNER JOIN `article_categories` ON `articles`.`id` = `article_categories`.`article_id` WHERE `article_categories`.`category_id` = 1[0m
+  ↳ app/views/categories/show.html.erb:12
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` INNER JOIN `article_categories` ON `articles`.`id` = `article_categories`.`article_id` WHERE `article_categories`.`category_id` = 1 LIMIT 5 OFFSET 0[0m
+  ↳ app/views/articles/_article.html.erb:2
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 6 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 15 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 15[0m
+  ↳ app/views/articles/_article.html.erb:11
+  Rendered collection of categories/_category.html.erb [1 times] (Duration: 0.6ms | Allocations: 145)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 17 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 17[0m
+  ↳ app/views/articles/_article.html.erb:11
+  Rendered collection of categories/_category.html.erb [1 times] (Duration: 0.2ms | Allocations: 44)
+  [1m[36mCACHE User Load (0.1ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 18 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 18[0m
+  ↳ app/views/articles/_article.html.erb:11
+  Rendered collection of categories/_category.html.erb [2 times] (Duration: 0.2ms | Allocations: 84)
+  Rendered articles/_article.html.erb (Duration: 22.4ms | Allocations: 10714)
+  Rendered categories/show.html.erb within layouts/application (Duration: 28.7ms | Allocations: 12609)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.4ms | Allocations: 407)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 33)
+Completed 200 OK in 40ms (Views: 32.0ms | ActiveRecord: 3.9ms | Allocations: 19196)
+
+
+Started GET "/categories/1/edit" for ::1 at 2020-11-28 00:09:30 +0900
+Processing by CategoriesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  [1m[36mCategory Load (0.8ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/categories_controller.rb:19:in `edit'
+  Rendering categories/edit.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (Duration: 0.0ms | Allocations: 15)
+  Rendered categories/_form.html.erb (Duration: 1.5ms | Allocations: 566)
+  Rendered categories/edit.html.erb within layouts/application (Duration: 2.0ms | Allocations: 669)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.6ms | Allocations: 400)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 33)
+Completed 200 OK in 19ms (Views: 11.9ms | ActiveRecord: 2.1ms | Allocations: 7398)
+
+
+Started PATCH "/categories/1" for ::1 at 2020-11-28 00:09:34 +0900
+Processing by CategoriesController#update as HTML
+  Parameters: {"authenticity_token"=>"W0fU/mtoWouY4RN1rDneHtYLmQ5ApXMLhPr50TN9SPJpUEaiBYNEsXAsuvNySeW8JF1NRC7z3MTXCgel/YmGtw==", "category"=>{"name"=>"travel"}, "commit"=>"Update Category", "id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  [1m[36mCategory Load (0.5ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/categories_controller.rb:23:in `update'
+DEPRECATION WARNING: Uniqueness validator will no longer enforce case sensitive comparison in Rails 6.1. To continue case sensitive comparison on the :name attribute in Category model, pass `case_sensitive: true` option explicitly to the uniqueness validator. (called from update at /Users/akihisa.m/projects/alpha-blg/app/controllers/categories_controller.rb:24)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/categories_controller.rb:24:in `update'
+  [1m[36mCategory Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = BINARY 'travel' AND `categories`.`id` != 1 LIMIT 1[0m
+  ↳ app/controllers/categories_controller.rb:24:in `update'
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/categories_controller.rb:24:in `update'
+Redirected to http://localhost:3000/categories/1
+Completed 302 Found in 11ms (ActiveRecord: 1.9ms | Allocations: 4863)
+
+
+Started GET "/categories/1" for ::1 at 2020-11-28 00:09:34 +0900
+Processing by CategoriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/categories_controller.rb:37:in `show'
+  Rendering categories/show.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles` INNER JOIN `article_categories` ON `articles`.`id` = `article_categories`.`article_id` WHERE `article_categories`.`category_id` = 1[0m
+  ↳ app/views/categories/show.html.erb:12
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` INNER JOIN `article_categories` ON `articles`.`id` = `article_categories`.`article_id` WHERE `article_categories`.`category_id` = 1 LIMIT 5 OFFSET 0[0m
+  ↳ app/views/articles/_article.html.erb:2
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 6 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (1.1ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 15 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCategory Load (1.1ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 15[0m
+  ↳ app/views/articles/_article.html.erb:11
+  Rendered collection of categories/_category.html.erb [1 times] (Duration: 0.1ms | Allocations: 44)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 17 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 17[0m
+  ↳ app/views/articles/_article.html.erb:11
+  Rendered collection of categories/_category.html.erb [1 times] (Duration: 0.1ms | Allocations: 44)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 18 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 18[0m
+  ↳ app/views/articles/_article.html.erb:11
+  Rendered collection of categories/_category.html.erb [2 times] (Duration: 0.2ms | Allocations: 84)
+  Rendered articles/_article.html.erb (Duration: 35.0ms | Allocations: 10090)
+  Rendered categories/show.html.erb within layouts/application (Duration: 37.7ms | Allocations: 11641)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.4ms | Allocations: 399)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 22)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 33)
+Completed 200 OK in 48ms (Views: 42.2ms | ActiveRecord: 4.4ms | Allocations: 18110)
+
+
+Started GET "/" for ::1 at 2020-11-28 00:24:23 +0900
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+Processing by PagesController#home as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+Redirected to http://localhost:3000/articles
+Completed 302 Found in 2ms (ActiveRecord: 0.3ms | Allocations: 927)
+
+
+Started GET "/articles" for ::1 at 2020-11-28 00:24:23 +0900
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  Rendering articles/index.html.erb within layouts/application
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:4
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 5 OFFSET 0[0m
+  ↳ app/views/articles/_article.html.erb:2
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 1 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 3 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 4 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 10 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  Rendered articles/_article.html.erb (Duration: 15.5ms | Allocations: 10968)
+  Rendered articles/index.html.erb within layouts/application (Duration: 18.3ms | Allocations: 13256)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.4ms | Allocations: 408)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 33)
+Completed 200 OK in 31ms (Views: 25.7ms | ActiveRecord: 2.1ms | Allocations: 20061)
+
+
+Started GET "/" for ::1 at 2020-11-28 00:25:26 +0900
+Processing by PagesController#home as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+Redirected to http://localhost:3000/articles
+Completed 302 Found in 3ms (ActiveRecord: 0.4ms | Allocations: 911)
+
+
+Started GET "/articles" for ::1 at 2020-11-28 00:25:26 +0900
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  Rendering articles/index.html.erb within layouts/application
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:4
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 5 OFFSET 0[0m
+  ↳ app/views/articles/_article.html.erb:2
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 1 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 3 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 4 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 10 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  Rendered articles/_article.html.erb (Duration: 18.2ms | Allocations: 10962)
+  Rendered articles/index.html.erb within layouts/application (Duration: 21.6ms | Allocations: 12578)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.4ms | Allocations: 400)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 33)
+Completed 200 OK in 31ms (Views: 26.3ms | ActiveRecord: 2.8ms | Allocations: 18783)
+
+
+Started GET "/users" for ::1 at 2020-11-28 00:25:27 +0900
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM `users`[0m
+  ↳ app/views/users/index.html.erb:4
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` LIMIT 5 OFFSET 0[0m
+  ↳ app/views/users/index.html.erb:8
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles` WHERE `articles`.`user_id` = 1[0m
+  ↳ app/views/users/index.html.erb:19
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles` WHERE `articles`.`user_id` = 2[0m
+  ↳ app/views/users/index.html.erb:19
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles` WHERE `articles`.`user_id` = 3[0m
+  ↳ app/views/users/index.html.erb:19
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles` WHERE `articles`.`user_id` = 5[0m
+  ↳ app/views/users/index.html.erb:19
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles` WHERE `articles`.`user_id` = 6[0m
+  ↳ app/views/users/index.html.erb:19
+  Rendered users/index.html.erb within layouts/application (Duration: 18.8ms | Allocations: 8716)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.4ms | Allocations: 407)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 33)
+Completed 200 OK in 31ms (Views: 26.5ms | ActiveRecord: 2.7ms | Allocations: 14759)
+
+
+Started DELETE "/users/6" for ::1 at 2020-11-28 00:25:31 +0900
+Processing by UsersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"mQUnNjkiFQYzcA6d300+J0Q/G2JUvmSyuavRWYlgUmzWETcECokmFyioEh9HxXRZ5EfQffJujkoVoErnQqGcLg==", "id"=>"6"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 6 LIMIT 1[0m
+  ↳ app/controllers/users_controller.rb:54:in `set_user'
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:42:in `destroy'
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`user_id` = 6[0m
+  ↳ app/controllers/users_controller.rb:42:in `destroy'
+  [1m[36mArticle Destroy (0.6ms)[0m  [1m[31mDELETE FROM `articles` WHERE `articles`.`id` = 15[0m
+  ↳ app/controllers/users_controller.rb:42:in `destroy'
+  [1m[36mArticle Destroy (0.3ms)[0m  [1m[31mDELETE FROM `articles` WHERE `articles`.`id` = 16[0m
+  ↳ app/controllers/users_controller.rb:42:in `destroy'
+  [1m[36mUser Destroy (0.3ms)[0m  [1m[31mDELETE FROM `users` WHERE `users`.`id` = 6[0m
+  ↳ app/controllers/users_controller.rb:42:in `destroy'
+  [1m[35m (0.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:42:in `destroy'
+Redirected to http://localhost:3000/articles
+Completed 302 Found in 16ms (ActiveRecord: 3.4ms | Allocations: 7013)
+
+
+Started GET "/articles" for ::1 at 2020-11-28 00:25:31 +0900
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  Rendering articles/index.html.erb within layouts/application
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:4
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 5 OFFSET 0[0m
+  ↳ app/views/articles/_article.html.erb:2
+  [1m[36mCACHE User Load (0.1ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 1 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 3 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 4 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 10 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  Rendered articles/_article.html.erb (Duration: 19.3ms | Allocations: 10968)
+  Rendered articles/index.html.erb within layouts/application (Duration: 22.0ms | Allocations: 12590)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.4ms | Allocations: 408)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 22)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 33)
+Completed 200 OK in 31ms (Views: 26.6ms | ActiveRecord: 2.9ms | Allocations: 18823)
+
+
+Started GET "/users" for ::1 at 2020-11-28 00:25:35 +0900
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM `users`[0m
+  ↳ app/views/users/index.html.erb:4
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` LIMIT 5 OFFSET 0[0m
+  ↳ app/views/users/index.html.erb:8
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles` WHERE `articles`.`user_id` = 1[0m
+  ↳ app/views/users/index.html.erb:19
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles` WHERE `articles`.`user_id` = 2[0m
+  ↳ app/views/users/index.html.erb:19
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles` WHERE `articles`.`user_id` = 3[0m
+  ↳ app/views/users/index.html.erb:19
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles` WHERE `articles`.`user_id` = 5[0m
+  ↳ app/views/users/index.html.erb:19
+  Rendered users/index.html.erb within layouts/application (Duration: 16.5ms | Allocations: 6599)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.6ms | Allocations: 400)
+  Rendered layouts/_messages.html.erb (Duration: 0.2ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 33)
+Completed 200 OK in 27ms (Views: 22.2ms | ActiveRecord: 2.8ms | Allocations: 12182)
+
+
+Started DELETE "/users/5" for ::1 at 2020-11-28 00:25:40 +0900
+Processing by UsersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"KtBjbwfG4Mx1vemqXx7mVqULWhx5m3D0gsCNFxwVZqtlxHNdNG3T3W5l9SjHlqwoBXORA99Lmgwuyxap19So6Q==", "id"=>"5"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 5 LIMIT 1[0m
+  ↳ app/controllers/users_controller.rb:54:in `set_user'
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:42:in `destroy'
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`user_id` = 5[0m
+  ↳ app/controllers/users_controller.rb:42:in `destroy'
+  [1m[36mUser Destroy (0.6ms)[0m  [1m[31mDELETE FROM `users` WHERE `users`.`id` = 5[0m
+  ↳ app/controllers/users_controller.rb:42:in `destroy'
+  [1m[35m (1.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:42:in `destroy'
+Redirected to http://localhost:3000/articles
+Completed 302 Found in 14ms (ActiveRecord: 3.4ms | Allocations: 4725)
+
+
+Started GET "/articles" for ::1 at 2020-11-28 00:25:40 +0900
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  Rendering articles/index.html.erb within layouts/application
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:4
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 5 OFFSET 0[0m
+  ↳ app/views/articles/_article.html.erb:2
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 1 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 3 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 4 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCACHE User Load (0.1ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 10 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  Rendered articles/_article.html.erb (Duration: 37.5ms | Allocations: 10964)
+  Rendered articles/index.html.erb within layouts/application (Duration: 40.6ms | Allocations: 12580)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.5ms | Allocations: 400)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 22)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 33)
+Completed 200 OK in 51ms (Views: 46.6ms | ActiveRecord: 2.5ms | Allocations: 18801)
+
+
+Started GET "/users" for ::1 at 2020-11-28 00:25:44 +0900
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM `users`[0m
+  ↳ app/views/users/index.html.erb:4
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT `users`.* FROM `users` LIMIT 5 OFFSET 0[0m
+  ↳ app/views/users/index.html.erb:8
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles` WHERE `articles`.`user_id` = 1[0m
+  ↳ app/views/users/index.html.erb:19
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles` WHERE `articles`.`user_id` = 2[0m
+  ↳ app/views/users/index.html.erb:19
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles` WHERE `articles`.`user_id` = 3[0m
+  ↳ app/views/users/index.html.erb:19
+  Rendered users/index.html.erb within layouts/application (Duration: 16.5ms | Allocations: 5480)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.4ms | Allocations: 400)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 33)
+Completed 200 OK in 26ms (Views: 21.5ms | ActiveRecord: 2.7ms | Allocations: 11052)
+
+
+Started GET "/" for ::1 at 2020-11-28 00:25:44 +0900
+Processing by PagesController#home as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+Redirected to http://localhost:3000/articles
+Completed 302 Found in 3ms (ActiveRecord: 0.4ms | Allocations: 917)
+
+
+Started GET "/articles" for ::1 at 2020-11-28 00:25:44 +0900
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  Rendering articles/index.html.erb within layouts/application
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:4
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 5 OFFSET 0[0m
+  ↳ app/views/articles/_article.html.erb:2
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 1 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 3 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 4 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 10 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  Rendered articles/_article.html.erb (Duration: 18.7ms | Allocations: 10962)
+  Rendered articles/index.html.erb within layouts/application (Duration: 21.8ms | Allocations: 12578)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.4ms | Allocations: 400)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 33)
+Completed 200 OK in 32ms (Views: 26.9ms | ActiveRecord: 2.5ms | Allocations: 18777)
+
+
+Started GET "/articles?page=2" for ::1 at 2020-11-28 00:25:48 +0900
+Processing by ArticlesController#index as HTML
+  Parameters: {"page"=>"2"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  Rendering articles/index.html.erb within layouts/application
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:4
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 5 OFFSET 5[0m
+  ↳ app/views/articles/_article.html.erb:2
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 11 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 12 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 13 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 14 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 17 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 17[0m
+  ↳ app/views/articles/_article.html.erb:11
+  Rendered collection of categories/_category.html.erb [1 times] (Duration: 0.1ms | Allocations: 45)
+  Rendered articles/_article.html.erb (Duration: 23.0ms | Allocations: 11987)
+  Rendered articles/index.html.erb within layouts/application (Duration: 26.7ms | Allocations: 13777)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.6ms | Allocations: 400)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 33)
+Completed 200 OK in 37ms (Views: 31.5ms | ActiveRecord: 3.1ms | Allocations: 19969)
+
+
+Started GET "/articles?page=3" for ::1 at 2020-11-28 00:25:49 +0900
+Processing by ArticlesController#index as HTML
+  Parameters: {"page"=>"3"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  Rendering articles/index.html.erb within layouts/application
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:4
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 5 OFFSET 10[0m
+  ↳ app/views/articles/_article.html.erb:2
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 18 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 18[0m
+  ↳ app/views/articles/_article.html.erb:11
+  Rendered collection of categories/_category.html.erb [2 times] (Duration: 0.2ms | Allocations: 84)
+  Rendered articles/_article.html.erb (Duration: 7.7ms | Allocations: 3819)
+  Rendered articles/index.html.erb within layouts/application (Duration: 11.8ms | Allocations: 5431)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.5ms | Allocations: 400)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 33)
+Completed 200 OK in 24ms (Views: 19.9ms | ActiveRecord: 1.7ms | Allocations: 11617)
+
+
+Started GET "/users" for ::1 at 2020-11-28 00:25:55 +0900
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `users`[0m
+  ↳ app/views/users/index.html.erb:4
+  [1m[36mUser Load (1.6ms)[0m  [1m[34mSELECT `users`.* FROM `users` LIMIT 5 OFFSET 0[0m
+  ↳ app/views/users/index.html.erb:8
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles` WHERE `articles`.`user_id` = 1[0m
+  ↳ app/views/users/index.html.erb:19
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles` WHERE `articles`.`user_id` = 2[0m
+  ↳ app/views/users/index.html.erb:19
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles` WHERE `articles`.`user_id` = 3[0m
+  ↳ app/views/users/index.html.erb:19
+  Rendered users/index.html.erb within layouts/application (Duration: 20.4ms | Allocations: 5479)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.5ms | Allocations: 400)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 33)
+Completed 200 OK in 31ms (Views: 25.1ms | ActiveRecord: 4.3ms | Allocations: 11053)
+
+
+Started GET "/articles" for ::1 at 2020-11-28 00:26:01 +0900
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  Rendering articles/index.html.erb within layouts/application
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:4
+  [1m[36mArticle Load (2.2ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 5 OFFSET 0[0m
+  ↳ app/views/articles/_article.html.erb:2
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 1 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 3 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 4 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 10 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  Rendered articles/_article.html.erb (Duration: 28.9ms | Allocations: 10962)
+  Rendered articles/index.html.erb within layouts/application (Duration: 35.1ms | Allocations: 12578)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.5ms | Allocations: 400)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 33)
+Completed 200 OK in 46ms (Views: 38.0ms | ActiveRecord: 6.0ms | Allocations: 18759)
+
+
+Started GET "/articles/1" for ::1 at 2020-11-28 00:26:04 +0900
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.9ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:48:in `set_article'
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  Rendering articles/show.html.erb within layouts/application
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/show.html.erb:8
+  [1m[36mCategory Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 1 LIMIT 1[0m
+  ↳ app/views/articles/show.html.erb:10
+  Rendered articles/show.html.erb within layouts/application (Duration: 6.0ms | Allocations: 2441)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.8ms | Allocations: 409)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 33)
+Completed 200 OK in 26ms (Views: 17.5ms | ActiveRecord: 2.1ms | Allocations: 9439)
+
+
+Started GET "/users" for ::1 at 2020-11-28 00:26:11 +0900
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT COUNT(*) FROM `users`[0m
+  ↳ app/views/users/index.html.erb:4
+  [1m[36mUser Load (3.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` LIMIT 5 OFFSET 0[0m
+  ↳ app/views/users/index.html.erb:8
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles` WHERE `articles`.`user_id` = 1[0m
+  ↳ app/views/users/index.html.erb:19
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles` WHERE `articles`.`user_id` = 2[0m
+  ↳ app/views/users/index.html.erb:19
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles` WHERE `articles`.`user_id` = 3[0m
+  ↳ app/views/users/index.html.erb:19
+  Rendered users/index.html.erb within layouts/application (Duration: 23.4ms | Allocations: 5489)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.5ms | Allocations: 407)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 33)
+Completed 200 OK in 33ms (Views: 25.2ms | ActiveRecord: 6.7ms | Allocations: 11082)
+
+
+Started GET "/" for ::1 at 2020-11-28 00:26:15 +0900
+Processing by PagesController#home as HTML
+  [1m[36mUser Load (2.2ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+Redirected to http://localhost:3000/articles
+Completed 302 Found in 5ms (ActiveRecord: 2.2ms | Allocations: 901)
+
+
+Started GET "/articles" for ::1 at 2020-11-28 00:26:15 +0900
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  Rendering articles/index.html.erb within layouts/application
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:4
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 5 OFFSET 0[0m
+  ↳ app/views/articles/_article.html.erb:2
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 1 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 3 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 4 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 10 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  Rendered articles/_article.html.erb (Duration: 35.6ms | Allocations: 10964)
+  Rendered articles/index.html.erb within layouts/application (Duration: 38.5ms | Allocations: 12583)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.4ms | Allocations: 400)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 33)
+Completed 200 OK in 49ms (Views: 42.7ms | ActiveRecord: 3.2ms | Allocations: 18792)
+
+
+Started GET "/articles" for ::1 at 2020-11-28 21:08:27 +0900
+  [1m[35m (0.9ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  Rendering articles/index.html.erb within layouts/application
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:4
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 5 OFFSET 0[0m
+  ↳ app/views/articles/_article.html.erb:2
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 1 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 3 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 4 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 10 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  Rendered articles/_article.html.erb (Duration: 33.1ms | Allocations: 10962)
+  Rendered articles/index.html.erb within layouts/application (Duration: 41.6ms | Allocations: 12579)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 1.3ms | Allocations: 400)
+  Rendered layouts/_messages.html.erb (Duration: 0.2ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 33)
+Completed 200 OK in 87ms (Views: 73.3ms | ActiveRecord: 3.9ms | Allocations: 18765)
+
+
+Started GET "/" for ::1 at 2020-11-30 00:59:39 +0900
+  [1m[35m (0.7ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+Processing by PagesController#home as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+Redirected to http://localhost:3000/articles
+Completed 302 Found in 7ms (ActiveRecord: 0.7ms | Allocations: 914)
+
+
+Started GET "/articles" for ::1 at 2020-11-30 00:59:39 +0900
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  Rendering articles/index.html.erb within layouts/application
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:4
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 5 OFFSET 0[0m
+  ↳ app/views/articles/_article.html.erb:2
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 1 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 3 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 4 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 10 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  Rendered articles/_article.html.erb (Duration: 19.3ms | Allocations: 10962)
+  Rendered articles/index.html.erb within layouts/application (Duration: 24.3ms | Allocations: 12579)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.8ms | Allocations: 400)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 33)
+Completed 200 OK in 55ms (Views: 50.0ms | ActiveRecord: 2.5ms | Allocations: 18788)
+
+
+Started GET "/" for ::1 at 2020-11-30 00:59:44 +0900
+Processing by PagesController#home as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+Redirected to http://localhost:3000/articles
+Completed 302 Found in 3ms (ActiveRecord: 0.4ms | Allocations: 923)
+
+
+Started GET "/articles" for ::1 at 2020-11-30 00:59:44 +0900
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  Rendering articles/index.html.erb within layouts/application
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:4
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 5 OFFSET 0[0m
+  ↳ app/views/articles/_article.html.erb:2
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 1 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 3 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 4 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 10 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  Rendered articles/_article.html.erb (Duration: 56.6ms | Allocations: 10964)
+  Rendered articles/index.html.erb within layouts/application (Duration: 59.7ms | Allocations: 12580)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.4ms | Allocations: 400)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 33)
+Completed 200 OK in 69ms (Views: 63.7ms | ActiveRecord: 2.7ms | Allocations: 18780)
+
+
+Started GET "/" for ::1 at 2020-12-03 01:41:09 +0900
+  [1m[35m (1.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+Processing by PagesController#home as HTML
+  [1m[36mUser Load (20.1ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+Redirected to http://localhost:3000/articles
+Completed 302 Found in 28ms (ActiveRecord: 20.1ms | Allocations: 898)
+
+
+Started GET "/articles" for ::1 at 2020-12-03 01:41:09 +0900
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  Rendering articles/index.html.erb within layouts/application
+  [1m[35m (2.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:4
+  [1m[36mArticle Load (2.5ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 5 OFFSET 0[0m
+  ↳ app/views/articles/_article.html.erb:2
+  [1m[36mCACHE User Load (0.1ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (1.4ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 1 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (3.9ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (6.0ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 3 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (13.4ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 4 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (10.8ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 10 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  Rendered articles/_article.html.erb (Duration: 70.0ms | Allocations: 10962)
+  Rendered articles/index.html.erb within layouts/application (Duration: 79.1ms | Allocations: 12579)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 2.1ms | Allocations: 400)
+  Rendered layouts/_messages.html.erb (Duration: 0.7ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 33)
+Completed 200 OK in 120ms (Views: 76.4ms | ActiveRecord: 40.8ms | Allocations: 18763)
+
+
+Started GET "/" for ::1 at 2020-12-04 21:47:59 +0900
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+Processing by PagesController#home as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+Redirected to http://localhost:3000/articles
+Completed 302 Found in 4ms (ActiveRecord: 0.4ms | Allocations: 892)
+
+
+Started GET "/articles" for ::1 at 2020-12-04 21:47:59 +0900
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  Rendering articles/index.html.erb within layouts/application
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:4
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 5 OFFSET 0[0m
+  ↳ app/views/articles/_article.html.erb:2
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (1.0ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 1 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 3 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 4 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.9ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 10 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  Rendered articles/_article.html.erb (Duration: 42.4ms | Allocations: 10962)
+  Rendered articles/index.html.erb within layouts/application (Duration: 45.6ms | Allocations: 12578)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.5ms | Allocations: 400)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 33)
+Completed 200 OK in 72ms (Views: 64.4ms | ActiveRecord: 4.8ms | Allocations: 18780)
+
+
+Started GET "/" for ::1 at 2020-12-06 22:02:57 +0900
+  [1m[35m (1.1ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by PagesController#home as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+Redirected to http://localhost:3000/articles
+Completed 302 Found in 31ms (ActiveRecord: 13.2ms | Allocations: 8276)
+
+
+Started GET "/articles" for ::1 at 2020-12-06 22:02:57 +0900
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  Rendering articles/index.html.erb within layouts/application
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:4
+  [1m[36mArticle Load (2.6ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 5 OFFSET 0[0m
+  ↳ app/views/articles/_article.html.erb:2
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (1.4ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 1 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 3 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 4 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:7
+  [1m[36mCategory Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` INNER JOIN `article_categories` ON `categories`.`id` = `article_categories`.`category_id` WHERE `article_categories`.`article_id` = 10 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:10
+  Rendered articles/_article.html.erb (Duration: 91.7ms | Allocations: 23307)
+  Rendered articles/index.html.erb within layouts/application (Duration: 112.8ms | Allocations: 27533)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 5.1ms | Allocations: 965)
+  Rendered layouts/_messages.html.erb (Duration: 0.8ms | Allocations: 192)
+  Rendered layouts/_footer.html.erb (Duration: 1.0ms | Allocations: 141)
+Completed 200 OK in 173ms (Views: 140.9ms | ActiveRecord: 23.0ms | Allocations: 42853)
+
+
