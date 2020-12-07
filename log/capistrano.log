@@ -1,0 +1,1065 @@
+# Logfile created on 2020-12-06 22:28:00 +0900 by logger.rb/66358
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-12-06 22:28:00 +0900 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [249e89ce] Running [ -d $HOME/.rbenv/versions/2.6.5 ] as ec2-user@54.238.35.169
+ DEBUG [249e89ce] Command: [ -d $HOME/.rbenv/versions/2.6.5 ]
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-12-06 22:41:39 +0900 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [61fe5490] Running [ -d $HOME/.rbenv/versions/2.6.5 ] as ec2-user@54.238.35.169
+ DEBUG [61fe5490] Command: [ -d $HOME/.rbenv/versions/2.6.5 ]
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-12-06 22:50:39 +0900 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [dfd4e772] Running [ -d $HOME/.rbenv/versions/2.6.5 ] as ec2-user@54.238.35.169
+ DEBUG [dfd4e772] Command: [ -d $HOME/.rbenv/versions/2.6.5 ]
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-12-06 22:52:53 +0900 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [db7c6970] Running [ -d $HOME/.rbenv/versions/2.6.5 ] as ec2-user@54.238.35.169
+ DEBUG [db7c6970] Command: [ -d $HOME/.rbenv/versions/2.6.5 ]
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-12-07 11:12:56 +0900 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [ebfd0efe] Running [ -d $HOME/.rbenv/versions/2.6.5 ] as ec2-user@54.238.35.169
+ DEBUG [ebfd0efe] Command: [ -d $HOME/.rbenv/versions/2.6.5 ]
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-12-07 11:15:32 +0900 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [81e4f128] Running [ -d $HOME/.rbenv/versions/2.6.5 ] as ec2-user@54.238.35.169
+ DEBUG [81e4f128] Command: [ -d $HOME/.rbenv/versions/2.6.5 ]
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-12-07 11:19:16 +0900 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [e6b14883] Running [ -d $HOME/.rbenv/versions/2.6.5 ] as ec2-user@54.238.35.169
+ DEBUG [e6b14883] Command: [ -d $HOME/.rbenv/versions/2.6.5 ]
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-12-07 11:38:41 +0900 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [0475b384] Running [ -d $HOME/.rbenv/versions/2.6.5 ] as ec2-user@54.238.35.169
+ DEBUG [0475b384] Command: [ -d $HOME/.rbenv/versions/2.6.5 ]
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-12-07 11:40:56 +0900 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [bad815f8] Running [ -d $HOME/.rbenv/versions/2.6.5 ] as ec2-user@54.238.35.169
+ DEBUG [bad815f8] Command: [ -d $HOME/.rbenv/versions/2.6.5 ]
+ DEBUG [bad815f8] Finished in 0.445 seconds with exit status 0 (successful).
+ DEBUG [79b29253] Running [ ! -d /var/www/alpha-blg/shared/config ] as ec2-user@54.238.35.169
+ DEBUG [79b29253] Command: [ ! -d /var/www/alpha-blg/shared/config ]
+ DEBUG [79b29253] Finished in 0.109 seconds with exit status 0 (successful).
+  INFO [e9056ebb] Running mkdir -p /var/www/alpha-blg/shared/config as ec2-user@54.238.35.169
+ DEBUG [e9056ebb] Command: mkdir -p /var/www/alpha-blg/shared/config
+  INFO [e9056ebb] Finished in 0.117 seconds with exit status 0 (successful).
+ DEBUG Uploading config/master.key 0.0%
+  INFO Uploading config/master.key 100.0%
+  INFO [c7260eaf] Running /usr/bin/env mkdir -p /tmp as ec2-user@54.238.35.169
+ DEBUG [c7260eaf] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" ; /usr/bin/env mkdir -p /tmp )
+  INFO [c7260eaf] Finished in 0.110 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-alpha-blg-production-akihisa.m.sh 0.0%
+  INFO Uploading /tmp/git-ssh-alpha-blg-production-akihisa.m.sh 100.0%
+  INFO [4b71de93] Running /usr/bin/env chmod 700 /tmp/git-ssh-alpha-blg-production-akihisa.m.sh as ec2-user@54.238.35.169
+ DEBUG [4b71de93] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" ; /usr/bin/env chmod 700 /tmp/git-ssh-alpha-blg-production-akihisa.m.sh )
+  INFO [4b71de93] Finished in 0.111 seconds with exit status 0 (successful).
+  INFO [c79496d3] Running /usr/bin/env git ls-remote git@github.com:akyhysa/alpha-blg.git HEAD as ec2-user@54.238.35.169
+ DEBUG [c79496d3] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-alpha-blg-production-akihisa.m.sh" ; /usr/bin/env git ls-remote git@github.com:akyhysa/alpha-blg.git HEAD )
+ DEBUG [c79496d3] 	cabbb4c56d1e1f0263bf271ddf092cbce77671f8	HEAD
+  INFO [c79496d3] Finished in 2.110 seconds with exit status 0 (successful).
+  INFO [2656ec48] Running /usr/bin/env mkdir -p /var/www/alpha-blg/shared /var/www/alpha-blg/releases as ec2-user@54.238.35.169
+ DEBUG [2656ec48] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" ; /usr/bin/env mkdir -p /var/www/alpha-blg/shared /var/www/alpha-blg/releases )
+  INFO [2656ec48] Finished in 0.123 seconds with exit status 0 (successful).
+  INFO [7371f3c9] Running /usr/bin/env mkdir -p /var/www/alpha-blg/shared/log /var/www/alpha-blg/shared/tmp/pids /var/www/alpha-blg/shared/tmp/cache /var/www/alpha-blg/shared/tmp/sockets /var/www/alpha-blg/shared/vendor/bundle /var/www/alpha-blg/shared/public/system /var/www/alpha-blg/shared/public/uploads /var/www/alpha-blg/shared/public/assets as ec2-user@54.238.35.169
+ DEBUG [7371f3c9] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" ; /usr/bin/env mkdir -p /var/www/alpha-blg/shared/log /var/www/alpha-blg/shared/tmp/pids /var/www/alpha-blg/shared/tmp/cache /var/www/alpha-blg/shared/tmp/sockets /var/www/alpha-blg/shared/vendor/bundle /var/www/alpha-blg/shared/public/system /var/www/alpha-blg/shared/public/uploads /var/www/alpha-blg/shared/public/assets )
+  INFO [7371f3c9] Finished in 0.112 seconds with exit status 0 (successful).
+  INFO [7253dff2] Running /usr/bin/env mkdir -p /var/www/alpha-blg/shared/config as ec2-user@54.238.35.169
+ DEBUG [7253dff2] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" ; /usr/bin/env mkdir -p /var/www/alpha-blg/shared/config )
+  INFO [7253dff2] Finished in 0.121 seconds with exit status 0 (successful).
+ DEBUG [dedd112a] Running [ -f /var/www/alpha-blg/shared/config/master.key ] as ec2-user@54.238.35.169
+ DEBUG [dedd112a] Command: [ -f /var/www/alpha-blg/shared/config/master.key ]
+ DEBUG [dedd112a] Finished in 0.121 seconds with exit status 0 (successful).
+ DEBUG [748d8e8f] Running [ -f /var/www/alpha-blg/current/REVISION ] as ec2-user@54.238.35.169
+ DEBUG [748d8e8f] Command: [ -f /var/www/alpha-blg/current/REVISION ]
+ DEBUG [748d8e8f] Finished in 0.110 seconds with exit status 1 (failed).
+ DEBUG [616ae326] Running [ -f /var/www/alpha-blg/repo/HEAD ] as ec2-user@54.238.35.169
+ DEBUG [616ae326] Command: [ -f /var/www/alpha-blg/repo/HEAD ]
+ DEBUG [616ae326] Finished in 0.111 seconds with exit status 1 (failed).
+ DEBUG [105354c3] Running if test ! -d /var/www/alpha-blg; then echo "Directory does not exist '/var/www/alpha-blg'" 1>&2; false; fi as ec2-user@54.238.35.169
+ DEBUG [105354c3] Command: if test ! -d /var/www/alpha-blg; then echo "Directory does not exist '/var/www/alpha-blg'" 1>&2; false; fi
+ DEBUG [105354c3] Finished in 0.110 seconds with exit status 0 (successful).
+  INFO [c2fe36c1] Running /usr/bin/env git clone --mirror git@github.com:akyhysa/alpha-blg.git /var/www/alpha-blg/repo as ec2-user@54.238.35.169
+ DEBUG [c2fe36c1] Command: cd /var/www/alpha-blg && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-alpha-blg-production-akihisa.m.sh" ; /usr/bin/env git clone --mirror git@github.com:akyhysa/alpha-blg.git /var/www/alpha-blg/repo )
+ DEBUG [c2fe36c1] 	Cloning into bare repository '/var/www/alpha-blg/repo'...
+  INFO [c2fe36c1] Finished in 10.802 seconds with exit status 0 (successful).
+ DEBUG [dce8147b] Running if test ! -d /var/www/alpha-blg/repo; then echo "Directory does not exist '/var/www/alpha-blg/repo'" 1>&2; false; fi as ec2-user@54.238.35.169
+ DEBUG [dce8147b] Command: if test ! -d /var/www/alpha-blg/repo; then echo "Directory does not exist '/var/www/alpha-blg/repo'" 1>&2; false; fi
+ DEBUG [dce8147b] Finished in 0.114 seconds with exit status 0 (successful).
+  INFO [0a494bff] Running /usr/bin/env git remote set-url origin git@github.com:akyhysa/alpha-blg.git as ec2-user@54.238.35.169
+ DEBUG [0a494bff] Command: cd /var/www/alpha-blg/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-alpha-blg-production-akihisa.m.sh" ; /usr/bin/env git remote set-url origin git@github.com:akyhysa/alpha-blg.git )
+  INFO [0a494bff] Finished in 0.115 seconds with exit status 0 (successful).
+  INFO [1bbae1bf] Running /usr/bin/env git remote update --prune as ec2-user@54.238.35.169
+ DEBUG [1bbae1bf] Command: cd /var/www/alpha-blg/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-alpha-blg-production-akihisa.m.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [1bbae1bf] 	Fetching origin
+  INFO [1bbae1bf] Finished in 2.065 seconds with exit status 0 (successful).
+ DEBUG [1eec9ab0] Running if test ! -d /var/www/alpha-blg/repo; then echo "Directory does not exist '/var/www/alpha-blg/repo'" 1>&2; false; fi as ec2-user@54.238.35.169
+ DEBUG [1eec9ab0] Command: if test ! -d /var/www/alpha-blg/repo; then echo "Directory does not exist '/var/www/alpha-blg/repo'" 1>&2; false; fi
+ DEBUG [1eec9ab0] Finished in 0.111 seconds with exit status 0 (successful).
+  INFO [f1c5e373] Running /usr/bin/env mkdir -p /var/www/alpha-blg/releases/20201207024100 as ec2-user@54.238.35.169
+ DEBUG [f1c5e373] Command: cd /var/www/alpha-blg/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-alpha-blg-production-akihisa.m.sh" ; /usr/bin/env mkdir -p /var/www/alpha-blg/releases/20201207024100 )
+  INFO [f1c5e373] Finished in 0.113 seconds with exit status 0 (successful).
+  INFO [8b8a71dc] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/alpha-blg/releases/20201207024100 as ec2-user@54.238.35.169
+ DEBUG [8b8a71dc] Command: cd /var/www/alpha-blg/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-alpha-blg-production-akihisa.m.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/alpha-blg/releases/20201207024100 )
+  INFO [8b8a71dc] Finished in 2.549 seconds with exit status 0 (successful).
+ DEBUG [ddc9bb31] Running if test ! -d /var/www/alpha-blg/repo; then echo "Directory does not exist '/var/www/alpha-blg/repo'" 1>&2; false; fi as ec2-user@54.238.35.169
+ DEBUG [ddc9bb31] Command: if test ! -d /var/www/alpha-blg/repo; then echo "Directory does not exist '/var/www/alpha-blg/repo'" 1>&2; false; fi
+ DEBUG [ddc9bb31] Finished in 0.225 seconds with exit status 0 (successful).
+ DEBUG [2307ad15] Running /usr/bin/env git rev-list --max-count=1 master as ec2-user@54.238.35.169
+ DEBUG [2307ad15] Command: cd /var/www/alpha-blg/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-alpha-blg-production-akihisa.m.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [2307ad15] 	cabbb4c56d1e1f0263bf271ddf092cbce77671f8
+ DEBUG [2307ad15] Finished in 0.116 seconds with exit status 0 (successful).
+ DEBUG [cfdf6f25] Running if test ! -d /var/www/alpha-blg/releases/20201207024100; then echo "Directory does not exist '/var/www/alpha-blg/releases/20201207024100'" 1>&2; false; fi as ec2-user@54.238.35.169
+ DEBUG [cfdf6f25] Command: if test ! -d /var/www/alpha-blg/releases/20201207024100; then echo "Directory does not exist '/var/www/alpha-blg/releases/20201207024100'" 1>&2; false; fi
+ DEBUG [cfdf6f25] Finished in 0.113 seconds with exit status 0 (successful).
+  INFO [b355c142] Running /usr/bin/env echo "cabbb4c56d1e1f0263bf271ddf092cbce77671f8" > REVISION as ec2-user@54.238.35.169
+ DEBUG [b355c142] Command: cd /var/www/alpha-blg/releases/20201207024100 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" ; /usr/bin/env echo "cabbb4c56d1e1f0263bf271ddf092cbce77671f8" > REVISION )
+  INFO [b355c142] Finished in 0.112 seconds with exit status 0 (successful).
+  INFO [35cc3862] Running /usr/bin/env mkdir -p /var/www/alpha-blg/releases/20201207024100/config as ec2-user@54.238.35.169
+ DEBUG [35cc3862] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" ; /usr/bin/env mkdir -p /var/www/alpha-blg/releases/20201207024100/config )
+  INFO [35cc3862] Finished in 0.114 seconds with exit status 0 (successful).
+ DEBUG [3aef582b] Running [ -L /var/www/alpha-blg/releases/20201207024100/config/master.key ] as ec2-user@54.238.35.169
+ DEBUG [3aef582b] Command: [ -L /var/www/alpha-blg/releases/20201207024100/config/master.key ]
+ DEBUG [3aef582b] Finished in 0.109 seconds with exit status 1 (failed).
+ DEBUG [2fda16b0] Running [ -f /var/www/alpha-blg/releases/20201207024100/config/master.key ] as ec2-user@54.238.35.169
+ DEBUG [2fda16b0] Command: [ -f /var/www/alpha-blg/releases/20201207024100/config/master.key ]
+ DEBUG [2fda16b0] Finished in 0.111 seconds with exit status 0 (successful).
+  INFO [7aed0dfa] Running /usr/bin/env rm /var/www/alpha-blg/releases/20201207024100/config/master.key as ec2-user@54.238.35.169
+ DEBUG [7aed0dfa] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" ; /usr/bin/env rm /var/www/alpha-blg/releases/20201207024100/config/master.key )
+  INFO [7aed0dfa] Finished in 0.114 seconds with exit status 0 (successful).
+  INFO [14f352c9] Running /usr/bin/env ln -s /var/www/alpha-blg/shared/config/master.key /var/www/alpha-blg/releases/20201207024100/config/master.key as ec2-user@54.238.35.169
+ DEBUG [14f352c9] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" ; /usr/bin/env ln -s /var/www/alpha-blg/shared/config/master.key /var/www/alpha-blg/releases/20201207024100/config/master.key )
+  INFO [14f352c9] Finished in 0.111 seconds with exit status 0 (successful).
+  INFO [bab0cef8] Running /usr/bin/env mkdir -p /var/www/alpha-blg/releases/20201207024100 /var/www/alpha-blg/releases/20201207024100/tmp /var/www/alpha-blg/releases/20201207024100/vendor /var/www/alpha-blg/releases/20201207024100/public as ec2-user@54.238.35.169
+ DEBUG [bab0cef8] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" ; /usr/bin/env mkdir -p /var/www/alpha-blg/releases/20201207024100 /var/www/alpha-blg/releases/20201207024100/tmp /var/www/alpha-blg/releases/20201207024100/vendor /var/www/alpha-blg/releases/20201207024100/public )
+  INFO [bab0cef8] Finished in 0.116 seconds with exit status 0 (successful).
+ DEBUG [82c067c6] Running [ -L /var/www/alpha-blg/releases/20201207024100/log ] as ec2-user@54.238.35.169
+ DEBUG [82c067c6] Command: [ -L /var/www/alpha-blg/releases/20201207024100/log ]
+ DEBUG [82c067c6] Finished in 0.111 seconds with exit status 1 (failed).
+ DEBUG [9b1bdb36] Running [ -d /var/www/alpha-blg/releases/20201207024100/log ] as ec2-user@54.238.35.169
+ DEBUG [9b1bdb36] Command: [ -d /var/www/alpha-blg/releases/20201207024100/log ]
+ DEBUG [9b1bdb36] Finished in 0.117 seconds with exit status 0 (successful).
+  INFO [ed02d304] Running /usr/bin/env rm -rf /var/www/alpha-blg/releases/20201207024100/log as ec2-user@54.238.35.169
+ DEBUG [ed02d304] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" ; /usr/bin/env rm -rf /var/www/alpha-blg/releases/20201207024100/log )
+  INFO [ed02d304] Finished in 0.130 seconds with exit status 0 (successful).
+  INFO [6de5331e] Running /usr/bin/env ln -s /var/www/alpha-blg/shared/log /var/www/alpha-blg/releases/20201207024100/log as ec2-user@54.238.35.169
+ DEBUG [6de5331e] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" ; /usr/bin/env ln -s /var/www/alpha-blg/shared/log /var/www/alpha-blg/releases/20201207024100/log )
+  INFO [6de5331e] Finished in 0.111 seconds with exit status 0 (successful).
+ DEBUG [6dda76c5] Running [ -L /var/www/alpha-blg/releases/20201207024100/tmp/pids ] as ec2-user@54.238.35.169
+ DEBUG [6dda76c5] Command: [ -L /var/www/alpha-blg/releases/20201207024100/tmp/pids ]
+ DEBUG [6dda76c5] Finished in 0.114 seconds with exit status 1 (failed).
+ DEBUG [6e6a1d22] Running [ -d /var/www/alpha-blg/releases/20201207024100/tmp/pids ] as ec2-user@54.238.35.169
+ DEBUG [6e6a1d22] Command: [ -d /var/www/alpha-blg/releases/20201207024100/tmp/pids ]
+ DEBUG [6e6a1d22] Finished in 0.152 seconds with exit status 0 (successful).
+  INFO [7e199dc9] Running /usr/bin/env rm -rf /var/www/alpha-blg/releases/20201207024100/tmp/pids as ec2-user@54.238.35.169
+ DEBUG [7e199dc9] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" ; /usr/bin/env rm -rf /var/www/alpha-blg/releases/20201207024100/tmp/pids )
+  INFO [7e199dc9] Finished in 0.115 seconds with exit status 0 (successful).
+  INFO [0a33645d] Running /usr/bin/env ln -s /var/www/alpha-blg/shared/tmp/pids /var/www/alpha-blg/releases/20201207024100/tmp/pids as ec2-user@54.238.35.169
+ DEBUG [0a33645d] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" ; /usr/bin/env ln -s /var/www/alpha-blg/shared/tmp/pids /var/www/alpha-blg/releases/20201207024100/tmp/pids )
+  INFO [0a33645d] Finished in 0.114 seconds with exit status 0 (successful).
+ DEBUG [36197087] Running [ -L /var/www/alpha-blg/releases/20201207024100/tmp/cache ] as ec2-user@54.238.35.169
+ DEBUG [36197087] Command: [ -L /var/www/alpha-blg/releases/20201207024100/tmp/cache ]
+ DEBUG [36197087] Finished in 0.107 seconds with exit status 1 (failed).
+ DEBUG [762eea79] Running [ -d /var/www/alpha-blg/releases/20201207024100/tmp/cache ] as ec2-user@54.238.35.169
+ DEBUG [762eea79] Command: [ -d /var/www/alpha-blg/releases/20201207024100/tmp/cache ]
+ DEBUG [762eea79] Finished in 0.113 seconds with exit status 0 (successful).
+  INFO [c689028f] Running /usr/bin/env rm -rf /var/www/alpha-blg/releases/20201207024100/tmp/cache as ec2-user@54.238.35.169
+ DEBUG [c689028f] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" ; /usr/bin/env rm -rf /var/www/alpha-blg/releases/20201207024100/tmp/cache )
+  INFO [c689028f] Finished in 0.210 seconds with exit status 0 (successful).
+  INFO [bd392016] Running /usr/bin/env ln -s /var/www/alpha-blg/shared/tmp/cache /var/www/alpha-blg/releases/20201207024100/tmp/cache as ec2-user@54.238.35.169
+ DEBUG [bd392016] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" ; /usr/bin/env ln -s /var/www/alpha-blg/shared/tmp/cache /var/www/alpha-blg/releases/20201207024100/tmp/cache )
+  INFO [bd392016] Finished in 0.113 seconds with exit status 0 (successful).
+ DEBUG [b23c10cb] Running [ -L /var/www/alpha-blg/releases/20201207024100/tmp/sockets ] as ec2-user@54.238.35.169
+ DEBUG [b23c10cb] Command: [ -L /var/www/alpha-blg/releases/20201207024100/tmp/sockets ]
+ DEBUG [b23c10cb] Finished in 0.113 seconds with exit status 1 (failed).
+ DEBUG [0984137f] Running [ -d /var/www/alpha-blg/releases/20201207024100/tmp/sockets ] as ec2-user@54.238.35.169
+ DEBUG [0984137f] Command: [ -d /var/www/alpha-blg/releases/20201207024100/tmp/sockets ]
+ DEBUG [0984137f] Finished in 0.112 seconds with exit status 1 (failed).
+  INFO [bc1d962c] Running /usr/bin/env ln -s /var/www/alpha-blg/shared/tmp/sockets /var/www/alpha-blg/releases/20201207024100/tmp/sockets as ec2-user@54.238.35.169
+ DEBUG [bc1d962c] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" ; /usr/bin/env ln -s /var/www/alpha-blg/shared/tmp/sockets /var/www/alpha-blg/releases/20201207024100/tmp/sockets )
+  INFO [bc1d962c] Finished in 0.120 seconds with exit status 0 (successful).
+ DEBUG [d8bc758d] Running [ -L /var/www/alpha-blg/releases/20201207024100/vendor/bundle ] as ec2-user@54.238.35.169
+ DEBUG [d8bc758d] Command: [ -L /var/www/alpha-blg/releases/20201207024100/vendor/bundle ]
+ DEBUG [d8bc758d] Finished in 0.115 seconds with exit status 1 (failed).
+ DEBUG [69d6c078] Running [ -d /var/www/alpha-blg/releases/20201207024100/vendor/bundle ] as ec2-user@54.238.35.169
+ DEBUG [69d6c078] Command: [ -d /var/www/alpha-blg/releases/20201207024100/vendor/bundle ]
+ DEBUG [69d6c078] Finished in 0.125 seconds with exit status 1 (failed).
+  INFO [a504fe11] Running /usr/bin/env ln -s /var/www/alpha-blg/shared/vendor/bundle /var/www/alpha-blg/releases/20201207024100/vendor/bundle as ec2-user@54.238.35.169
+ DEBUG [a504fe11] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" ; /usr/bin/env ln -s /var/www/alpha-blg/shared/vendor/bundle /var/www/alpha-blg/releases/20201207024100/vendor/bundle )
+  INFO [a504fe11] Finished in 0.113 seconds with exit status 0 (successful).
+ DEBUG [5f2655b8] Running [ -L /var/www/alpha-blg/releases/20201207024100/public/system ] as ec2-user@54.238.35.169
+ DEBUG [5f2655b8] Command: [ -L /var/www/alpha-blg/releases/20201207024100/public/system ]
+ DEBUG [5f2655b8] Finished in 0.108 seconds with exit status 1 (failed).
+ DEBUG [d2bb097e] Running [ -d /var/www/alpha-blg/releases/20201207024100/public/system ] as ec2-user@54.238.35.169
+ DEBUG [d2bb097e] Command: [ -d /var/www/alpha-blg/releases/20201207024100/public/system ]
+ DEBUG [d2bb097e] Finished in 0.116 seconds with exit status 1 (failed).
+  INFO [eb5b3646] Running /usr/bin/env ln -s /var/www/alpha-blg/shared/public/system /var/www/alpha-blg/releases/20201207024100/public/system as ec2-user@54.238.35.169
+ DEBUG [eb5b3646] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" ; /usr/bin/env ln -s /var/www/alpha-blg/shared/public/system /var/www/alpha-blg/releases/20201207024100/public/system )
+  INFO [eb5b3646] Finished in 0.113 seconds with exit status 0 (successful).
+ DEBUG [a14f6e49] Running [ -L /var/www/alpha-blg/releases/20201207024100/public/uploads ] as ec2-user@54.238.35.169
+ DEBUG [a14f6e49] Command: [ -L /var/www/alpha-blg/releases/20201207024100/public/uploads ]
+ DEBUG [a14f6e49] Finished in 0.112 seconds with exit status 1 (failed).
+ DEBUG [7b6ac36b] Running [ -d /var/www/alpha-blg/releases/20201207024100/public/uploads ] as ec2-user@54.238.35.169
+ DEBUG [7b6ac36b] Command: [ -d /var/www/alpha-blg/releases/20201207024100/public/uploads ]
+ DEBUG [7b6ac36b] Finished in 0.127 seconds with exit status 1 (failed).
+  INFO [62fa9a95] Running /usr/bin/env ln -s /var/www/alpha-blg/shared/public/uploads /var/www/alpha-blg/releases/20201207024100/public/uploads as ec2-user@54.238.35.169
+ DEBUG [62fa9a95] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" ; /usr/bin/env ln -s /var/www/alpha-blg/shared/public/uploads /var/www/alpha-blg/releases/20201207024100/public/uploads )
+  INFO [62fa9a95] Finished in 0.111 seconds with exit status 0 (successful).
+ DEBUG [796549ab] Running [ -L /var/www/alpha-blg/releases/20201207024100/public/assets ] as ec2-user@54.238.35.169
+ DEBUG [796549ab] Command: [ -L /var/www/alpha-blg/releases/20201207024100/public/assets ]
+ DEBUG [796549ab] Finished in 0.111 seconds with exit status 1 (failed).
+ DEBUG [3eee53eb] Running [ -d /var/www/alpha-blg/releases/20201207024100/public/assets ] as ec2-user@54.238.35.169
+ DEBUG [3eee53eb] Command: [ -d /var/www/alpha-blg/releases/20201207024100/public/assets ]
+ DEBUG [3eee53eb] Finished in 0.110 seconds with exit status 1 (failed).
+  INFO [f18897ed] Running /usr/bin/env ln -s /var/www/alpha-blg/shared/public/assets /var/www/alpha-blg/releases/20201207024100/public/assets as ec2-user@54.238.35.169
+ DEBUG [f18897ed] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" ; /usr/bin/env ln -s /var/www/alpha-blg/shared/public/assets /var/www/alpha-blg/releases/20201207024100/public/assets )
+  INFO [f18897ed] Finished in 0.113 seconds with exit status 0 (successful).
+ DEBUG [75addf75] Running if test ! -d /var/www/alpha-blg/releases/20201207024100; then echo "Directory does not exist '/var/www/alpha-blg/releases/20201207024100'" 1>&2; false; fi as ec2-user@54.238.35.169
+ DEBUG [75addf75] Command: if test ! -d /var/www/alpha-blg/releases/20201207024100; then echo "Directory does not exist '/var/www/alpha-blg/releases/20201207024100'" 1>&2; false; fi
+ DEBUG [75addf75] Finished in 0.110 seconds with exit status 0 (successful).
+  INFO [c149c0de] Running $HOME/.rbenv/bin/rbenv exec bundle config --local deployment true as ec2-user@54.238.35.169
+ DEBUG [c149c0de] Command: cd /var/www/alpha-blg/releases/20201207024100 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" ; $HOME/.rbenv/bin/rbenv exec bundle config --local deployment true )
+  INFO [c149c0de] Finished in 0.485 seconds with exit status 0 (successful).
+  INFO [f9cfd762] Running $HOME/.rbenv/bin/rbenv exec bundle config --local path /var/www/alpha-blg/shared/bundle as ec2-user@54.238.35.169
+ DEBUG [f9cfd762] Command: cd /var/www/alpha-blg/releases/20201207024100 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" ; $HOME/.rbenv/bin/rbenv exec bundle config --local path /var/www/alpha-blg/shared/bundle )
+  INFO [f9cfd762] Finished in 0.300 seconds with exit status 0 (successful).
+  INFO [4d506a67] Running $HOME/.rbenv/bin/rbenv exec bundle config --local without development:test as ec2-user@54.238.35.169
+ DEBUG [4d506a67] Command: cd /var/www/alpha-blg/releases/20201207024100 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" ; $HOME/.rbenv/bin/rbenv exec bundle config --local without development:test )
+  INFO [4d506a67] Finished in 0.300 seconds with exit status 0 (successful).
+ DEBUG [071d86c0] Running if test ! -d /var/www/alpha-blg/releases/20201207024100; then echo "Directory does not exist '/var/www/alpha-blg/releases/20201207024100'" 1>&2; false; fi as ec2-user@54.238.35.169
+ DEBUG [071d86c0] Command: if test ! -d /var/www/alpha-blg/releases/20201207024100; then echo "Directory does not exist '/var/www/alpha-blg/releases/20201207024100'" 1>&2; false; fi
+ DEBUG [071d86c0] Finished in 0.111 seconds with exit status 0 (successful).
+ DEBUG [25c2a1ba] Running $HOME/.rbenv/bin/rbenv exec bundle check as ec2-user@54.238.35.169
+ DEBUG [25c2a1ba] Command: cd /var/www/alpha-blg/releases/20201207024100 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" ; $HOME/.rbenv/bin/rbenv exec bundle check )
+ DEBUG [25c2a1ba] 	The dependency tzinfo-data (>= 0) will be unused by any of the platforms Bundler is installing for. Bundler is installing for ruby but the dependency is only for x86-mingw32, x86-mswin32, x64-mingw32, java. To add those platforms to the bundle, run `bundle lock --add-platform x86-mingw32 x86-mswin32 x64-mingw32 java`.
+ DEBUG [25c2a1ba] 	The following gems are missing
+ DEBUG [25c2a1ba] 	 * rake (13.0.1)
+ DEBUG [25c2a1ba] 	 * concurrent-ruby (1.1.7)
+ DEBUG [25c2a1ba] 	 * i18n (1.8.5)
+ DEBUG [25c2a1ba] 	 * minitest (5.14.2)
+ DEBUG [25c2a1ba] 	 * thread_safe (0.3.6)
+ DEBUG [25c2a1ba] 	 * tzinfo (1.2.7)
+ DEBUG [25c2a1ba] 	 * zeitwerk (2.4.1)
+ DEBUG [25c2a1ba] 	 * activesupport (6.0.3.4)
+ DEBUG [25c2a1ba] 	 * builder (3.2.4)
+ DEBUG [25c2a1ba] 	 * erubi (1.9.0)
+ DEBUG [25c2a1ba] 	 * mini_portile2 (2.4.0)
+ DEBUG [25c2a1ba] 	 * nokogiri (1.10.10)
+ DEBUG [25c2a1ba] 	 * rails-dom-testing (2.0.3)
+ DEBUG [25c2a1ba] 	 * crass (1.0.6)
+ DEBUG [25c2a1ba] 	 * loofah (2.7.0)
+ DEBUG [25c2a1ba] 	 * rails-html-sanitizer (1.3.0)
+ DEBUG [25c2a1ba] 	 * actionview (6.0.3.4)
+ DEBUG [25c2a1ba] 	 * rack (2.2.3)
+ DEBUG [25c2a1ba] 	 * rack-test (1.1.0)
+ DEBUG [25c2a1ba] 	 * actionpack (6.0.3.4)
+ DEBUG [25c2a1ba] 	 * nio4r (2.5.4)
+ DEBUG [25c2a1ba] 	 * websocket-extensions (0.1.5)
+ DEBUG [25c2a1ba] 	 * websocket-driver (0.7.3)
+ DEBUG [25c2a1ba] 	 * actioncable (6.0.3.4)
+ DEBUG [25c2a1ba] 	 * globalid (0.4.2)
+ DEBUG [25c2a1ba] 	 * activejob (6.0.3.4)
+ DEBUG [25c2a1ba] 	 * activemodel (6.0.3.4)
+ DEBUG [25c2a1ba] 	 * activerecord (6.0.3.4)
+ DEBUG [25c2a1ba] 	 * mimemagic (0.3.5)
+ DEBUG [25c2a1ba] 	 * marcel (0.3.3)
+ DEBUG [25c2a1ba] 	 * activestorage (6.0.3.4)
+ DEBUG [25c2a1ba] 	 * mini_mime (1.0.2)
+ DEBUG [25c2a1ba] 	 * mail (2.7.1)
+ DEBUG [25c2a1ba] 	 * actionmailbox (6.0.3.4)
+ DEBUG [25c2a1ba] 	 * actionmailer (6.0.3.4)
+ DEBUG [25c2a1ba] 	 * actiontext (6.0.3.4)
+ DEBUG [25c2a1ba] 	 * bcrypt (3.1.16)
+ DEBUG [25c2a1ba] 	 * msgpack (1.3.3)
+ DEBUG [25c2a1ba] 	 * bootsnap (1.5.0)
+ DEBUG [25c2a1ba] 	 * ffi (1.13.1)
+ DEBUG [25c2a1ba] 	 * jbuilder (2.10.1)
+ DEBUG [25c2a1ba] 	 * kgio (2.11.3)
+ DEBUG [25c2a1ba] 	 * method_source (1.0.0)
+ DEBUG [25c2a1ba] 	 * mysql2 (0.5.3)
+ DEBUG [25c2a1ba] 	 * puma (4.3.6)
+ DEBUG [25c2a1ba] 	 * rack-proxy (0.6.5)
+ DEBUG [25c2a1ba] 	 * thor (1.0.1)
+ DEBUG [25c2a1ba] 	 * railties (6.0.3.4)
+ DEBUG [25c2a1ba] 	 * sprockets (4.0.2)
+ DEBUG [25c2a1ba] 	 * sprockets-rails (3.2.2)
+ DEBUG [25c2a1ba] 	 * rails (6.0.3.4)
+ DEBUG [25c2a1ba] 	 * raindrops (0.19.1)
+ DEBUG [25c2a1ba] 	 * sassc (2.4.0)
+ DEBUG [25c2a1ba] 	 * tilt (2.0.10)
+ DEBUG [25c2a1ba] 	 * sassc-rails (2.1.2)
+ DEBUG [25c2a1ba] 	 * sass-rails (6.0.0)
+ DEBUG [25c2a1ba] 	 * turbolinks-source (5.2.0)
+ DEBUG [25c2a1ba] 	 * turbolinks (5.2.1)
+ DEBUG [25c2a1ba] 	 * unicorn (5.6.0)
+ DEBUG [25c2a1ba] 	 * webpacker (4.3.0)
+ DEBUG [25c2a1ba] 	 * will_paginate (3.1.8)
+ DEBUG [25c2a1ba] 	Install missing gems with `bundle install`
+ DEBUG [25c2a1ba] Finished in 0.477 seconds with exit status 1 (failed).
+  INFO [1bd21054] Running $HOME/.rbenv/bin/rbenv exec bundle install --jobs 4 --quiet as ec2-user@54.238.35.169
+ DEBUG [1bd21054] Command: cd /var/www/alpha-blg/releases/20201207024100 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" ; $HOME/.rbenv/bin/rbenv exec bundle install --jobs 4 --quiet )
+  INFO [1bd21054] Finished in 239.081 seconds with exit status 0 (successful).
+ DEBUG [f54a4f3f] Running if test ! -d /var/www/alpha-blg/releases/20201207024100; then echo "Directory does not exist '/var/www/alpha-blg/releases/20201207024100'" 1>&2; false; fi as ec2-user@54.238.35.169
+ DEBUG [f54a4f3f] Command: if test ! -d /var/www/alpha-blg/releases/20201207024100; then echo "Directory does not exist '/var/www/alpha-blg/releases/20201207024100'" 1>&2; false; fi
+ DEBUG [f54a4f3f] Finished in 0.137 seconds with exit status 0 (successful).
+  INFO [c1937094] Running $HOME/.rbenv/bin/rbenv exec bundle exec rake assets:precompile as ec2-user@54.238.35.169
+ DEBUG [c1937094] Command: cd /var/www/alpha-blg/releases/20201207024100 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" RAILS_ENV="production" RAILS_GROUPS="" ; $HOME/.rbenv/bin/rbenv exec bundle exec rake assets:precompile )
+ DEBUG [c1937094] 	yarn install v1.22.5
+ DEBUG [c1937094] 	[1/4] Resolving packages...
+ DEBUG [c1937094] 	[2/4] Fetching packages...
+ DEBUG [c1937094] 	info fsevents@2.1.3: The platform "linux" is incompatible with this module.
+ DEBUG [c1937094] 	info "fsevents@2.1.3" is an optional dependency and failed compatibility check. Excluding it from installation.
+ DEBUG [c1937094] 	info fsevents@1.2.13: The platform "linux" is incompatible with this module.
+ DEBUG [c1937094] 	info "fsevents@1.2.13" is an optional dependency and failed compatibility check. Excluding it from installation.
+ DEBUG [c1937094] 	[3/4] Linking dependencies...
+ DEBUG [c1937094] 	warning " > webpack-dev-server@3.11.0" has unmet peer dependency "webpack@^4.0.0 || ^5.0.0".
+ DEBUG [c1937094] 	warning "webpack-dev-server > webpack-dev-middleware@3.7.2" has unmet peer dependency "webpack@^4.0.0".
+ DEBUG [c1937094] 	[4/4] Building fresh packages...
+ DEBUG [c1937094] 	Done in 18.80s.
+ DEBUG [c1937094] 	yarn install v1.22.5
+ DEBUG [c1937094] 	[1/4] Resolving packages...
+ DEBUG [c1937094] 	[2/4] Fetching packages...
+ DEBUG [c1937094] 	info fsevents@2.1.3: The platform "linux" is incompatible with this module.
+ DEBUG [c1937094] 	info "fsevents@2.1.3" is an optional dependency and failed compatibility check. Excluding it from installation.
+ DEBUG [c1937094] 	info fsevents@1.2.13: The platform "linux" is incompatible with this module.
+ DEBUG [c1937094] 	info "fsevents@1.2.13" is an optional dependency and failed compatibility check. Excluding it from installation.
+ DEBUG [c1937094] 	[3/4] Linking dependencies...
+ DEBUG [c1937094] 	warning " > webpack-dev-server@3.11.0" has unmet peer dependency "webpack@^4.0.0 || ^5.0.0".
+ DEBUG [c1937094] 	warning "webpack-dev-server > webpack-dev-middleware@3.7.2" has unmet peer dependency "webpack@^4.0.0".
+ DEBUG [c1937094] 	[4/4] Building fresh packages...
+ DEBUG [c1937094] 	Done in 4.30s.
+ DEBUG [c1937094] 	I, [2020-12-07T02:45:50.159365 #28930]  INFO -- : Writing /var/www/alpha-blg/releases/20201207024100/public/assets/manifest-b4bf6e57a53c2bdb55b8998cc94cd00883793c1c37c5e5aea3ef6749b4f6d92b.js
+I, [2020-12-07T02:45:50.159652 #28930]  INFO -- : Writing /var/www/alpha-blg/releases/20201207024100/public/assets/manifest-b4bf6e57a53c2bdb55b8998cc94cd00883793c1c37c5e5aea3ef6749b4f6d92b.js.gz
+I, [2020-12-07T02:45:50.159797 #28930]  INFO -- : Writing /var/www/alpha-blg/releases/20201207024100/public/assets/jumbo-copy-003105dc1ad0f7be2cedaf9f83f0a1c595a8d42e2b314e47fe5d96df2f328eab.jpg
+I, [2020-12-07T02:45:50.161821 #28930]  INFO -- : Writing /var/www/alpha-blg/releases/20201207024100/public/assets/jumbo-copy2-4fe29e9f034cae37e731674ba48a8ee79979105b40b2964e01417a934fcf8d09.jpg
+ DEBUG [c1937094] 	I, [2020-12-07T02:45:50.164824 #28930]  INFO -- : Writing /var/www/alpha-blg/releases/20201207024100/public/assets/application-36126699df9fa19c384fe7bb59412734500ed1a33ae8ebf765a609e5c5ccc960.css
+ DEBUG [c1937094] 	I, [2020-12-07T02:45:50.185625 #28930]  INFO -- : Writing /var/www/alpha-blg/releases/20201207024100/public/assets/application-36126699df9fa19c384fe7bb59412734500ed1a33ae8ebf765a609e5c5ccc960.css.gz
+I, [2020-12-07T02:45:50.185887 #28930]  INFO -- : Writing /var/www/alpha-blg/releases/20201207024100/public/assets/jumbo-copy2-4fe29e9f034cae37e731674ba48a8ee79979105b40b2964e01417a934fcf8d09.jpg
+ DEBUG [c1937094] 	I, [2020-12-07T02:45:50.191124 #28930]  INFO -- : Writing /var/www/alpha-blg/releases/20201207024100/public/assets/custom-ae1eb17635e7bd832ab1be0ca47775d83eee3f7ff330c3cd2ea66e9ebdc65ef0.css
+ DEBUG [c1937094] 	I, [2020-12-07T02:45:50.191369 #28930]  INFO -- : Writing /var/www/alpha-blg/releases/20201207024100/public/assets/custom-ae1eb17635e7bd832ab1be0ca47775d83eee3f7ff330c3cd2ea66e9ebdc65ef0.css.gz
+ DEBUG [c1937094] 	I, [2020-12-07T02:45:50.192452 #28930]  INFO -- : Writing /var/www/alpha-blg/releases/20201207024100/public/assets/users-04024382391bb910584145d8113cf35ef376b55d125bb4516cebeb14ce788597.css
+ DEBUG [c1937094] 	I, [2020-12-07T02:45:50.199273 #28930]  INFO -- : Writing /var/www/alpha-blg/releases/20201207024100/public/assets/users-04024382391bb910584145d8113cf35ef376b55d125bb4516cebeb14ce788597.css.gz
+ DEBUG [c1937094] 	Compiling...
+ DEBUG [c1937094] 	Compiled all packs in /var/www/alpha-blg/releases/20201207024100/public/packs
+Hash: 2fff41dd82bf0eb9032b
+Version: webpack 4.44.2
+Time: 16256ms
+Built at: 2020-12-07 2:46:08 AM
+                                             Asset       Size  Chunks                                Chunk Names
+            js/application-053299464e73bbe8025e.js    240 KiB       0  [emitted] [immutable]         application
+js/application-053299464e73bbe8025e.js.LICENSE.txt   1.94 KiB          [emitted]                     
+         js/application-053299464e73bbe8025e.js.br   59.5 KiB          [emitted]                     
+         js/application-053299464e73bbe8025e.js.gz   68.2 KiB          [emitted]                     
+        js/application-053299464e73bbe8025e.js.map    999 KiB       0  [emitted] [dev]               application
+     js/application-053299464e73bbe8025e.js.map.br    229 KiB          [emitted]                     
+     js/application-053299464e73bbe8025e.js.map.gz    270 KiB          [emitted]              [big]  
+                                     manifest.json  364 bytes          [emitted]                     
+                                  manifest.json.br  131 bytes          [emitted]                     
+                                  manifest.json.gz  142 bytes          [emitted]                     
+Entrypoint application = js/application-053299464e73bbe8025e.js js/application-053299464e73bbe8025e.js.map
+ [1] (webpack)/buildin/module.js 552 bytes {0} [built]
+ [3] ./app/javascript/packs/application.js 761 bytes {0} [built]
+ [7] ./app/javascript/channels/index.js 205 bytes {0} [built]
+ [8] ./app/javascript/channels sync _channel\.js$ 160 bytes {0} [built]
+[10] (webpack)/buildin/global.js 905 bytes {0} [built]
+    + 6 hidden modules
+
+WARNING in asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+This can impact web performance.
+Assets: 
+  js/application-053299464e73bbe8025e.js.map.gz (270 KiB)
+
+WARNING in webpack performance recommendations: 
+You can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.
+For more info visit https://webpack.js.org/guides/code-splitting/
+
+  INFO [c1937094] Finished in 46.972 seconds with exit status 0 (successful).
+ DEBUG [053cc88f] Running if test ! -d /var/www/alpha-blg/releases/20201207024100; then echo "Directory does not exist '/var/www/alpha-blg/releases/20201207024100'" 1>&2; false; fi as ec2-user@54.238.35.169
+ DEBUG [053cc88f] Command: if test ! -d /var/www/alpha-blg/releases/20201207024100; then echo "Directory does not exist '/var/www/alpha-blg/releases/20201207024100'" 1>&2; false; fi
+ DEBUG [053cc88f] Finished in 0.117 seconds with exit status 0 (successful).
+  INFO [5adb0c84] Running /usr/bin/env mkdir -p /var/www/alpha-blg/releases/20201207024100/assets_manifest_backup as ec2-user@54.238.35.169
+ DEBUG [5adb0c84] Command: cd /var/www/alpha-blg/releases/20201207024100 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" ; /usr/bin/env mkdir -p /var/www/alpha-blg/releases/20201207024100/assets_manifest_backup )
+  INFO [5adb0c84] Finished in 0.117 seconds with exit status 0 (successful).
+ DEBUG [4cc00ab0] Running /usr/bin/env ls /var/www/alpha-blg/releases/20201207024100/public/assets/.sprockets-manifest* as ec2-user@54.238.35.169
+ DEBUG [4cc00ab0] Command: cd /var/www/alpha-blg/releases/20201207024100 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" ; /usr/bin/env ls /var/www/alpha-blg/releases/20201207024100/public/assets/.sprockets-manifest* )
+ DEBUG [4cc00ab0] 	/var/www/alpha-blg/releases/20201207024100/public/assets/.sprockets-manifest-a7dcd4697473059465c655bf3c5d0791.json
+ DEBUG [4cc00ab0] Finished in 0.117 seconds with exit status 0 (successful).
+ DEBUG [c1378ac1] Running /usr/bin/env ls /var/www/alpha-blg/releases/20201207024100/public/assets/.sprockets-manifest* as ec2-user@54.238.35.169
+ DEBUG [c1378ac1] Command: cd /var/www/alpha-blg/releases/20201207024100 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" ; /usr/bin/env ls /var/www/alpha-blg/releases/20201207024100/public/assets/.sprockets-manifest* )
+ DEBUG [c1378ac1] 	/var/www/alpha-blg/releases/20201207024100/public/assets/.sprockets-manifest-a7dcd4697473059465c655bf3c5d0791.json
+ DEBUG [c1378ac1] Finished in 0.111 seconds with exit status 0 (successful).
+  INFO [94e485fb] Running /usr/bin/env cp /var/www/alpha-blg/releases/20201207024100/public/assets/.sprockets-manifest-a7dcd4697473059465c655bf3c5d0791.json /var/www/alpha-blg/releases/20201207024100/assets_manifest_backup as ec2-user@54.238.35.169
+ DEBUG [94e485fb] Command: cd /var/www/alpha-blg/releases/20201207024100 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" ; /usr/bin/env cp /var/www/alpha-blg/releases/20201207024100/public/assets/.sprockets-manifest-a7dcd4697473059465c655bf3c5d0791.json /var/www/alpha-blg/releases/20201207024100/assets_manifest_backup )
+  INFO [94e485fb] Finished in 0.113 seconds with exit status 0 (successful).
+  INFO [deploy:migrate] Run `rake db:migrate`
+ DEBUG [ec2b3c94] Running if test ! -d /var/www/alpha-blg/releases/20201207024100; then echo "Directory does not exist '/var/www/alpha-blg/releases/20201207024100'" 1>&2; false; fi as ec2-user@54.238.35.169
+ DEBUG [ec2b3c94] Command: if test ! -d /var/www/alpha-blg/releases/20201207024100; then echo "Directory does not exist '/var/www/alpha-blg/releases/20201207024100'" 1>&2; false; fi
+ DEBUG [ec2b3c94] Finished in 0.114 seconds with exit status 0 (successful).
+  INFO [d37fe0c3] Running $HOME/.rbenv/bin/rbenv exec bundle exec rake db:migrate as ec2-user@54.238.35.169
+ DEBUG [d37fe0c3] Command: cd /var/www/alpha-blg/releases/20201207024100 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" RAILS_ENV="production" ; $HOME/.rbenv/bin/rbenv exec bundle exec rake db:migrate )
+ DEBUG [d37fe0c3] 	rake aborted!
+ DEBUG [d37fe0c3] 	ActiveRecord::NoDatabaseError: Unknown database 'alpha_blg_production'
+ DEBUG [d37fe0c3] 	/var/www/alpha-blg/shared/bundle/ruby/2.6.0/gems/activerecord-6.0.3.4/lib/active_record/connection_adapters/mysql2_adapter.rb:28:in `rescue in mysql2_connection'
+/var/www/alpha-blg/shared/bundle/ruby/2.6.0/gems/activerecord-6.0.3.4/lib/active_record/connection_adapters/mysql2_adapter.rb:14:in `mysql2_connection'
+/var/www/alpha-blg/shared/bundle/ruby/2.6.0/gems/activerecord-6.0.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:887:in `new_connection'
+/var/www/alpha-blg/shared/bundle/ruby/2.6.0/gems/activerecord-6.0.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:931:in `checkout_new_connection'
+/var/www/alpha-blg/shared/bundle/ruby/2.6.0/gems/activerecord-6.0.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:910:in `try_to_checkout_new_connection'
+/var/www/alpha-blg/shared/bundle/ruby/2.6.0/gems/activerecord-6.0.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:871:in `acquire_connection'
+/var/www/alpha-blg/shared/bundle/ruby/2.6.0/gems/activerecord-6.0.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:593:in `checkout'
+/var/www/alpha-blg/shared/bundle/ruby/2.6.0/gems/activerecord-6.0.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:437:in `connection'
+/var/www/alpha-blg/shared/bundle/ruby/2.6.0/gems/activerecord-6.0.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:1119:in `retrieve_connection'
+/var/www/alpha-blg/shared/bundle/ruby/2.6.0/gems/activerecord-6.0.3.4/lib/active_record/connection_handling.rb:221:in `retrieve_connection'
+/var/www/alpha-blg/shared/bundle/ruby/2.6.0/gems/activerecord-6.0.3.4/lib/active_record/connection_handling.rb:189:in `connection'
+/var/www/alpha-blg/shared/bundle/ruby/2.6.0/gems/activerecord-6.0.3.4/lib/active_record/tasks/database_tasks.rb:238:in `migrate'
+/var/www/alpha-blg/shared/bundle/ruby/2.6.0/gems/activerecord-6.0.3.4/lib/active_record/railties/databases.rake:86:in `block (3 levels) in <main>'
+/var/www/alpha-blg/shared/bundle/ruby/2.6.0/gems/activerecord-6.0.3.4/lib/active_record/railties/databases.rake:84:in `each'
+/var/www/alpha-blg/shared/bundle/ruby/2.6.0/gems/activerecord-6.0.3.4/lib/active_record/railties/databases.rake:84:in `block (2 levels) in <main>'
+/var/www/alpha-blg/shared/bundle/ruby/2.6.0/gems/rake-13.0.1/exe/rake:27:in `<top (required)>'
+/home/ec2-user/.rbenv/versions/2.6.5/bin/bundle:23:in `load'
+/home/ec2-user/.rbenv/versions/2.6.5/bin/bundle:23:in `<main>'
+ DEBUG [d37fe0c3] 	
+Caused by:
+ DEBUG [d37fe0c3] 	Mysql2::Error: Unknown database 'alpha_blg_production'
+ DEBUG [d37fe0c3] 	/var/www/alpha-blg/shared/bundle/ruby/2.6.0/gems/mysql2-0.5.3/lib/mysql2/client.rb:90:in `connect'
+/var/www/alpha-blg/shared/bundle/ruby/2.6.0/gems/mysql2-0.5.3/lib/mysql2/client.rb:90:in `initialize'
+/var/www/alpha-blg/shared/bundle/ruby/2.6.0/gems/activerecord-6.0.3.4/lib/active_record/connection_adapters/mysql2_adapter.rb:24:in `new'
+/var/www/alpha-blg/shared/bundle/ruby/2.6.0/gems/activerecord-6.0.3.4/lib/active_record/connection_adapters/mysql2_adapter.rb:24:in `mysql2_connection'
+/var/www/alpha-blg/shared/bundle/ruby/2.6.0/gems/activerecord-6.0.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:887:in `new_connection'
+/var/www/alpha-blg/shared/bundle/ruby/2.6.0/gems/activerecord-6.0.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:931:in `checkout_new_connection'
+/var/www/alpha-blg/shared/bundle/ruby/2.6.0/gems/activerecord-6.0.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:910:in `try_to_checkout_new_connection'
+/var/www/alpha-blg/shared/bundle/ruby/2.6.0/gems/activerecord-6.0.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:871:in `acquire_connection'
+/var/www/alpha-blg/shared/bundle/ruby/2.6.0/gems/activerecord-6.0.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:593:in `checkout'
+/var/www/alpha-blg/shared/bundle/ruby/2.6.0/gems/activerecord-6.0.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:437:in `connection'
+/var/www/alpha-blg/shared/bundle/ruby/2.6.0/gems/activerecord-6.0.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:1119:in `retrieve_connection'
+/var/www/alpha-blg/shared/bundle/ruby/2.6.0/gems/activerecord-6.0.3.4/lib/active_record/connection_handling.rb:221:in `retrieve_connection'
+/var/www/alpha-blg/shared/bundle/ruby/2.6.0/gems/activerecord-6.0.3.4/lib/active_record/connection_handling.rb:189:in `connection'
+/var/www/alpha-blg/shared/bundle/ruby/2.6.0/gems/activerecord-6.0.3.4/lib/active_record/tasks/database_tasks.rb:238:in `migrate'
+/var/www/alpha-blg/shared/bundle/ruby/2.6.0/gems/activerecord-6.0.3.4/lib/active_record/railties/databases.rake:86:in `block (3 levels) in <main>'
+/var/www/alpha-blg/shared/bundle/ruby/2.6.0/gems/activerecord-6.0.3.4/lib/active_record/railties/databases.rake:84:in `each'
+/var/www/alpha-blg/shared/bundle/ruby/2.6.0/gems/activerecord-6.0.3.4/lib/active_record/railties/databases.rake:84:in `block (2 levels) in <main>'
+/var/www/alpha-blg/shared/bundle/ruby/2.6.0/gems/rake-13.0.1/exe/rake:27:in `<top (required)>'
+/home/ec2-user/.rbenv/versions/2.6.5/bin/bundle:23:in `load'
+/home/ec2-user/.rbenv/versions/2.6.5/bin/bundle:23:in `<main>'
+ DEBUG [d37fe0c3] 	Tasks: TOP => db:migrate
+ DEBUG [d37fe0c3] 	(See full trace by running task with --trace)
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-12-07 13:19:13 +0900 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [4673a9d1] Running [ -d $HOME/.rbenv/versions/2.6.5 ] as ec2-user@54.238.35.169
+ DEBUG [4673a9d1] Command: [ -d $HOME/.rbenv/versions/2.6.5 ]
+ DEBUG [4673a9d1] Finished in 0.429 seconds with exit status 0 (successful).
+ DEBUG [636d1b39] Running [ ! -d /var/www/alpha-blg/shared/config ] as ec2-user@54.238.35.169
+ DEBUG [636d1b39] Command: [ ! -d /var/www/alpha-blg/shared/config ]
+ DEBUG [636d1b39] Finished in 0.114 seconds with exit status 1 (failed).
+ DEBUG Uploading config/master.key 0.0%
+  INFO Uploading config/master.key 100.0%
+  INFO [e2ecec84] Running /usr/bin/env mkdir -p /tmp as ec2-user@54.238.35.169
+ DEBUG [e2ecec84] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" ; /usr/bin/env mkdir -p /tmp )
+  INFO [e2ecec84] Finished in 0.117 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-alpha-blg-production-akihisa.m.sh 0.0%
+  INFO Uploading /tmp/git-ssh-alpha-blg-production-akihisa.m.sh 100.0%
+  INFO [e7e7100a] Running /usr/bin/env chmod 700 /tmp/git-ssh-alpha-blg-production-akihisa.m.sh as ec2-user@54.238.35.169
+ DEBUG [e7e7100a] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" ; /usr/bin/env chmod 700 /tmp/git-ssh-alpha-blg-production-akihisa.m.sh )
+  INFO [e7e7100a] Finished in 0.132 seconds with exit status 0 (successful).
+  INFO [7512424a] Running /usr/bin/env git ls-remote git@github.com:akyhysa/alpha-blg.git HEAD as ec2-user@54.238.35.169
+ DEBUG [7512424a] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-alpha-blg-production-akihisa.m.sh" ; /usr/bin/env git ls-remote git@github.com:akyhysa/alpha-blg.git HEAD )
+ DEBUG [7512424a] 	cabbb4c56d1e1f0263bf271ddf092cbce77671f8	HEAD
+  INFO [7512424a] Finished in 2.183 seconds with exit status 0 (successful).
+  INFO [52a3027d] Running /usr/bin/env mkdir -p /var/www/alpha-blg/shared /var/www/alpha-blg/releases as ec2-user@54.238.35.169
+ DEBUG [52a3027d] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" ; /usr/bin/env mkdir -p /var/www/alpha-blg/shared /var/www/alpha-blg/releases )
+  INFO [52a3027d] Finished in 0.130 seconds with exit status 0 (successful).
+  INFO [080dee07] Running /usr/bin/env mkdir -p /var/www/alpha-blg/shared/log /var/www/alpha-blg/shared/tmp/pids /var/www/alpha-blg/shared/tmp/cache /var/www/alpha-blg/shared/tmp/sockets /var/www/alpha-blg/shared/vendor/bundle /var/www/alpha-blg/shared/public/system /var/www/alpha-blg/shared/public/uploads /var/www/alpha-blg/shared/public/assets as ec2-user@54.238.35.169
+ DEBUG [080dee07] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" ; /usr/bin/env mkdir -p /var/www/alpha-blg/shared/log /var/www/alpha-blg/shared/tmp/pids /var/www/alpha-blg/shared/tmp/cache /var/www/alpha-blg/shared/tmp/sockets /var/www/alpha-blg/shared/vendor/bundle /var/www/alpha-blg/shared/public/system /var/www/alpha-blg/shared/public/uploads /var/www/alpha-blg/shared/public/assets )
+  INFO [080dee07] Finished in 0.119 seconds with exit status 0 (successful).
+  INFO [51134940] Running /usr/bin/env mkdir -p /var/www/alpha-blg/shared/config as ec2-user@54.238.35.169
+ DEBUG [51134940] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" ; /usr/bin/env mkdir -p /var/www/alpha-blg/shared/config )
+  INFO [51134940] Finished in 0.120 seconds with exit status 0 (successful).
+ DEBUG [fc33a23f] Running [ -f /var/www/alpha-blg/shared/config/master.key ] as ec2-user@54.238.35.169
+ DEBUG [fc33a23f] Command: [ -f /var/www/alpha-blg/shared/config/master.key ]
+ DEBUG [fc33a23f] Finished in 0.116 seconds with exit status 0 (successful).
+ DEBUG [59bfe282] Running [ -f /var/www/alpha-blg/current/REVISION ] as ec2-user@54.238.35.169
+ DEBUG [59bfe282] Command: [ -f /var/www/alpha-blg/current/REVISION ]
+ DEBUG [59bfe282] Finished in 0.151 seconds with exit status 1 (failed).
+ DEBUG [f7c208ba] Running [ -f /var/www/alpha-blg/repo/HEAD ] as ec2-user@54.238.35.169
+ DEBUG [f7c208ba] Command: [ -f /var/www/alpha-blg/repo/HEAD ]
+ DEBUG [f7c208ba] Finished in 0.115 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /var/www/alpha-blg/repo
+ DEBUG [70d16051] Running if test ! -d /var/www/alpha-blg/repo; then echo "Directory does not exist '/var/www/alpha-blg/repo'" 1>&2; false; fi as ec2-user@54.238.35.169
+ DEBUG [70d16051] Command: if test ! -d /var/www/alpha-blg/repo; then echo "Directory does not exist '/var/www/alpha-blg/repo'" 1>&2; false; fi
+ DEBUG [70d16051] Finished in 0.115 seconds with exit status 0 (successful).
+  INFO [345fe08b] Running /usr/bin/env git remote set-url origin git@github.com:akyhysa/alpha-blg.git as ec2-user@54.238.35.169
+ DEBUG [345fe08b] Command: cd /var/www/alpha-blg/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-alpha-blg-production-akihisa.m.sh" ; /usr/bin/env git remote set-url origin git@github.com:akyhysa/alpha-blg.git )
+  INFO [345fe08b] Finished in 0.120 seconds with exit status 0 (successful).
+  INFO [894666ca] Running /usr/bin/env git remote update --prune as ec2-user@54.238.35.169
+ DEBUG [894666ca] Command: cd /var/www/alpha-blg/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-alpha-blg-production-akihisa.m.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [894666ca] 	Fetching origin
+  INFO [894666ca] Finished in 2.064 seconds with exit status 0 (successful).
+ DEBUG [75da8cf5] Running if test ! -d /var/www/alpha-blg/repo; then echo "Directory does not exist '/var/www/alpha-blg/repo'" 1>&2; false; fi as ec2-user@54.238.35.169
+ DEBUG [75da8cf5] Command: if test ! -d /var/www/alpha-blg/repo; then echo "Directory does not exist '/var/www/alpha-blg/repo'" 1>&2; false; fi
+ DEBUG [75da8cf5] Finished in 0.130 seconds with exit status 0 (successful).
+  INFO [d265bd17] Running /usr/bin/env mkdir -p /var/www/alpha-blg/releases/20201207041917 as ec2-user@54.238.35.169
+ DEBUG [d265bd17] Command: cd /var/www/alpha-blg/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-alpha-blg-production-akihisa.m.sh" ; /usr/bin/env mkdir -p /var/www/alpha-blg/releases/20201207041917 )
+  INFO [d265bd17] Finished in 0.120 seconds with exit status 0 (successful).
+  INFO [794491b6] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/alpha-blg/releases/20201207041917 as ec2-user@54.238.35.169
+ DEBUG [794491b6] Command: cd /var/www/alpha-blg/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-alpha-blg-production-akihisa.m.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/alpha-blg/releases/20201207041917 )
+  INFO [794491b6] Finished in 3.467 seconds with exit status 0 (successful).
+ DEBUG [c949f1fc] Running if test ! -d /var/www/alpha-blg/repo; then echo "Directory does not exist '/var/www/alpha-blg/repo'" 1>&2; false; fi as ec2-user@54.238.35.169
+ DEBUG [c949f1fc] Command: if test ! -d /var/www/alpha-blg/repo; then echo "Directory does not exist '/var/www/alpha-blg/repo'" 1>&2; false; fi
+ DEBUG [c949f1fc] Finished in 0.131 seconds with exit status 0 (successful).
+ DEBUG [98f8075c] Running /usr/bin/env git rev-list --max-count=1 master as ec2-user@54.238.35.169
+ DEBUG [98f8075c] Command: cd /var/www/alpha-blg/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-alpha-blg-production-akihisa.m.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [98f8075c] 	cabbb4c56d1e1f0263bf271ddf092cbce77671f8
+ DEBUG [98f8075c] Finished in 0.147 seconds with exit status 0 (successful).
+ DEBUG [6ac25982] Running if test ! -d /var/www/alpha-blg/releases/20201207041917; then echo "Directory does not exist '/var/www/alpha-blg/releases/20201207041917'" 1>&2; false; fi as ec2-user@54.238.35.169
+ DEBUG [6ac25982] Command: if test ! -d /var/www/alpha-blg/releases/20201207041917; then echo "Directory does not exist '/var/www/alpha-blg/releases/20201207041917'" 1>&2; false; fi
+ DEBUG [6ac25982] Finished in 0.118 seconds with exit status 0 (successful).
+  INFO [74dd006f] Running /usr/bin/env echo "cabbb4c56d1e1f0263bf271ddf092cbce77671f8" > REVISION as ec2-user@54.238.35.169
+ DEBUG [74dd006f] Command: cd /var/www/alpha-blg/releases/20201207041917 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" ; /usr/bin/env echo "cabbb4c56d1e1f0263bf271ddf092cbce77671f8" > REVISION )
+  INFO [74dd006f] Finished in 0.120 seconds with exit status 0 (successful).
+  INFO [131a1ace] Running /usr/bin/env mkdir -p /var/www/alpha-blg/releases/20201207041917/config as ec2-user@54.238.35.169
+ DEBUG [131a1ace] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" ; /usr/bin/env mkdir -p /var/www/alpha-blg/releases/20201207041917/config )
+  INFO [131a1ace] Finished in 0.117 seconds with exit status 0 (successful).
+ DEBUG [cff879d4] Running [ -L /var/www/alpha-blg/releases/20201207041917/config/master.key ] as ec2-user@54.238.35.169
+ DEBUG [cff879d4] Command: [ -L /var/www/alpha-blg/releases/20201207041917/config/master.key ]
+ DEBUG [cff879d4] Finished in 0.122 seconds with exit status 1 (failed).
+ DEBUG [837bd175] Running [ -f /var/www/alpha-blg/releases/20201207041917/config/master.key ] as ec2-user@54.238.35.169
+ DEBUG [837bd175] Command: [ -f /var/www/alpha-blg/releases/20201207041917/config/master.key ]
+ DEBUG [837bd175] Finished in 0.123 seconds with exit status 0 (successful).
+  INFO [b8821f3e] Running /usr/bin/env rm /var/www/alpha-blg/releases/20201207041917/config/master.key as ec2-user@54.238.35.169
+ DEBUG [b8821f3e] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" ; /usr/bin/env rm /var/www/alpha-blg/releases/20201207041917/config/master.key )
+  INFO [b8821f3e] Finished in 0.119 seconds with exit status 0 (successful).
+  INFO [ee90a31e] Running /usr/bin/env ln -s /var/www/alpha-blg/shared/config/master.key /var/www/alpha-blg/releases/20201207041917/config/master.key as ec2-user@54.238.35.169
+ DEBUG [ee90a31e] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" ; /usr/bin/env ln -s /var/www/alpha-blg/shared/config/master.key /var/www/alpha-blg/releases/20201207041917/config/master.key )
+  INFO [ee90a31e] Finished in 0.117 seconds with exit status 0 (successful).
+  INFO [77649016] Running /usr/bin/env mkdir -p /var/www/alpha-blg/releases/20201207041917 /var/www/alpha-blg/releases/20201207041917/tmp /var/www/alpha-blg/releases/20201207041917/vendor /var/www/alpha-blg/releases/20201207041917/public as ec2-user@54.238.35.169
+ DEBUG [77649016] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" ; /usr/bin/env mkdir -p /var/www/alpha-blg/releases/20201207041917 /var/www/alpha-blg/releases/20201207041917/tmp /var/www/alpha-blg/releases/20201207041917/vendor /var/www/alpha-blg/releases/20201207041917/public )
+  INFO [77649016] Finished in 0.113 seconds with exit status 0 (successful).
+ DEBUG [eb860216] Running [ -L /var/www/alpha-blg/releases/20201207041917/log ] as ec2-user@54.238.35.169
+ DEBUG [eb860216] Command: [ -L /var/www/alpha-blg/releases/20201207041917/log ]
+ DEBUG [eb860216] Finished in 0.115 seconds with exit status 1 (failed).
+ DEBUG [d2088982] Running [ -d /var/www/alpha-blg/releases/20201207041917/log ] as ec2-user@54.238.35.169
+ DEBUG [d2088982] Command: [ -d /var/www/alpha-blg/releases/20201207041917/log ]
+ DEBUG [d2088982] Finished in 0.120 seconds with exit status 0 (successful).
+  INFO [edbe218b] Running /usr/bin/env rm -rf /var/www/alpha-blg/releases/20201207041917/log as ec2-user@54.238.35.169
+ DEBUG [edbe218b] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" ; /usr/bin/env rm -rf /var/www/alpha-blg/releases/20201207041917/log )
+  INFO [edbe218b] Finished in 0.140 seconds with exit status 0 (successful).
+  INFO [adc56a79] Running /usr/bin/env ln -s /var/www/alpha-blg/shared/log /var/www/alpha-blg/releases/20201207041917/log as ec2-user@54.238.35.169
+ DEBUG [adc56a79] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" ; /usr/bin/env ln -s /var/www/alpha-blg/shared/log /var/www/alpha-blg/releases/20201207041917/log )
+  INFO [adc56a79] Finished in 0.121 seconds with exit status 0 (successful).
+ DEBUG [3616c222] Running [ -L /var/www/alpha-blg/releases/20201207041917/tmp/pids ] as ec2-user@54.238.35.169
+ DEBUG [3616c222] Command: [ -L /var/www/alpha-blg/releases/20201207041917/tmp/pids ]
+ DEBUG [3616c222] Finished in 0.145 seconds with exit status 1 (failed).
+ DEBUG [a56b7b9e] Running [ -d /var/www/alpha-blg/releases/20201207041917/tmp/pids ] as ec2-user@54.238.35.169
+ DEBUG [a56b7b9e] Command: [ -d /var/www/alpha-blg/releases/20201207041917/tmp/pids ]
+ DEBUG [a56b7b9e] Finished in 0.143 seconds with exit status 0 (successful).
+  INFO [558e2303] Running /usr/bin/env rm -rf /var/www/alpha-blg/releases/20201207041917/tmp/pids as ec2-user@54.238.35.169
+ DEBUG [558e2303] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" ; /usr/bin/env rm -rf /var/www/alpha-blg/releases/20201207041917/tmp/pids )
+  INFO [558e2303] Finished in 0.118 seconds with exit status 0 (successful).
+  INFO [b4477bad] Running /usr/bin/env ln -s /var/www/alpha-blg/shared/tmp/pids /var/www/alpha-blg/releases/20201207041917/tmp/pids as ec2-user@54.238.35.169
+ DEBUG [b4477bad] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" ; /usr/bin/env ln -s /var/www/alpha-blg/shared/tmp/pids /var/www/alpha-blg/releases/20201207041917/tmp/pids )
+  INFO [b4477bad] Finished in 0.137 seconds with exit status 0 (successful).
+ DEBUG [64c2aa54] Running [ -L /var/www/alpha-blg/releases/20201207041917/tmp/cache ] as ec2-user@54.238.35.169
+ DEBUG [64c2aa54] Command: [ -L /var/www/alpha-blg/releases/20201207041917/tmp/cache ]
+ DEBUG [64c2aa54] Finished in 0.117 seconds with exit status 1 (failed).
+ DEBUG [8e7fa66e] Running [ -d /var/www/alpha-blg/releases/20201207041917/tmp/cache ] as ec2-user@54.238.35.169
+ DEBUG [8e7fa66e] Command: [ -d /var/www/alpha-blg/releases/20201207041917/tmp/cache ]
+ DEBUG [8e7fa66e] Finished in 0.120 seconds with exit status 0 (successful).
+  INFO [e85e8367] Running /usr/bin/env rm -rf /var/www/alpha-blg/releases/20201207041917/tmp/cache as ec2-user@54.238.35.169
+ DEBUG [e85e8367] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" ; /usr/bin/env rm -rf /var/www/alpha-blg/releases/20201207041917/tmp/cache )
+  INFO [e85e8367] Finished in 0.220 seconds with exit status 0 (successful).
+  INFO [092bbd13] Running /usr/bin/env ln -s /var/www/alpha-blg/shared/tmp/cache /var/www/alpha-blg/releases/20201207041917/tmp/cache as ec2-user@54.238.35.169
+ DEBUG [092bbd13] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" ; /usr/bin/env ln -s /var/www/alpha-blg/shared/tmp/cache /var/www/alpha-blg/releases/20201207041917/tmp/cache )
+  INFO [092bbd13] Finished in 0.145 seconds with exit status 0 (successful).
+ DEBUG [b4ef7155] Running [ -L /var/www/alpha-blg/releases/20201207041917/tmp/sockets ] as ec2-user@54.238.35.169
+ DEBUG [b4ef7155] Command: [ -L /var/www/alpha-blg/releases/20201207041917/tmp/sockets ]
+ DEBUG [b4ef7155] Finished in 0.119 seconds with exit status 1 (failed).
+ DEBUG [517e0b8e] Running [ -d /var/www/alpha-blg/releases/20201207041917/tmp/sockets ] as ec2-user@54.238.35.169
+ DEBUG [517e0b8e] Command: [ -d /var/www/alpha-blg/releases/20201207041917/tmp/sockets ]
+ DEBUG [517e0b8e] Finished in 0.123 seconds with exit status 1 (failed).
+  INFO [03103efe] Running /usr/bin/env ln -s /var/www/alpha-blg/shared/tmp/sockets /var/www/alpha-blg/releases/20201207041917/tmp/sockets as ec2-user@54.238.35.169
+ DEBUG [03103efe] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" ; /usr/bin/env ln -s /var/www/alpha-blg/shared/tmp/sockets /var/www/alpha-blg/releases/20201207041917/tmp/sockets )
+  INFO [03103efe] Finished in 0.118 seconds with exit status 0 (successful).
+ DEBUG [a257e3a9] Running [ -L /var/www/alpha-blg/releases/20201207041917/vendor/bundle ] as ec2-user@54.238.35.169
+ DEBUG [a257e3a9] Command: [ -L /var/www/alpha-blg/releases/20201207041917/vendor/bundle ]
+ DEBUG [a257e3a9] Finished in 0.117 seconds with exit status 1 (failed).
+ DEBUG [022b234d] Running [ -d /var/www/alpha-blg/releases/20201207041917/vendor/bundle ] as ec2-user@54.238.35.169
+ DEBUG [022b234d] Command: [ -d /var/www/alpha-blg/releases/20201207041917/vendor/bundle ]
+ DEBUG [022b234d] Finished in 0.115 seconds with exit status 1 (failed).
+  INFO [795c07cd] Running /usr/bin/env ln -s /var/www/alpha-blg/shared/vendor/bundle /var/www/alpha-blg/releases/20201207041917/vendor/bundle as ec2-user@54.238.35.169
+ DEBUG [795c07cd] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" ; /usr/bin/env ln -s /var/www/alpha-blg/shared/vendor/bundle /var/www/alpha-blg/releases/20201207041917/vendor/bundle )
+  INFO [795c07cd] Finished in 0.120 seconds with exit status 0 (successful).
+ DEBUG [188cca96] Running [ -L /var/www/alpha-blg/releases/20201207041917/public/system ] as ec2-user@54.238.35.169
+ DEBUG [188cca96] Command: [ -L /var/www/alpha-blg/releases/20201207041917/public/system ]
+ DEBUG [188cca96] Finished in 0.121 seconds with exit status 1 (failed).
+ DEBUG [36095ef5] Running [ -d /var/www/alpha-blg/releases/20201207041917/public/system ] as ec2-user@54.238.35.169
+ DEBUG [36095ef5] Command: [ -d /var/www/alpha-blg/releases/20201207041917/public/system ]
+ DEBUG [36095ef5] Finished in 0.117 seconds with exit status 1 (failed).
+  INFO [6331a9f5] Running /usr/bin/env ln -s /var/www/alpha-blg/shared/public/system /var/www/alpha-blg/releases/20201207041917/public/system as ec2-user@54.238.35.169
+ DEBUG [6331a9f5] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" ; /usr/bin/env ln -s /var/www/alpha-blg/shared/public/system /var/www/alpha-blg/releases/20201207041917/public/system )
+  INFO [6331a9f5] Finished in 0.121 seconds with exit status 0 (successful).
+ DEBUG [b9023f31] Running [ -L /var/www/alpha-blg/releases/20201207041917/public/uploads ] as ec2-user@54.238.35.169
+ DEBUG [b9023f31] Command: [ -L /var/www/alpha-blg/releases/20201207041917/public/uploads ]
+ DEBUG [b9023f31] Finished in 0.126 seconds with exit status 1 (failed).
+ DEBUG [711fa2a3] Running [ -d /var/www/alpha-blg/releases/20201207041917/public/uploads ] as ec2-user@54.238.35.169
+ DEBUG [711fa2a3] Command: [ -d /var/www/alpha-blg/releases/20201207041917/public/uploads ]
+ DEBUG [711fa2a3] Finished in 0.117 seconds with exit status 1 (failed).
+  INFO [a62ab460] Running /usr/bin/env ln -s /var/www/alpha-blg/shared/public/uploads /var/www/alpha-blg/releases/20201207041917/public/uploads as ec2-user@54.238.35.169
+ DEBUG [a62ab460] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" ; /usr/bin/env ln -s /var/www/alpha-blg/shared/public/uploads /var/www/alpha-blg/releases/20201207041917/public/uploads )
+  INFO [a62ab460] Finished in 0.122 seconds with exit status 0 (successful).
+ DEBUG [a09faff5] Running [ -L /var/www/alpha-blg/releases/20201207041917/public/assets ] as ec2-user@54.238.35.169
+ DEBUG [a09faff5] Command: [ -L /var/www/alpha-blg/releases/20201207041917/public/assets ]
+ DEBUG [a09faff5] Finished in 0.116 seconds with exit status 1 (failed).
+ DEBUG [4495c3d3] Running [ -d /var/www/alpha-blg/releases/20201207041917/public/assets ] as ec2-user@54.238.35.169
+ DEBUG [4495c3d3] Command: [ -d /var/www/alpha-blg/releases/20201207041917/public/assets ]
+ DEBUG [4495c3d3] Finished in 0.116 seconds with exit status 1 (failed).
+  INFO [55c99a63] Running /usr/bin/env ln -s /var/www/alpha-blg/shared/public/assets /var/www/alpha-blg/releases/20201207041917/public/assets as ec2-user@54.238.35.169
+ DEBUG [55c99a63] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" ; /usr/bin/env ln -s /var/www/alpha-blg/shared/public/assets /var/www/alpha-blg/releases/20201207041917/public/assets )
+  INFO [55c99a63] Finished in 0.117 seconds with exit status 0 (successful).
+ DEBUG [8e54c7b9] Running if test ! -d /var/www/alpha-blg/releases/20201207041917; then echo "Directory does not exist '/var/www/alpha-blg/releases/20201207041917'" 1>&2; false; fi as ec2-user@54.238.35.169
+ DEBUG [8e54c7b9] Command: if test ! -d /var/www/alpha-blg/releases/20201207041917; then echo "Directory does not exist '/var/www/alpha-blg/releases/20201207041917'" 1>&2; false; fi
+ DEBUG [8e54c7b9] Finished in 0.118 seconds with exit status 0 (successful).
+  INFO [f1104fc8] Running $HOME/.rbenv/bin/rbenv exec bundle config --local deployment true as ec2-user@54.238.35.169
+ DEBUG [f1104fc8] Command: cd /var/www/alpha-blg/releases/20201207041917 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" ; $HOME/.rbenv/bin/rbenv exec bundle config --local deployment true )
+  INFO [f1104fc8] Finished in 0.312 seconds with exit status 0 (successful).
+  INFO [3e4c121b] Running $HOME/.rbenv/bin/rbenv exec bundle config --local path /var/www/alpha-blg/shared/bundle as ec2-user@54.238.35.169
+ DEBUG [3e4c121b] Command: cd /var/www/alpha-blg/releases/20201207041917 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" ; $HOME/.rbenv/bin/rbenv exec bundle config --local path /var/www/alpha-blg/shared/bundle )
+  INFO [3e4c121b] Finished in 0.299 seconds with exit status 0 (successful).
+  INFO [a4886dbb] Running $HOME/.rbenv/bin/rbenv exec bundle config --local without development:test as ec2-user@54.238.35.169
+ DEBUG [a4886dbb] Command: cd /var/www/alpha-blg/releases/20201207041917 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" ; $HOME/.rbenv/bin/rbenv exec bundle config --local without development:test )
+  INFO [a4886dbb] Finished in 0.317 seconds with exit status 0 (successful).
+ DEBUG [1526cf52] Running if test ! -d /var/www/alpha-blg/releases/20201207041917; then echo "Directory does not exist '/var/www/alpha-blg/releases/20201207041917'" 1>&2; false; fi as ec2-user@54.238.35.169
+ DEBUG [1526cf52] Command: if test ! -d /var/www/alpha-blg/releases/20201207041917; then echo "Directory does not exist '/var/www/alpha-blg/releases/20201207041917'" 1>&2; false; fi
+ DEBUG [1526cf52] Finished in 0.113 seconds with exit status 0 (successful).
+ DEBUG [c2926c60] Running $HOME/.rbenv/bin/rbenv exec bundle check as ec2-user@54.238.35.169
+ DEBUG [c2926c60] Command: cd /var/www/alpha-blg/releases/20201207041917 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" ; $HOME/.rbenv/bin/rbenv exec bundle check )
+ DEBUG [c2926c60] 	The dependency tzinfo-data (>= 0) will be unused by any of the platforms Bundler is installing for. Bundler is installing for ruby but the dependency is only for x86-mingw32, x86-mswin32, x64-mingw32, java. To add those platforms to the bundle, run `bundle lock --add-platform x86-mingw32 x86-mswin32 x64-mingw32 java`.
+ DEBUG [c2926c60] 	The Gemfile's dependencies are satisfied
+ DEBUG [c2926c60] Finished in 0.380 seconds with exit status 0 (successful).
+  INFO The Gemfile's dependencies are satisfied, skipping installation
+ DEBUG [81c10b79] Running if test ! -d /var/www/alpha-blg/releases/20201207041917; then echo "Directory does not exist '/var/www/alpha-blg/releases/20201207041917'" 1>&2; false; fi as ec2-user@54.238.35.169
+ DEBUG [81c10b79] Command: if test ! -d /var/www/alpha-blg/releases/20201207041917; then echo "Directory does not exist '/var/www/alpha-blg/releases/20201207041917'" 1>&2; false; fi
+ DEBUG [81c10b79] Finished in 0.113 seconds with exit status 0 (successful).
+  INFO [6b473a4c] Running $HOME/.rbenv/bin/rbenv exec bundle exec rake assets:precompile as ec2-user@54.238.35.169
+ DEBUG [6b473a4c] Command: cd /var/www/alpha-blg/releases/20201207041917 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" RAILS_ENV="production" RAILS_GROUPS="" ; $HOME/.rbenv/bin/rbenv exec bundle exec rake assets:precompile )
+ DEBUG [6b473a4c] 	yarn install v1.22.5
+ DEBUG [6b473a4c] 	[1/4] Resolving packages...
+ DEBUG [6b473a4c] 	[2/4] Fetching packages...
+ DEBUG [6b473a4c] 	info fsevents@2.1.3: The platform "linux" is incompatible with this module.
+ DEBUG [6b473a4c] 	info "fsevents@2.1.3" is an optional dependency and failed compatibility check. Excluding it from installation.
+ DEBUG [6b473a4c] 	info fsevents@1.2.13: The platform "linux" is incompatible with this module.
+ DEBUG [6b473a4c] 	info "fsevents@1.2.13" is an optional dependency and failed compatibility check. Excluding it from installation.
+ DEBUG [6b473a4c] 	[3/4] Linking dependencies...
+ DEBUG [6b473a4c] 	warning " > webpack-dev-server@3.11.0" has unmet peer dependency "webpack@^4.0.0 || ^5.0.0".
+ DEBUG [6b473a4c] 	warning "webpack-dev-server > webpack-dev-middleware@3.7.2" has unmet peer dependency "webpack@^4.0.0".
+ DEBUG [6b473a4c] 	[4/4] Building fresh packages...
+ DEBUG [6b473a4c] 	Done in 12.87s.
+ DEBUG [6b473a4c] 	yarn install v1.22.5
+ DEBUG [6b473a4c] 	[1/4] Resolving packages...
+ DEBUG [6b473a4c] 	[2/4] Fetching packages...
+ DEBUG [6b473a4c] 	info fsevents@2.1.3: The platform "linux" is incompatible with this module.
+ DEBUG [6b473a4c] 	info "fsevents@2.1.3" is an optional dependency and failed compatibility check. Excluding it from installation.
+ DEBUG [6b473a4c] 	info fsevents@1.2.13: The platform "linux" is incompatible with this module.
+ DEBUG [6b473a4c] 	info "fsevents@1.2.13" is an optional dependency and failed compatibility check. Excluding it from installation.
+ DEBUG [6b473a4c] 	[3/4] Linking dependencies...
+ DEBUG [6b473a4c] 	warning " > webpack-dev-server@3.11.0" has unmet peer dependency "webpack@^4.0.0 || ^5.0.0".
+ DEBUG [6b473a4c] 	warning "webpack-dev-server > webpack-dev-middleware@3.7.2" has unmet peer dependency "webpack@^4.0.0".
+ DEBUG [6b473a4c] 	[4/4] Building fresh packages...
+ DEBUG [6b473a4c] 	Done in 4.21s.
+ DEBUG [6b473a4c] 	Everything's up-to-date. Nothing to do
+  INFO [6b473a4c] Finished in 19.799 seconds with exit status 0 (successful).
+ DEBUG [907c4a57] Running if test ! -d /var/www/alpha-blg/releases/20201207041917; then echo "Directory does not exist '/var/www/alpha-blg/releases/20201207041917'" 1>&2; false; fi as ec2-user@54.238.35.169
+ DEBUG [907c4a57] Command: if test ! -d /var/www/alpha-blg/releases/20201207041917; then echo "Directory does not exist '/var/www/alpha-blg/releases/20201207041917'" 1>&2; false; fi
+ DEBUG [907c4a57] Finished in 0.120 seconds with exit status 0 (successful).
+  INFO [f3e6a02a] Running /usr/bin/env mkdir -p /var/www/alpha-blg/releases/20201207041917/assets_manifest_backup as ec2-user@54.238.35.169
+ DEBUG [f3e6a02a] Command: cd /var/www/alpha-blg/releases/20201207041917 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" ; /usr/bin/env mkdir -p /var/www/alpha-blg/releases/20201207041917/assets_manifest_backup )
+  INFO [f3e6a02a] Finished in 0.118 seconds with exit status 0 (successful).
+ DEBUG [81c6bda4] Running /usr/bin/env ls /var/www/alpha-blg/releases/20201207041917/public/assets/.sprockets-manifest* as ec2-user@54.238.35.169
+ DEBUG [81c6bda4] Command: cd /var/www/alpha-blg/releases/20201207041917 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" ; /usr/bin/env ls /var/www/alpha-blg/releases/20201207041917/public/assets/.sprockets-manifest* )
+ DEBUG [81c6bda4] 	/var/www/alpha-blg/releases/20201207041917/public/assets/.sprockets-manifest-a7dcd4697473059465c655bf3c5d0791.json
+ DEBUG [81c6bda4] Finished in 0.122 seconds with exit status 0 (successful).
+ DEBUG [6a78c04b] Running /usr/bin/env ls /var/www/alpha-blg/releases/20201207041917/public/assets/.sprockets-manifest* as ec2-user@54.238.35.169
+ DEBUG [6a78c04b] Command: cd /var/www/alpha-blg/releases/20201207041917 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" ; /usr/bin/env ls /var/www/alpha-blg/releases/20201207041917/public/assets/.sprockets-manifest* )
+ DEBUG [6a78c04b] 	/var/www/alpha-blg/releases/20201207041917/public/assets/.sprockets-manifest-a7dcd4697473059465c655bf3c5d0791.json
+ DEBUG [6a78c04b] Finished in 0.115 seconds with exit status 0 (successful).
+  INFO [4dcefa3e] Running /usr/bin/env cp /var/www/alpha-blg/releases/20201207041917/public/assets/.sprockets-manifest-a7dcd4697473059465c655bf3c5d0791.json /var/www/alpha-blg/releases/20201207041917/assets_manifest_backup as ec2-user@54.238.35.169
+ DEBUG [4dcefa3e] Command: cd /var/www/alpha-blg/releases/20201207041917 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" ; /usr/bin/env cp /var/www/alpha-blg/releases/20201207041917/public/assets/.sprockets-manifest-a7dcd4697473059465c655bf3c5d0791.json /var/www/alpha-blg/releases/20201207041917/assets_manifest_backup )
+  INFO [4dcefa3e] Finished in 0.141 seconds with exit status 0 (successful).
+  INFO [deploy:migrate] Run `rake db:migrate`
+ DEBUG [016b4a51] Running if test ! -d /var/www/alpha-blg/releases/20201207041917; then echo "Directory does not exist '/var/www/alpha-blg/releases/20201207041917'" 1>&2; false; fi as ec2-user@54.238.35.169
+ DEBUG [016b4a51] Command: if test ! -d /var/www/alpha-blg/releases/20201207041917; then echo "Directory does not exist '/var/www/alpha-blg/releases/20201207041917'" 1>&2; false; fi
+ DEBUG [016b4a51] Finished in 0.115 seconds with exit status 0 (successful).
+  INFO [8a36c95d] Running $HOME/.rbenv/bin/rbenv exec bundle exec rake db:migrate as ec2-user@54.238.35.169
+ DEBUG [8a36c95d] Command: cd /var/www/alpha-blg/releases/20201207041917 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" RAILS_ENV="production" ; $HOME/.rbenv/bin/rbenv exec bundle exec rake db:migrate )
+ DEBUG [8a36c95d] 	== 20201107063706 CreateArticles: migrating ===================================
+ DEBUG [8a36c95d] 	-- create_table(:articles)
+ DEBUG [8a36c95d] 	   -> 0.0039s
+ DEBUG [8a36c95d] 	== 20201107063706 CreateArticles: migrated (0.0040s) ==========================
+ DEBUG [8a36c95d] 	
+ DEBUG [8a36c95d] 	== 20201107070545 AddTimestampsToArticles: migrating ==========================
+ DEBUG [8a36c95d] 	-- add_column(:articles, :created_at, :datetime)
+ DEBUG [8a36c95d] 	   -> 0.0079s
+ DEBUG [8a36c95d] 	-- add_column(:articles, :updated_at, :datetime)
+ DEBUG [8a36c95d] 	   -> 0.0068s
+ DEBUG [8a36c95d] 	== 20201107070545 AddTimestampsToArticles: migrated (0.0150s) =================
+ DEBUG [8a36c95d] 	
+ DEBUG [8a36c95d] 	== 20201109133238 CreateUsers: migrating ======================================
+ DEBUG [8a36c95d] 	-- create_table(:users)
+ DEBUG [8a36c95d] 	   -> 0.0031s
+ DEBUG [8a36c95d] 	== 20201109133238 CreateUsers: migrated (0.0032s) =============================
+ DEBUG [8a36c95d] 	
+ DEBUG [8a36c95d] 	== 20201109135522 AddUserIdToArticles: migrating ==============================
+ DEBUG [8a36c95d] 	-- add_column(:articles, :user_id, :int)
+ DEBUG [8a36c95d] 	   -> 0.0055s
+ DEBUG [8a36c95d] 	== 20201109135522 AddUserIdToArticles: migrated (0.0056s) =====================
+ DEBUG [8a36c95d] 	
+ DEBUG [8a36c95d] 	== 20201110134736 AddPasswordDigestToUsers: migrating =========================
+ DEBUG [8a36c95d] 	-- add_column(:users, :password_digest, :string)
+ DEBUG [8a36c95d] 	   -> 0.0050s
+ DEBUG [8a36c95d] 	== 20201110134736 AddPasswordDigestToUsers: migrated (0.0051s) ================
+ DEBUG [8a36c95d] 	
+ DEBUG [8a36c95d] 	== 20201120133038 AddAdminToUsers: migrating ==================================
+ DEBUG [8a36c95d] 	-- add_column(:users, :admin, :boolean, {:default=>false})
+ DEBUG [8a36c95d] 	   -> 0.0055s
+ DEBUG [8a36c95d] 	== 20201120133038 AddAdminToUsers: migrated (0.0056s) =========================
+ DEBUG [8a36c95d] 	
+ DEBUG [8a36c95d] 	== 20201122085627 CreateCategories: migrating =================================
+ DEBUG [8a36c95d] 	-- create_table(:categories)
+ DEBUG [8a36c95d] 	   -> 0.0029s
+ DEBUG [8a36c95d] 	== 20201122085627 CreateCategories: migrated (0.0030s) ========================
+ DEBUG [8a36c95d] 	
+ DEBUG [8a36c95d] 	== 20201124132758 CreatedArticleCategories: migrating =========================
+ DEBUG [8a36c95d] 	-- create_table(:article_categories)
+ DEBUG [8a36c95d] 	   -> 0.0031s
+ DEBUG [8a36c95d] 	== 20201124132758 CreatedArticleCategories: migrated (0.0032s) ================
+ DEBUG [8a36c95d] 	
+  INFO [8a36c95d] Finished in 2.037 seconds with exit status 0 (successful).
+  INFO [1445ab72] Running /usr/bin/env ln -s /var/www/alpha-blg/releases/20201207041917 /var/www/alpha-blg/releases/current as ec2-user@54.238.35.169
+ DEBUG [1445ab72] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" ; /usr/bin/env ln -s /var/www/alpha-blg/releases/20201207041917 /var/www/alpha-blg/releases/current )
+  INFO [1445ab72] Finished in 0.114 seconds with exit status 0 (successful).
+  INFO [61b8f441] Running /usr/bin/env mv /var/www/alpha-blg/releases/current /var/www/alpha-blg as ec2-user@54.238.35.169
+ DEBUG [61b8f441] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" ; /usr/bin/env mv /var/www/alpha-blg/releases/current /var/www/alpha-blg )
+  INFO [61b8f441] Finished in 0.119 seconds with exit status 0 (successful).
+ DEBUG [53105bf8] Running if test ! -d /var/www/alpha-blg/current; then echo "Directory does not exist '/var/www/alpha-blg/current'" 1>&2; false; fi as ec2-user@54.238.35.169
+ DEBUG [53105bf8] Command: if test ! -d /var/www/alpha-blg/current; then echo "Directory does not exist '/var/www/alpha-blg/current'" 1>&2; false; fi
+ DEBUG [53105bf8] Finished in 0.115 seconds with exit status 0 (successful).
+ DEBUG [096567d6] Running [ -e /var/www/alpha-blg/shared/tmp/pids/unicorn.pid ] as ec2-user@54.238.35.169
+ DEBUG [096567d6] Command: [ -e /var/www/alpha-blg/shared/tmp/pids/unicorn.pid ]
+ DEBUG [096567d6] Finished in 0.114 seconds with exit status 1 (failed).
+  INFO unicorn is not running...
+ DEBUG [1891dd8f] Running if test ! -d /var/www/alpha-blg/current; then echo "Directory does not exist '/var/www/alpha-blg/current'" 1>&2; false; fi as ec2-user@54.238.35.169
+ DEBUG [1891dd8f] Command: if test ! -d /var/www/alpha-blg/current; then echo "Directory does not exist '/var/www/alpha-blg/current'" 1>&2; false; fi
+ DEBUG [1891dd8f] Finished in 0.138 seconds with exit status 0 (successful).
+ DEBUG [b7c12b01] Running [ -e /var/www/alpha-blg/shared/tmp/pids/unicorn.pid ] && kill -0 `cat /var/www/alpha-blg/shared/tmp/pids/unicorn.pid` as ec2-user@54.238.35.169
+ DEBUG [b7c12b01] Command: [ -e /var/www/alpha-blg/shared/tmp/pids/unicorn.pid ] && kill -0 `cat /var/www/alpha-blg/shared/tmp/pids/unicorn.pid`
+ DEBUG [b7c12b01] Finished in 0.117 seconds with exit status 1 (failed).
+  INFO [7ca8377c] Running $HOME/.rbenv/bin/rbenv exec bundle exec unicorn -c /var/www/alpha-blg/current/config/unicorn.rb -E deployment -D  as ec2-user@54.238.35.169
+ DEBUG [7ca8377c] Command: cd /var/www/alpha-blg/current && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" RAILS_ENV="production" ; $HOME/.rbenv/bin/rbenv exec bundle exec unicorn -c /var/www/alpha-blg/current/config/unicorn.rb -E deployment -D  )
+  INFO [7ca8377c] Finished in 1.551 seconds with exit status 0 (successful).
+ DEBUG [22a2538d] Running /usr/bin/env ls -x /var/www/alpha-blg/releases as ec2-user@54.238.35.169
+ DEBUG [22a2538d] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" ; /usr/bin/env ls -x /var/www/alpha-blg/releases )
+ DEBUG [22a2538d] 	20201207024100	20201207041917
+ DEBUG [22a2538d] Finished in 0.114 seconds with exit status 0 (successful).
+ DEBUG [26c33c8e] Running if test ! -d /var/www/alpha-blg/releases; then echo "Directory does not exist '/var/www/alpha-blg/releases'" 1>&2; false; fi as ec2-user@54.238.35.169
+ DEBUG [26c33c8e] Command: if test ! -d /var/www/alpha-blg/releases; then echo "Directory does not exist '/var/www/alpha-blg/releases'" 1>&2; false; fi
+ DEBUG [26c33c8e] Finished in 0.114 seconds with exit status 0 (successful).
+  INFO [3451192a] Running /usr/bin/env echo "Branch master (at cabbb4c56d1e1f0263bf271ddf092cbce77671f8) deployed as release 20201207041917 by akihisa.m" >> /var/www/alpha-blg/revisions.log as ec2-user@54.238.35.169
+ DEBUG [3451192a] Command: cd /var/www/alpha-blg/releases && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" ; /usr/bin/env echo "Branch master (at cabbb4c56d1e1f0263bf271ddf092cbce77671f8) deployed as release 20201207041917 by akihisa.m" >> /var/www/alpha-blg/revisions.log )
+  INFO [3451192a] Finished in 0.116 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-12-07 13:35:04 +0900 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [3dd267c0] Running [ -d $HOME/.rbenv/versions/2.6.5 ] as ec2-user@54.238.35.169
+ DEBUG [3dd267c0] Command: [ -d $HOME/.rbenv/versions/2.6.5 ]
+ DEBUG [3dd267c0] Finished in 0.437 seconds with exit status 0 (successful).
+ DEBUG [1233e94e] Running [ ! -d /var/www/alpha-blg/shared/config ] as ec2-user@54.238.35.169
+ DEBUG [1233e94e] Command: [ ! -d /var/www/alpha-blg/shared/config ]
+ DEBUG [1233e94e] Finished in 0.114 seconds with exit status 1 (failed).
+ DEBUG Uploading config/master.key 0.0%
+  INFO Uploading config/master.key 100.0%
+  INFO [0135e4b5] Running /usr/bin/env mkdir -p /tmp as ec2-user@54.238.35.169
+ DEBUG [0135e4b5] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" ; /usr/bin/env mkdir -p /tmp )
+  INFO [0135e4b5] Finished in 0.110 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-alpha-blg-production-akihisa.m.sh 0.0%
+  INFO Uploading /tmp/git-ssh-alpha-blg-production-akihisa.m.sh 100.0%
+  INFO [d29473a6] Running /usr/bin/env chmod 700 /tmp/git-ssh-alpha-blg-production-akihisa.m.sh as ec2-user@54.238.35.169
+ DEBUG [d29473a6] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" ; /usr/bin/env chmod 700 /tmp/git-ssh-alpha-blg-production-akihisa.m.sh )
+  INFO [d29473a6] Finished in 0.113 seconds with exit status 0 (successful).
+  INFO [aeedddb0] Running /usr/bin/env git ls-remote git@github.com:akyhysa/alpha-blg.git HEAD as ec2-user@54.238.35.169
+ DEBUG [aeedddb0] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-alpha-blg-production-akihisa.m.sh" ; /usr/bin/env git ls-remote git@github.com:akyhysa/alpha-blg.git HEAD )
+ DEBUG [aeedddb0] 	cabbb4c56d1e1f0263bf271ddf092cbce77671f8	HEAD
+  INFO [aeedddb0] Finished in 2.141 seconds with exit status 0 (successful).
+  INFO [5ad77566] Running /usr/bin/env mkdir -p /var/www/alpha-blg/shared /var/www/alpha-blg/releases as ec2-user@54.238.35.169
+ DEBUG [5ad77566] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" ; /usr/bin/env mkdir -p /var/www/alpha-blg/shared /var/www/alpha-blg/releases )
+  INFO [5ad77566] Finished in 0.111 seconds with exit status 0 (successful).
+  INFO [5fff25c8] Running /usr/bin/env mkdir -p /var/www/alpha-blg/shared/log /var/www/alpha-blg/shared/tmp/pids /var/www/alpha-blg/shared/tmp/cache /var/www/alpha-blg/shared/tmp/sockets /var/www/alpha-blg/shared/vendor/bundle /var/www/alpha-blg/shared/public/system /var/www/alpha-blg/shared/public/uploads /var/www/alpha-blg/shared/public/assets as ec2-user@54.238.35.169
+ DEBUG [5fff25c8] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" ; /usr/bin/env mkdir -p /var/www/alpha-blg/shared/log /var/www/alpha-blg/shared/tmp/pids /var/www/alpha-blg/shared/tmp/cache /var/www/alpha-blg/shared/tmp/sockets /var/www/alpha-blg/shared/vendor/bundle /var/www/alpha-blg/shared/public/system /var/www/alpha-blg/shared/public/uploads /var/www/alpha-blg/shared/public/assets )
+  INFO [5fff25c8] Finished in 0.117 seconds with exit status 0 (successful).
+  INFO [604bb8fb] Running /usr/bin/env mkdir -p /var/www/alpha-blg/shared/config as ec2-user@54.238.35.169
+ DEBUG [604bb8fb] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" ; /usr/bin/env mkdir -p /var/www/alpha-blg/shared/config )
+  INFO [604bb8fb] Finished in 0.112 seconds with exit status 0 (successful).
+ DEBUG [dc2686da] Running [ -f /var/www/alpha-blg/shared/config/master.key ] as ec2-user@54.238.35.169
+ DEBUG [dc2686da] Command: [ -f /var/www/alpha-blg/shared/config/master.key ]
+ DEBUG [dc2686da] Finished in 0.110 seconds with exit status 0 (successful).
+ DEBUG [483dd312] Running [ -f /var/www/alpha-blg/current/REVISION ] as ec2-user@54.238.35.169
+ DEBUG [483dd312] Command: [ -f /var/www/alpha-blg/current/REVISION ]
+ DEBUG [483dd312] Finished in 0.112 seconds with exit status 0 (successful).
+ DEBUG [dabdca76] Running /usr/bin/env cat /var/www/alpha-blg/current/REVISION 2>/dev/null as ec2-user@54.238.35.169
+ DEBUG [dabdca76] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" ; /usr/bin/env cat /var/www/alpha-blg/current/REVISION 2>/dev/null )
+ DEBUG [dabdca76] 	cabbb4c56d1e1f0263bf271ddf092cbce77671f8
+ DEBUG [dabdca76] Finished in 0.118 seconds with exit status 0 (successful).
+ DEBUG [5fb96637] Running [ -f /var/www/alpha-blg/repo/HEAD ] as ec2-user@54.238.35.169
+ DEBUG [5fb96637] Command: [ -f /var/www/alpha-blg/repo/HEAD ]
+ DEBUG [5fb96637] Finished in 0.111 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /var/www/alpha-blg/repo
+ DEBUG [1436d67a] Running if test ! -d /var/www/alpha-blg/repo; then echo "Directory does not exist '/var/www/alpha-blg/repo'" 1>&2; false; fi as ec2-user@54.238.35.169
+ DEBUG [1436d67a] Command: if test ! -d /var/www/alpha-blg/repo; then echo "Directory does not exist '/var/www/alpha-blg/repo'" 1>&2; false; fi
+ DEBUG [1436d67a] Finished in 0.135 seconds with exit status 0 (successful).
+  INFO [4d2b48a0] Running /usr/bin/env git remote set-url origin git@github.com:akyhysa/alpha-blg.git as ec2-user@54.238.35.169
+ DEBUG [4d2b48a0] Command: cd /var/www/alpha-blg/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-alpha-blg-production-akihisa.m.sh" ; /usr/bin/env git remote set-url origin git@github.com:akyhysa/alpha-blg.git )
+  INFO [4d2b48a0] Finished in 0.117 seconds with exit status 0 (successful).
+  INFO [8fef543b] Running /usr/bin/env git remote update --prune as ec2-user@54.238.35.169
+ DEBUG [8fef543b] Command: cd /var/www/alpha-blg/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-alpha-blg-production-akihisa.m.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [8fef543b] 	Fetching origin
+  INFO [8fef543b] Finished in 2.044 seconds with exit status 0 (successful).
+ DEBUG [6fde5731] Running if test ! -d /var/www/alpha-blg/repo; then echo "Directory does not exist '/var/www/alpha-blg/repo'" 1>&2; false; fi as ec2-user@54.238.35.169
+ DEBUG [6fde5731] Command: if test ! -d /var/www/alpha-blg/repo; then echo "Directory does not exist '/var/www/alpha-blg/repo'" 1>&2; false; fi
+ DEBUG [6fde5731] Finished in 0.115 seconds with exit status 0 (successful).
+  INFO [df9b625d] Running /usr/bin/env mkdir -p /var/www/alpha-blg/releases/20201207043508 as ec2-user@54.238.35.169
+ DEBUG [df9b625d] Command: cd /var/www/alpha-blg/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-alpha-blg-production-akihisa.m.sh" ; /usr/bin/env mkdir -p /var/www/alpha-blg/releases/20201207043508 )
+  INFO [df9b625d] Finished in 0.112 seconds with exit status 0 (successful).
+  INFO [8baf9811] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/alpha-blg/releases/20201207043508 as ec2-user@54.238.35.169
+ DEBUG [8baf9811] Command: cd /var/www/alpha-blg/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-alpha-blg-production-akihisa.m.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/alpha-blg/releases/20201207043508 )
+  INFO [8baf9811] Finished in 3.076 seconds with exit status 0 (successful).
+ DEBUG [1b07d56c] Running if test ! -d /var/www/alpha-blg/repo; then echo "Directory does not exist '/var/www/alpha-blg/repo'" 1>&2; false; fi as ec2-user@54.238.35.169
+ DEBUG [1b07d56c] Command: if test ! -d /var/www/alpha-blg/repo; then echo "Directory does not exist '/var/www/alpha-blg/repo'" 1>&2; false; fi
+ DEBUG [1b07d56c] Finished in 0.126 seconds with exit status 0 (successful).
+ DEBUG [07c789fd] Running /usr/bin/env git rev-list --max-count=1 master as ec2-user@54.238.35.169
+ DEBUG [07c789fd] Command: cd /var/www/alpha-blg/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-alpha-blg-production-akihisa.m.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [07c789fd] 	cabbb4c56d1e1f0263bf271ddf092cbce77671f8
+ DEBUG [07c789fd] Finished in 0.114 seconds with exit status 0 (successful).
+ DEBUG [e652e97c] Running if test ! -d /var/www/alpha-blg/releases/20201207043508; then echo "Directory does not exist '/var/www/alpha-blg/releases/20201207043508'" 1>&2; false; fi as ec2-user@54.238.35.169
+ DEBUG [e652e97c] Command: if test ! -d /var/www/alpha-blg/releases/20201207043508; then echo "Directory does not exist '/var/www/alpha-blg/releases/20201207043508'" 1>&2; false; fi
+ DEBUG [e652e97c] Finished in 0.111 seconds with exit status 0 (successful).
+  INFO [70298667] Running /usr/bin/env echo "cabbb4c56d1e1f0263bf271ddf092cbce77671f8" > REVISION as ec2-user@54.238.35.169
+ DEBUG [70298667] Command: cd /var/www/alpha-blg/releases/20201207043508 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" ; /usr/bin/env echo "cabbb4c56d1e1f0263bf271ddf092cbce77671f8" > REVISION )
+  INFO [70298667] Finished in 0.115 seconds with exit status 0 (successful).
+  INFO [44561aa4] Running /usr/bin/env mkdir -p /var/www/alpha-blg/releases/20201207043508/config as ec2-user@54.238.35.169
+ DEBUG [44561aa4] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" ; /usr/bin/env mkdir -p /var/www/alpha-blg/releases/20201207043508/config )
+  INFO [44561aa4] Finished in 0.114 seconds with exit status 0 (successful).
+ DEBUG [422f4a66] Running [ -L /var/www/alpha-blg/releases/20201207043508/config/master.key ] as ec2-user@54.238.35.169
+ DEBUG [422f4a66] Command: [ -L /var/www/alpha-blg/releases/20201207043508/config/master.key ]
+ DEBUG [422f4a66] Finished in 0.116 seconds with exit status 1 (failed).
+ DEBUG [1bcf8cb9] Running [ -f /var/www/alpha-blg/releases/20201207043508/config/master.key ] as ec2-user@54.238.35.169
+ DEBUG [1bcf8cb9] Command: [ -f /var/www/alpha-blg/releases/20201207043508/config/master.key ]
+ DEBUG [1bcf8cb9] Finished in 0.124 seconds with exit status 0 (successful).
+  INFO [b8b23d5d] Running /usr/bin/env rm /var/www/alpha-blg/releases/20201207043508/config/master.key as ec2-user@54.238.35.169
+ DEBUG [b8b23d5d] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" ; /usr/bin/env rm /var/www/alpha-blg/releases/20201207043508/config/master.key )
+  INFO [b8b23d5d] Finished in 0.112 seconds with exit status 0 (successful).
+  INFO [8edaef29] Running /usr/bin/env ln -s /var/www/alpha-blg/shared/config/master.key /var/www/alpha-blg/releases/20201207043508/config/master.key as ec2-user@54.238.35.169
+ DEBUG [8edaef29] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" ; /usr/bin/env ln -s /var/www/alpha-blg/shared/config/master.key /var/www/alpha-blg/releases/20201207043508/config/master.key )
+  INFO [8edaef29] Finished in 0.111 seconds with exit status 0 (successful).
+  INFO [f0ac9716] Running /usr/bin/env mkdir -p /var/www/alpha-blg/releases/20201207043508 /var/www/alpha-blg/releases/20201207043508/tmp /var/www/alpha-blg/releases/20201207043508/vendor /var/www/alpha-blg/releases/20201207043508/public as ec2-user@54.238.35.169
+ DEBUG [f0ac9716] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" ; /usr/bin/env mkdir -p /var/www/alpha-blg/releases/20201207043508 /var/www/alpha-blg/releases/20201207043508/tmp /var/www/alpha-blg/releases/20201207043508/vendor /var/www/alpha-blg/releases/20201207043508/public )
+  INFO [f0ac9716] Finished in 0.110 seconds with exit status 0 (successful).
+ DEBUG [16ce04d7] Running [ -L /var/www/alpha-blg/releases/20201207043508/log ] as ec2-user@54.238.35.169
+ DEBUG [16ce04d7] Command: [ -L /var/www/alpha-blg/releases/20201207043508/log ]
+ DEBUG [16ce04d7] Finished in 0.117 seconds with exit status 1 (failed).
+ DEBUG [0e620e9c] Running [ -d /var/www/alpha-blg/releases/20201207043508/log ] as ec2-user@54.238.35.169
+ DEBUG [0e620e9c] Command: [ -d /var/www/alpha-blg/releases/20201207043508/log ]
+ DEBUG [0e620e9c] Finished in 0.114 seconds with exit status 0 (successful).
+  INFO [721805c3] Running /usr/bin/env rm -rf /var/www/alpha-blg/releases/20201207043508/log as ec2-user@54.238.35.169
+ DEBUG [721805c3] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" ; /usr/bin/env rm -rf /var/www/alpha-blg/releases/20201207043508/log )
+  INFO [721805c3] Finished in 0.134 seconds with exit status 0 (successful).
+  INFO [969322ea] Running /usr/bin/env ln -s /var/www/alpha-blg/shared/log /var/www/alpha-blg/releases/20201207043508/log as ec2-user@54.238.35.169
+ DEBUG [969322ea] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" ; /usr/bin/env ln -s /var/www/alpha-blg/shared/log /var/www/alpha-blg/releases/20201207043508/log )
+  INFO [969322ea] Finished in 0.113 seconds with exit status 0 (successful).
+ DEBUG [c0fe72bd] Running [ -L /var/www/alpha-blg/releases/20201207043508/tmp/pids ] as ec2-user@54.238.35.169
+ DEBUG [c0fe72bd] Command: [ -L /var/www/alpha-blg/releases/20201207043508/tmp/pids ]
+ DEBUG [c0fe72bd] Finished in 0.113 seconds with exit status 1 (failed).
+ DEBUG [534b9e62] Running [ -d /var/www/alpha-blg/releases/20201207043508/tmp/pids ] as ec2-user@54.238.35.169
+ DEBUG [534b9e62] Command: [ -d /var/www/alpha-blg/releases/20201207043508/tmp/pids ]
+ DEBUG [534b9e62] Finished in 0.110 seconds with exit status 0 (successful).
+  INFO [15d093ab] Running /usr/bin/env rm -rf /var/www/alpha-blg/releases/20201207043508/tmp/pids as ec2-user@54.238.35.169
+ DEBUG [15d093ab] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" ; /usr/bin/env rm -rf /var/www/alpha-blg/releases/20201207043508/tmp/pids )
+  INFO [15d093ab] Finished in 0.114 seconds with exit status 0 (successful).
+  INFO [249fe512] Running /usr/bin/env ln -s /var/www/alpha-blg/shared/tmp/pids /var/www/alpha-blg/releases/20201207043508/tmp/pids as ec2-user@54.238.35.169
+ DEBUG [249fe512] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" ; /usr/bin/env ln -s /var/www/alpha-blg/shared/tmp/pids /var/www/alpha-blg/releases/20201207043508/tmp/pids )
+  INFO [249fe512] Finished in 0.113 seconds with exit status 0 (successful).
+ DEBUG [b21fc4b8] Running [ -L /var/www/alpha-blg/releases/20201207043508/tmp/cache ] as ec2-user@54.238.35.169
+ DEBUG [b21fc4b8] Command: [ -L /var/www/alpha-blg/releases/20201207043508/tmp/cache ]
+ DEBUG [b21fc4b8] Finished in 0.127 seconds with exit status 1 (failed).
+ DEBUG [26163bd7] Running [ -d /var/www/alpha-blg/releases/20201207043508/tmp/cache ] as ec2-user@54.238.35.169
+ DEBUG [26163bd7] Command: [ -d /var/www/alpha-blg/releases/20201207043508/tmp/cache ]
+ DEBUG [26163bd7] Finished in 0.113 seconds with exit status 0 (successful).
+  INFO [c65b1811] Running /usr/bin/env rm -rf /var/www/alpha-blg/releases/20201207043508/tmp/cache as ec2-user@54.238.35.169
+ DEBUG [c65b1811] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" ; /usr/bin/env rm -rf /var/www/alpha-blg/releases/20201207043508/tmp/cache )
+  INFO [c65b1811] Finished in 0.214 seconds with exit status 0 (successful).
+  INFO [22238d34] Running /usr/bin/env ln -s /var/www/alpha-blg/shared/tmp/cache /var/www/alpha-blg/releases/20201207043508/tmp/cache as ec2-user@54.238.35.169
+ DEBUG [22238d34] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" ; /usr/bin/env ln -s /var/www/alpha-blg/shared/tmp/cache /var/www/alpha-blg/releases/20201207043508/tmp/cache )
+  INFO [22238d34] Finished in 0.112 seconds with exit status 0 (successful).
+ DEBUG [d917ad9b] Running [ -L /var/www/alpha-blg/releases/20201207043508/tmp/sockets ] as ec2-user@54.238.35.169
+ DEBUG [d917ad9b] Command: [ -L /var/www/alpha-blg/releases/20201207043508/tmp/sockets ]
+ DEBUG [d917ad9b] Finished in 0.111 seconds with exit status 1 (failed).
+ DEBUG [16ea786c] Running [ -d /var/www/alpha-blg/releases/20201207043508/tmp/sockets ] as ec2-user@54.238.35.169
+ DEBUG [16ea786c] Command: [ -d /var/www/alpha-blg/releases/20201207043508/tmp/sockets ]
+ DEBUG [16ea786c] Finished in 0.117 seconds with exit status 1 (failed).
+  INFO [a2576b31] Running /usr/bin/env ln -s /var/www/alpha-blg/shared/tmp/sockets /var/www/alpha-blg/releases/20201207043508/tmp/sockets as ec2-user@54.238.35.169
+ DEBUG [a2576b31] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" ; /usr/bin/env ln -s /var/www/alpha-blg/shared/tmp/sockets /var/www/alpha-blg/releases/20201207043508/tmp/sockets )
+  INFO [a2576b31] Finished in 0.115 seconds with exit status 0 (successful).
+ DEBUG [e76a509b] Running [ -L /var/www/alpha-blg/releases/20201207043508/vendor/bundle ] as ec2-user@54.238.35.169
+ DEBUG [e76a509b] Command: [ -L /var/www/alpha-blg/releases/20201207043508/vendor/bundle ]
+ DEBUG [e76a509b] Finished in 0.114 seconds with exit status 1 (failed).
+ DEBUG [a8bc0975] Running [ -d /var/www/alpha-blg/releases/20201207043508/vendor/bundle ] as ec2-user@54.238.35.169
+ DEBUG [a8bc0975] Command: [ -d /var/www/alpha-blg/releases/20201207043508/vendor/bundle ]
+ DEBUG [a8bc0975] Finished in 0.113 seconds with exit status 1 (failed).
+  INFO [ab75b5eb] Running /usr/bin/env ln -s /var/www/alpha-blg/shared/vendor/bundle /var/www/alpha-blg/releases/20201207043508/vendor/bundle as ec2-user@54.238.35.169
+ DEBUG [ab75b5eb] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" ; /usr/bin/env ln -s /var/www/alpha-blg/shared/vendor/bundle /var/www/alpha-blg/releases/20201207043508/vendor/bundle )
+  INFO [ab75b5eb] Finished in 0.112 seconds with exit status 0 (successful).
+ DEBUG [d2252b11] Running [ -L /var/www/alpha-blg/releases/20201207043508/public/system ] as ec2-user@54.238.35.169
+ DEBUG [d2252b11] Command: [ -L /var/www/alpha-blg/releases/20201207043508/public/system ]
+ DEBUG [d2252b11] Finished in 0.111 seconds with exit status 1 (failed).
+ DEBUG [4abb57c0] Running [ -d /var/www/alpha-blg/releases/20201207043508/public/system ] as ec2-user@54.238.35.169
+ DEBUG [4abb57c0] Command: [ -d /var/www/alpha-blg/releases/20201207043508/public/system ]
+ DEBUG [4abb57c0] Finished in 0.134 seconds with exit status 1 (failed).
+  INFO [75b65594] Running /usr/bin/env ln -s /var/www/alpha-blg/shared/public/system /var/www/alpha-blg/releases/20201207043508/public/system as ec2-user@54.238.35.169
+ DEBUG [75b65594] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" ; /usr/bin/env ln -s /var/www/alpha-blg/shared/public/system /var/www/alpha-blg/releases/20201207043508/public/system )
+  INFO [75b65594] Finished in 0.113 seconds with exit status 0 (successful).
+ DEBUG [e85d9b91] Running [ -L /var/www/alpha-blg/releases/20201207043508/public/uploads ] as ec2-user@54.238.35.169
+ DEBUG [e85d9b91] Command: [ -L /var/www/alpha-blg/releases/20201207043508/public/uploads ]
+ DEBUG [e85d9b91] Finished in 0.110 seconds with exit status 1 (failed).
+ DEBUG [5c6dcede] Running [ -d /var/www/alpha-blg/releases/20201207043508/public/uploads ] as ec2-user@54.238.35.169
+ DEBUG [5c6dcede] Command: [ -d /var/www/alpha-blg/releases/20201207043508/public/uploads ]
+ DEBUG [5c6dcede] Finished in 0.111 seconds with exit status 1 (failed).
+  INFO [34d216b7] Running /usr/bin/env ln -s /var/www/alpha-blg/shared/public/uploads /var/www/alpha-blg/releases/20201207043508/public/uploads as ec2-user@54.238.35.169
+ DEBUG [34d216b7] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" ; /usr/bin/env ln -s /var/www/alpha-blg/shared/public/uploads /var/www/alpha-blg/releases/20201207043508/public/uploads )
+  INFO [34d216b7] Finished in 0.113 seconds with exit status 0 (successful).
+ DEBUG [3e5ce1e0] Running [ -L /var/www/alpha-blg/releases/20201207043508/public/assets ] as ec2-user@54.238.35.169
+ DEBUG [3e5ce1e0] Command: [ -L /var/www/alpha-blg/releases/20201207043508/public/assets ]
+ DEBUG [3e5ce1e0] Finished in 0.109 seconds with exit status 1 (failed).
+ DEBUG [a4f40b0a] Running [ -d /var/www/alpha-blg/releases/20201207043508/public/assets ] as ec2-user@54.238.35.169
+ DEBUG [a4f40b0a] Command: [ -d /var/www/alpha-blg/releases/20201207043508/public/assets ]
+ DEBUG [a4f40b0a] Finished in 0.135 seconds with exit status 1 (failed).
+  INFO [4087cc80] Running /usr/bin/env ln -s /var/www/alpha-blg/shared/public/assets /var/www/alpha-blg/releases/20201207043508/public/assets as ec2-user@54.238.35.169
+ DEBUG [4087cc80] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" ; /usr/bin/env ln -s /var/www/alpha-blg/shared/public/assets /var/www/alpha-blg/releases/20201207043508/public/assets )
+  INFO [4087cc80] Finished in 0.114 seconds with exit status 0 (successful).
+ DEBUG [bd4a8af7] Running if test ! -d /var/www/alpha-blg/releases/20201207043508; then echo "Directory does not exist '/var/www/alpha-blg/releases/20201207043508'" 1>&2; false; fi as ec2-user@54.238.35.169
+ DEBUG [bd4a8af7] Command: if test ! -d /var/www/alpha-blg/releases/20201207043508; then echo "Directory does not exist '/var/www/alpha-blg/releases/20201207043508'" 1>&2; false; fi
+ DEBUG [bd4a8af7] Finished in 0.111 seconds with exit status 0 (successful).
+  INFO [68d8856c] Running $HOME/.rbenv/bin/rbenv exec bundle config --local deployment true as ec2-user@54.238.35.169
+ DEBUG [68d8856c] Command: cd /var/www/alpha-blg/releases/20201207043508 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" ; $HOME/.rbenv/bin/rbenv exec bundle config --local deployment true )
+  INFO [68d8856c] Finished in 0.294 seconds with exit status 0 (successful).
+  INFO [37e4be50] Running $HOME/.rbenv/bin/rbenv exec bundle config --local path /var/www/alpha-blg/shared/bundle as ec2-user@54.238.35.169
+ DEBUG [37e4be50] Command: cd /var/www/alpha-blg/releases/20201207043508 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" ; $HOME/.rbenv/bin/rbenv exec bundle config --local path /var/www/alpha-blg/shared/bundle )
+  INFO [37e4be50] Finished in 0.293 seconds with exit status 0 (successful).
+  INFO [8038e4ab] Running $HOME/.rbenv/bin/rbenv exec bundle config --local without development:test as ec2-user@54.238.35.169
+ DEBUG [8038e4ab] Command: cd /var/www/alpha-blg/releases/20201207043508 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" ; $HOME/.rbenv/bin/rbenv exec bundle config --local without development:test )
+  INFO [8038e4ab] Finished in 0.297 seconds with exit status 0 (successful).
+ DEBUG [118ae4ba] Running if test ! -d /var/www/alpha-blg/releases/20201207043508; then echo "Directory does not exist '/var/www/alpha-blg/releases/20201207043508'" 1>&2; false; fi as ec2-user@54.238.35.169
+ DEBUG [118ae4ba] Command: if test ! -d /var/www/alpha-blg/releases/20201207043508; then echo "Directory does not exist '/var/www/alpha-blg/releases/20201207043508'" 1>&2; false; fi
+ DEBUG [118ae4ba] Finished in 0.112 seconds with exit status 0 (successful).
+ DEBUG [98ec95f0] Running $HOME/.rbenv/bin/rbenv exec bundle check as ec2-user@54.238.35.169
+ DEBUG [98ec95f0] Command: cd /var/www/alpha-blg/releases/20201207043508 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" ; $HOME/.rbenv/bin/rbenv exec bundle check )
+ DEBUG [98ec95f0] 	The dependency tzinfo-data (>= 0) will be unused by any of the platforms Bundler is installing for. Bundler is installing for ruby but the dependency is only for x86-mingw32, x86-mswin32, x64-mingw32, java. To add those platforms to the bundle, run `bundle lock --add-platform x86-mingw32 x86-mswin32 x64-mingw32 java`.
+ DEBUG [98ec95f0] 	The Gemfile's dependencies are satisfied
+ DEBUG [98ec95f0] Finished in 0.432 seconds with exit status 0 (successful).
+  INFO The Gemfile's dependencies are satisfied, skipping installation
+ DEBUG [730a7050] Running if test ! -d /var/www/alpha-blg/releases/20201207043508; then echo "Directory does not exist '/var/www/alpha-blg/releases/20201207043508'" 1>&2; false; fi as ec2-user@54.238.35.169
+ DEBUG [730a7050] Command: if test ! -d /var/www/alpha-blg/releases/20201207043508; then echo "Directory does not exist '/var/www/alpha-blg/releases/20201207043508'" 1>&2; false; fi
+ DEBUG [730a7050] Finished in 0.114 seconds with exit status 0 (successful).
+  INFO [dc23fdb1] Running $HOME/.rbenv/bin/rbenv exec bundle exec rake assets:precompile as ec2-user@54.238.35.169
+ DEBUG [dc23fdb1] Command: cd /var/www/alpha-blg/releases/20201207043508 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" RAILS_ENV="production" RAILS_GROUPS="" ; $HOME/.rbenv/bin/rbenv exec bundle exec rake assets:precompile )
+ DEBUG [dc23fdb1] 	yarn install v1.22.5
+ DEBUG [dc23fdb1] 	[1/4] Resolving packages...
+ DEBUG [dc23fdb1] 	[2/4] Fetching packages...
+ DEBUG [dc23fdb1] 	info fsevents@2.1.3: The platform "linux" is incompatible with this module.
+ DEBUG [dc23fdb1] 	info "fsevents@2.1.3" is an optional dependency and failed compatibility check. Excluding it from installation.
+ DEBUG [dc23fdb1] 	info fsevents@1.2.13: The platform "linux" is incompatible with this module.
+ DEBUG [dc23fdb1] 	info "fsevents@1.2.13" is an optional dependency and failed compatibility check. Excluding it from installation.
+ DEBUG [dc23fdb1] 	[3/4] Linking dependencies...
+ DEBUG [dc23fdb1] 	warning " > webpack-dev-server@3.11.0" has unmet peer dependency "webpack@^4.0.0 || ^5.0.0".
+ DEBUG [dc23fdb1] 	warning "webpack-dev-server > webpack-dev-middleware@3.7.2" has unmet peer dependency "webpack@^4.0.0".
+ DEBUG [dc23fdb1] 	[4/4] Building fresh packages...
+ DEBUG [dc23fdb1] 	Done in 12.37s.
+ DEBUG [dc23fdb1] 	yarn install v1.22.5
+ DEBUG [dc23fdb1] 	[1/4] Resolving packages...
+ DEBUG [dc23fdb1] 	[2/4] Fetching packages...
+ DEBUG [dc23fdb1] 	info fsevents@2.1.3: The platform "linux" is incompatible with this module.
+ DEBUG [dc23fdb1] 	info "fsevents@2.1.3" is an optional dependency and failed compatibility check. Excluding it from installation.
+ DEBUG [dc23fdb1] 	info fsevents@1.2.13: The platform "linux" is incompatible with this module.
+ DEBUG [dc23fdb1] 	info "fsevents@1.2.13" is an optional dependency and failed compatibility check. Excluding it from installation.
+ DEBUG [dc23fdb1] 	[3/4] Linking dependencies...
+ DEBUG [dc23fdb1] 	warning " > webpack-dev-server@3.11.0" has unmet peer dependency "webpack@^4.0.0 || ^5.0.0".
+ DEBUG [dc23fdb1] 	warning "webpack-dev-server > webpack-dev-middleware@3.7.2" has unmet peer dependency "webpack@^4.0.0".
+ DEBUG [dc23fdb1] 	[4/4] Building fresh packages...
+ DEBUG [dc23fdb1] 	Done in 4.28s.
+ DEBUG [dc23fdb1] 	Everything's up-to-date. Nothing to do
+  INFO [dc23fdb1] Finished in 19.236 seconds with exit status 0 (successful).
+ DEBUG [e4b62932] Running if test ! -d /var/www/alpha-blg/releases/20201207043508; then echo "Directory does not exist '/var/www/alpha-blg/releases/20201207043508'" 1>&2; false; fi as ec2-user@54.238.35.169
+ DEBUG [e4b62932] Command: if test ! -d /var/www/alpha-blg/releases/20201207043508; then echo "Directory does not exist '/var/www/alpha-blg/releases/20201207043508'" 1>&2; false; fi
+ DEBUG [e4b62932] Finished in 0.126 seconds with exit status 0 (successful).
+  INFO [b2bc3d46] Running /usr/bin/env mkdir -p /var/www/alpha-blg/releases/20201207043508/assets_manifest_backup as ec2-user@54.238.35.169
+ DEBUG [b2bc3d46] Command: cd /var/www/alpha-blg/releases/20201207043508 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" ; /usr/bin/env mkdir -p /var/www/alpha-blg/releases/20201207043508/assets_manifest_backup )
+  INFO [b2bc3d46] Finished in 0.113 seconds with exit status 0 (successful).
+ DEBUG [58029cf0] Running /usr/bin/env ls /var/www/alpha-blg/releases/20201207043508/public/assets/.sprockets-manifest* as ec2-user@54.238.35.169
+ DEBUG [58029cf0] Command: cd /var/www/alpha-blg/releases/20201207043508 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" ; /usr/bin/env ls /var/www/alpha-blg/releases/20201207043508/public/assets/.sprockets-manifest* )
+ DEBUG [58029cf0] 	/var/www/alpha-blg/releases/20201207043508/public/assets/.sprockets-manifest-a7dcd4697473059465c655bf3c5d0791.json
+ DEBUG [58029cf0] Finished in 0.121 seconds with exit status 0 (successful).
+ DEBUG [d8bbb52e] Running /usr/bin/env ls /var/www/alpha-blg/releases/20201207043508/public/assets/.sprockets-manifest* as ec2-user@54.238.35.169
+ DEBUG [d8bbb52e] Command: cd /var/www/alpha-blg/releases/20201207043508 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" ; /usr/bin/env ls /var/www/alpha-blg/releases/20201207043508/public/assets/.sprockets-manifest* )
+ DEBUG [d8bbb52e] 	/var/www/alpha-blg/releases/20201207043508/public/assets/.sprockets-manifest-a7dcd4697473059465c655bf3c5d0791.json
+ DEBUG [d8bbb52e] Finished in 0.112 seconds with exit status 0 (successful).
+  INFO [beddd84e] Running /usr/bin/env cp /var/www/alpha-blg/releases/20201207043508/public/assets/.sprockets-manifest-a7dcd4697473059465c655bf3c5d0791.json /var/www/alpha-blg/releases/20201207043508/assets_manifest_backup as ec2-user@54.238.35.169
+ DEBUG [beddd84e] Command: cd /var/www/alpha-blg/releases/20201207043508 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" ; /usr/bin/env cp /var/www/alpha-blg/releases/20201207043508/public/assets/.sprockets-manifest-a7dcd4697473059465c655bf3c5d0791.json /var/www/alpha-blg/releases/20201207043508/assets_manifest_backup )
+  INFO [beddd84e] Finished in 0.121 seconds with exit status 0 (successful).
+  INFO [deploy:migrate] Run `rake db:migrate`
+ DEBUG [08848a2a] Running if test ! -d /var/www/alpha-blg/releases/20201207043508; then echo "Directory does not exist '/var/www/alpha-blg/releases/20201207043508'" 1>&2; false; fi as ec2-user@54.238.35.169
+ DEBUG [08848a2a] Command: if test ! -d /var/www/alpha-blg/releases/20201207043508; then echo "Directory does not exist '/var/www/alpha-blg/releases/20201207043508'" 1>&2; false; fi
+ DEBUG [08848a2a] Finished in 0.120 seconds with exit status 0 (successful).
+  INFO [e0f3d488] Running $HOME/.rbenv/bin/rbenv exec bundle exec rake db:migrate as ec2-user@54.238.35.169
+ DEBUG [e0f3d488] Command: cd /var/www/alpha-blg/releases/20201207043508 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" RAILS_ENV="production" ; $HOME/.rbenv/bin/rbenv exec bundle exec rake db:migrate )
+  INFO [e0f3d488] Finished in 1.499 seconds with exit status 0 (successful).
+  INFO [51744efe] Running /usr/bin/env ln -s /var/www/alpha-blg/releases/20201207043508 /var/www/alpha-blg/releases/current as ec2-user@54.238.35.169
+ DEBUG [51744efe] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" ; /usr/bin/env ln -s /var/www/alpha-blg/releases/20201207043508 /var/www/alpha-blg/releases/current )
+  INFO [51744efe] Finished in 0.113 seconds with exit status 0 (successful).
+  INFO [c8133412] Running /usr/bin/env mv /var/www/alpha-blg/releases/current /var/www/alpha-blg as ec2-user@54.238.35.169
+ DEBUG [c8133412] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" ; /usr/bin/env mv /var/www/alpha-blg/releases/current /var/www/alpha-blg )
+  INFO [c8133412] Finished in 0.115 seconds with exit status 0 (successful).
+ DEBUG [4e724c0e] Running if test ! -d /var/www/alpha-blg/current; then echo "Directory does not exist '/var/www/alpha-blg/current'" 1>&2; false; fi as ec2-user@54.238.35.169
+ DEBUG [4e724c0e] Command: if test ! -d /var/www/alpha-blg/current; then echo "Directory does not exist '/var/www/alpha-blg/current'" 1>&2; false; fi
+ DEBUG [4e724c0e] Finished in 0.112 seconds with exit status 0 (successful).
+ DEBUG [64ceab83] Running [ -e /var/www/alpha-blg/shared/tmp/pids/unicorn.pid ] as ec2-user@54.238.35.169
+ DEBUG [64ceab83] Command: [ -e /var/www/alpha-blg/shared/tmp/pids/unicorn.pid ]
+ DEBUG [64ceab83] Finished in 0.112 seconds with exit status 0 (successful).
+ DEBUG [889b2a3f] Running kill -0 `cat /var/www/alpha-blg/shared/tmp/pids/unicorn.pid` as ec2-user@54.238.35.169
+ DEBUG [889b2a3f] Command: kill -0 `cat /var/www/alpha-blg/shared/tmp/pids/unicorn.pid`
+ DEBUG [889b2a3f] Finished in 0.113 seconds with exit status 0 (successful).
+  INFO stopping unicorn...
+  INFO [0f671cd6] Running /usr/bin/env kill -s QUIT `cat /var/www/alpha-blg/shared/tmp/pids/unicorn.pid` as ec2-user@54.238.35.169
+ DEBUG [0f671cd6] Command: cd /var/www/alpha-blg/current && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" ; /usr/bin/env kill -s QUIT `cat /var/www/alpha-blg/shared/tmp/pids/unicorn.pid` )
+  INFO [0f671cd6] Finished in 0.118 seconds with exit status 0 (successful).
+ DEBUG [ca2c4bb3] Running if test ! -d /var/www/alpha-blg/current; then echo "Directory does not exist '/var/www/alpha-blg/current'" 1>&2; false; fi as ec2-user@54.238.35.169
+ DEBUG [ca2c4bb3] Command: if test ! -d /var/www/alpha-blg/current; then echo "Directory does not exist '/var/www/alpha-blg/current'" 1>&2; false; fi
+ DEBUG [ca2c4bb3] Finished in 0.130 seconds with exit status 0 (successful).
+ DEBUG [ec76f64b] Running [ -e /var/www/alpha-blg/shared/tmp/pids/unicorn.pid ] && kill -0 `cat /var/www/alpha-blg/shared/tmp/pids/unicorn.pid` as ec2-user@54.238.35.169
+ DEBUG [ec76f64b] Command: [ -e /var/www/alpha-blg/shared/tmp/pids/unicorn.pid ] && kill -0 `cat /var/www/alpha-blg/shared/tmp/pids/unicorn.pid`
+ DEBUG [ec76f64b] Finished in 0.111 seconds with exit status 1 (failed).
+  INFO [e1a89a40] Running $HOME/.rbenv/bin/rbenv exec bundle exec unicorn -c /var/www/alpha-blg/current/config/unicorn.rb -E deployment -D  as ec2-user@54.238.35.169
+ DEBUG [e1a89a40] Command: cd /var/www/alpha-blg/current && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" RAILS_ENV="production" ; $HOME/.rbenv/bin/rbenv exec bundle exec unicorn -c /var/www/alpha-blg/current/config/unicorn.rb -E deployment -D  )
+  INFO [e1a89a40] Finished in 1.507 seconds with exit status 0 (successful).
+ DEBUG [595f9666] Running /usr/bin/env ls -x /var/www/alpha-blg/releases as ec2-user@54.238.35.169
+ DEBUG [595f9666] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" ; /usr/bin/env ls -x /var/www/alpha-blg/releases )
+ DEBUG [595f9666] 	20201207024100	20201207041917	20201207043508
+ DEBUG [595f9666] Finished in 0.115 seconds with exit status 0 (successful).
+ DEBUG [4e70b926] Running if test ! -d /var/www/alpha-blg/releases; then echo "Directory does not exist '/var/www/alpha-blg/releases'" 1>&2; false; fi as ec2-user@54.238.35.169
+ DEBUG [4e70b926] Command: if test ! -d /var/www/alpha-blg/releases; then echo "Directory does not exist '/var/www/alpha-blg/releases'" 1>&2; false; fi
+ DEBUG [4e70b926] Finished in 0.114 seconds with exit status 0 (successful).
+  INFO [5a33b00a] Running /usr/bin/env echo "Branch master (at cabbb4c56d1e1f0263bf271ddf092cbce77671f8) deployed as release 20201207043508 by akihisa.m" >> /var/www/alpha-blg/revisions.log as ec2-user@54.238.35.169
+ DEBUG [5a33b00a] Command: cd /var/www/alpha-blg/releases && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.5" ; /usr/bin/env echo "Branch master (at cabbb4c56d1e1f0263bf271ddf092cbce77671f8) deployed as release 20201207043508 by akihisa.m" >> /var/www/alpha-blg/revisions.log )
+  INFO [5a33b00a] Finished in 0.114 seconds with exit status 0 (successful).
